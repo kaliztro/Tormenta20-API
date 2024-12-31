@@ -3,12 +3,40 @@ module.exports = {
         return Object.keys(data).filter(key => data[key].id === req.params.id);
     },
     getDataByKey(data, req, option) {
-        return Object.keys(data).filter(key => key === (req.params[option]).toLowerCase());
+        const normalizedOption = req.params[option]
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .replace(/\s+/g, '_');
+            console.log(normalizedOption)
+        return Object.keys(data).filter(key => key === normalizedOption);
     },    
     getDataByClasse(data, req) {
-        return Object.entries(data).filter(([key, value]) => value.classe === (req.params.classe).toLowerCase());
+        const normalizedClasse = req.params.classe
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .replace(/\s+/g, '_');
+            console.log(normalizedClasse)
+        return Object.entries(data).filter(([key, value]) => value.classe
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .replace(/\s+/g, '_') === normalizedClasse);
     },
     getDataByTipo(data, req) {
-        return Object.entries(data).filter(([key, value]) => value.tipo === (req.params.tipo).toLowerCase());
+        const normalizedTipo = req.params.tipo
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .replace(/\s+/g, '_');
+            console.log(normalizedTipo)
+        return Object.entries(data).filter(([key, value]) => value.tipo
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .replace(/\s+/g, '_') === normalizedTipo);
+            
     },
 }
+
