@@ -1,5 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const util = require('../util');
+
+// Caminho para o arquivo JSON
 const filePath = path.join(__dirname, '../jsons', 'poderes.json');
 
 // Função para ler dados do arquivo JSON
@@ -26,134 +29,115 @@ module.exports = {
 
     getPoderesByName(req, res) {
         const poderes = readJsonFile(filePath);
-        const poderNome = req.params.poder;  // Aqui estamos acessando 'poder', que é o parâmetro na URL
-
-        if (!poderNome || poderNome.trim() === '') {
-            return res.status(400).json({ message: "Nome do poder não fornecido ou inválido." });
-        }
-
-        const poder = poderes[poderNome];
-
-        if (!poder) {
-            return res.status(404).json({ message: "Poder não encontrado" });
-        }
-
-        res.status(200).json({
-            message: "Informações obtidas com sucesso!",
-            data: poder
-        });
+        const poderNome = util.getDataByKey(poderes, req, 'poder');
+        const mensagem = poderNome.length > 0 ? "Informações obtidas com sucesso!" : "Nenhum poder encontrado com este nome!";
+        const resposta = {
+            "message": mensagem,
+            "data": poderes[poderNome] ? poderes[poderNome] : []
+        };
+        return res.json(resposta);
     },
 
     getPoderesByGrupo(req, res) {
         const poderes = readJsonFile(filePath);
-        const grupo = req.params.grupo.toLowerCase().replace(/\s/g, '_');  // Normaliza o nome do grupo
-
-        if (!grupo || grupo.trim() === '') {
-            return res.status(400).json({ message: "Nome do grupo não fornecido ou inválido." });
-        }
-
-        // Filtra os poderes que pertencem ao grupo fornecido
-        const poderesDoGrupo = Object.values(poderes).filter(poder => poder.grupo.toLowerCase().replace(/\s/g, '_') === grupo);
-
-        if (poderesDoGrupo.length === 0) {
-            return res.status(404).json({ message: `Nenhum poder encontrado para o grupo "${grupo}"` });
-        }
-
-        res.status(200).json({
-            message: `Poderes do grupo "${grupo}" encontrados com sucesso!`,
-            data: poderesDoGrupo
-        });
+        const poderesDoGrupo = util.getDataByClasse(poderes, req);
+        const mensagem = poderesDoGrupo.length > 0 ? "Poderes do grupo encontrados com sucesso!" : "Nenhum poder encontrado para este grupo!";
+        const resposta = {
+            "message": mensagem,
+            "data": poderesDoGrupo.map(([key, value]) => value) // Mapeia para retornar apenas os valores
+        };
+        return res.json(resposta);
     },
 
     createPoder(req, res) {
-        const poderes = readJsonFile(filePath);
-        const { nome, descricao, grupo, pre_requisito, fonte, ...novosCampos } = req.body;
+        try {
+            const data = readJsonFile(filePath);
+            const { id, nome, descricao, grupo, pre_requisito, fonte, ...novosCampos } = req.body;
+            
+            // Verificando se todos os campos obrigatórios foram fornecidos
+            if (!nome || !descricao || !grupo || !pre_requisito || fonte === undefined) {
+                return res.status(400).json({ message: "Todos os campos são obrigatórios" });
+            }
         
-        // Verificando se todos os campos obrigatórios foram fornecidos
-        if (!nome || !descricao || !grupo || !pre_requisito || fonte === undefined) {
-            return res.status(400).json({ message: "Todos os campos são obrigatórios" });
-        }
-    
-        // Criando a chave no formato correto (minúscula e com _ ao invés de espaços)
-        const chavePoder = nome.toLowerCase().replace(/\s/g, '_');
-    
-        // Verifica se o poder já existe
-        if (poderes[chavePoder]) {
-            return res.status(400).json({ message: "Poder já existe" });
-        }
-    
-        // Criação do novo poder com os campos obrigatórios
-        const novoPoder = {
-            id: Object.keys(poderes).length + 1,  // Atribui um ID único baseado na quantidade de poderes já existentes
-            nome,
-            descricao,
-            grupo,
-            pre_requisito,
-            fonte,
-            ...novosCampos  // Adiciona os novos campos passados na requisição
-        };
+            // Criando a chave no formato correto (minúscula e com _ ao invés de espaços)
+            const chavePoder = nome.toLowerCase().replace(/\s/g, '_');
         
-        // Adiciona o novo poder ao objeto de poderes
-        poderes[chavePoder] = novoPoder;
-    
-        // Escreve os dados modificados no arquivo
-        writeJsonFile(filePath, poderes);
-    
-        res.status(201).json({ message: 'Poder criado com sucesso!', data: novoPoder });
+            // Verifica se o poder já existe
+            if (data[chavePoder]) {
+                return res.status(400).json({ message: "Poder já existe" });
+            }
+        
+            // Criação do novo poder com os campos obrigatórios
+            const novoPoder = {
+                id: Object.keys(data).length + 1,  // Atribui um ID único baseado na quantidade de poderes já existentes
+                nome,
+                descricao,
+                grupo,
+                pre_requisito,
+                fonte,
+                ...novosCampos  // Adiciona os novos campos passados na requisição
+            };
+            
+            // Adiciona o novo poder ao objeto de poderes
+            data[chavePoder] = novoPoder;
+        
+            // Escreve os dados modificados no arquivo
+            writeJsonFile(filePath, data);
+        
+            res.status(201).json({ message: 'Poder criado com sucesso!', data: novoPoder });
+        } catch (error) {
+            res.status(500).json({ message: 'Erro ao criar poder', error: error.message });
+        }
     },
 
     updatePoder(req, res) {
-        const poderes = readJsonFile(filePath);
-        const poderNome = req.params.poder; // Acessando o parâmetro corretamente
-        
-        // Verifique se o poder existe no arquivo
-        const poderExistente = poderes[poderNome];
-    
-        if (!poderExistente) {
-            return res.status(404).json({ message: "Poder não encontrado" });
+        try {
+            const data = readJsonFile(filePath);
+            const { nome, descricao, grupo, pre_requisito, fonte, ...novosCampos } = req.body;
+            const key = req.params.poder.toLowerCase();
+
+            if (!data[key]) {
+                return res.status(404).json({ message: "Poder não encontrado" });
+            }
+
+            // Manter o nome existente se não for fornecido no corpo da requisição
+            const updatedNome = nome ? nome.toUpperCase() : data[key].nome;
+            const updatedDescricao = descricao || data[key].descricao;
+            const updatedGrupo = grupo || data[key].grupo;
+            const updatedPreRequisito = pre_requisito || data[key].pre_requisito;
+            const updatedFonte = fonte !== undefined ? fonte : data[key].fonte;
+
+            data[key] = {
+                id: data[key].id,
+                nome: updatedNome,
+                descricao: updatedDescricao,
+                grupo: updatedGrupo,
+                pre_requisito: updatedPreRequisito,
+                fonte: updatedFonte,
+                ...novosCampos  // Adicionando qualquer novo campo passado no corpo da requisição
+            };
+
+            writeJsonFile(filePath, data);
+            res.status(200).json({ message: 'Poder atualizado com sucesso!', data: data[key] });
+        } catch (error) {
+            res.status(500).json({ message: 'Erro ao atualizar poder', error: error.message });
         }
-    
-        // Desestruturando o corpo da requisição
-        const { descricao, grupo, pre_requisito, fonte, ...novosCampos } = req.body;
-    
-        // Preservando o ID existente e atualizando os campos fornecidos
-        const updatedPoder = {
-            id: poderExistente.id,  // Preservando o ID do poder
-            nome: poderNome,
-            descricao: descricao || poderExistente.descricao,
-            grupo: grupo || poderExistente.grupo,
-            pre_requisito: pre_requisito || poderExistente.pre_requisito,
-            fonte: fonte !== undefined ? fonte : poderExistente.fonte,
-            ...novosCampos  // Adicionando qualquer novo campo passado no corpo da requisição
-        };
-    
-        // Substitui o poder existente
-        poderes[poderNome] = updatedPoder;
-    
-        // Escreve os dados modificados no arquivo
-        writeJsonFile(filePath, poderes);
-    
-        res.status(200).json({ message: 'Poder atualizado com sucesso!', data: updatedPoder });
-    },    
+    },
 
     deletePoder(req, res) {
-        const poderes = readJsonFile(filePath);
-        const poderNome = req.params.poder; // Acessando o parâmetro corretamente
+        try {
+            const data = readJsonFile(filePath);
+            const key = req.params.poder.toLowerCase();
 
-        // Verifique se o poder existe no arquivo
-        const poderExistente = poderes[poderNome];
+            if (!data[key]) {
+                return res.status(404).json({ message: "Poder não encontrado" });
+            }
 
-        if (!poderExistente) {
-            return res.status(404).json({ message: "Poder não encontrado" });
+            delete data[key];
+            writeJsonFile(filePath, data);
+            res.status(200).json({ message: 'Poder deletado com sucesso!' });
+        } catch (error) {
+            res.status(500).json({ message: 'Erro ao deletar poder', error: error.message });
         }
-
-        // Exclua o poder do objeto
-        delete poderes[poderNome];
-
-        // Escreva os dados modificados no arquivo
-        writeJsonFile(filePath, poderes);
-
-        res.status(200).json({ message: 'Poder deletado com sucesso!' });
     }
-
 };
