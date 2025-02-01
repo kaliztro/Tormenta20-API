@@ -58,8 +58,9 @@ routes.delete("/api/racas/:raca", RacasController.deleteRaca);
 
 // Poderes
 routes.get("/api/poderes", PoderesController.getPoderes);
-routes.get("/api/poderes/:poder", PoderesController.getPoderesByName);
+routes.get("/api/poderes/grupo", PoderesController.getPoderesByGrupoOnly); 
 routes.get("/api/poderes/grupo/:grupo", PoderesController.getPoderesByGrupo);
+routes.get("/api/poderes/:poder", PoderesController.getPoderesByName); 
 routes.post("/api/poderes", PoderesController.createPoder);
 routes.put("/api/poderes/:poder", PoderesController.updatePoder); 
 routes.delete("/api/poderes/:poder", PoderesController.deletePoder);
