@@ -120,16 +120,31 @@ module.exports = {
     updatePoder(req, res) {
         try {
             const data = readJsonFile(filePath);
-            const key = req.params.poder.toLowerCase().replace(/\s/g, '_');
-
-            if (!data[key]) {
+            const keyAntiga = req.params.poder.toLowerCase().replace(/\s/g, '_');
+    
+            if (!data[keyAntiga]) {
                 return res.status(404).json({ message: "Poder não encontrado" });
             }
-
-            Object.assign(data[key], req.body);
-
+    
+            // Atualiza os dados do poder
+            const poderAtualizado = { ...data[keyAntiga], ...req.body };
+    
+            // Verifica se o nome foi alterado e gera a nova chave
+            const keyNova = poderAtualizado.nome
+                .toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Remove acentos
+                .replace(/\s+/g, '_');
+    
+            // Se a chave mudou, remove a antiga e adiciona a nova
+            if (keyAntiga !== keyNova) {
+                delete data[keyAntiga]; // Remove a chave antiga
+            }
+    
+            // Salva o poder com a nova chave
+            data[keyNova] = poderAtualizado;
             writeJsonFile(filePath, data);
-            res.status(200).json({ message: "Poder atualizado com sucesso!", data: data[key] });
+    
+            res.status(200).json({ message: "Poder atualizado com sucesso!", data: poderAtualizado });
         } catch (error) {
             res.status(500).json({ message: "Erro ao atualizar poder", error: error.message });
         }
