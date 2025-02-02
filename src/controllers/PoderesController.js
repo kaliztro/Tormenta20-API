@@ -136,9 +136,9 @@ module.exports = {
     },
 
     deletePoder(req, res) {
-        try {
+        try {  //const chavePoder = nome.toLowerCase().replace(/\s/g, '_');
             const data = readJsonFile(filePath);
-            const key = req.params.poder.toLowerCase();
+            const key = req.params.poder.toLowerCase().replace(/\s/g, '_');
 
             if (!data[key]) {
                 return res.status(404).json({ message: "Poder não encontrado" });
