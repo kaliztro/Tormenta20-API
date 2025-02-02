@@ -55,29 +55,25 @@ module.exports = {
         writeJsonFile(filePath, racas);
         res.status(201).json({ message: 'Raça criada com sucesso!', data: novaRaca });
     },
+
     updateRaca(req, res) {
-        const racas = readJsonFile(filePath);
-        const { nome, bonus, habilidades_de_raca } = req.body;
-        const key = req.params.raca.toLowerCase();
+        try {
+            const racas = readJsonFile(filePath);
+            const key = req.params.raca.toLowerCase();
+    
+            if (!racas[key]) {
+                return res.status(404).json({ message: "Raça não encontrada" });
+            }
+    
+            Object.assign(racas[key], req.body);
 
-        if (!racas[key]) {
-            return res.status(404).json({ message: "Raça não encontrada" });
+            writeJsonFile(filePath, racas);
+            res.status(200).json({ message: 'Raça atualizada com sucesso!', data: racas[key] });
+        } catch (error) {
+            res.status(500).json({ message: 'Erro ao atualizar raça', error: error.message });
         }
-
-        const updatedNome = nome ? nome : racas[key].nome;
-        const updatedBonus = bonus ? bonus : racas[key].bonus;
-        const updatedHabilidadesDeRaca = habilidades_de_raca ? habilidades_de_raca : racas[key].habilidades_de_raca;
-
-        racas[key] = {
-            id: racas[key].id,
-            nome: updatedNome,
-            bonus: updatedBonus,
-            habilidades_de_raca: updatedHabilidadesDeRaca
-        };
-
-        writeJsonFile(filePath, racas);
-        res.status(200).json({ message: 'Raça atualizada com sucesso!', data: racas[key] });
     },
+    
     deleteRaca(req, res) {
         try {
             const racas = readJsonFile(filePath);

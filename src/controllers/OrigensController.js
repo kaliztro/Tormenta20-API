@@ -24,6 +24,7 @@ module.exports = {
         }
         return res.json(resposta);
     },
+
     getOrigensByName(req, res) {
         const origens = readJsonFile(filePath);
         const origem = util.getDataByKey(origens, req, 'origem');
@@ -34,6 +35,7 @@ module.exports = {
         }
         return res.json(resposta);
     },
+
     createOrigem(req, res) {
         const origens = readJsonFile(filePath);
         const { nome, descricao, beneficios } = req.body;
@@ -55,29 +57,25 @@ module.exports = {
         writeJsonFile(filePath, origens);
         res.status(201).json({ message: 'Origem criada com sucesso!', data: novaOrigem });
     },
+
     updateOrigem(req, res) {
-        const origens = readJsonFile(filePath);
-        const { nome, descricao, beneficios } = req.body;
-        const key = req.params.origem.toLowerCase();
+        try {
+            const origens = readJsonFile(filePath);
+            const key = req.params.origem.toLowerCase();
 
-        if (!origens[key]) {
-            return res.status(404).json({ message: "Origem não encontrada" });
+            if (!origens[key]) {
+                return res.status(404).json({ message: "Origem não encontrada" });
+            }
+
+            Object.assign(origens[key], req.body);
+
+            writeJsonFile(filePath, origens);
+            res.status(200).json({ message: 'Origem atualizada com sucesso!', data: origens[key] });
+        } catch (error) {
+            res.status(500).json({ message: 'Erro ao atualizar origem', error: error.message });
         }
-
-        const updatedNome = nome ? nome : origens[key].nome;
-        const updatedDescricao = descricao ? descricao : origens[key].descricao;
-        const updatedBeneficios = beneficios ? beneficios : origens[key].beneficios;
-
-        origens[key] = {
-            id: origens[key].id,
-            nome: updatedNome,
-            descricao: updatedDescricao,
-            beneficios: updatedBeneficios
-        };
-
-        writeJsonFile(filePath, origens);
-        res.status(200).json({ message: 'Origem atualizada com sucesso!', data: origens[key] });
     },
+
     deleteOrigem(req, res) {
         try {
             const origens = readJsonFile(filePath);

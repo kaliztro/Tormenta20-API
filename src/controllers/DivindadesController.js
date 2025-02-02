@@ -25,6 +25,7 @@ module.exports = {
         }
         return res.json(resposta);
     },
+
     getDivindadesByName(req, res) {
         const divindades = readJsonFile(filePath);
         const divindade = divindades[req.params.divindade];
@@ -35,6 +36,7 @@ module.exports = {
         }
         return res.json(resposta);
     },
+
     createDivindade(req, res) {
         try {
             const data = readJsonFile(filePath);
@@ -68,38 +70,17 @@ module.exports = {
             res.status(500).json({ message: 'Erro ao criar divindade', error: error.message });
         }
     },
+
     updateDivindade(req, res) {
         try {
             const data = readJsonFile(filePath);
             const key = req.params.divindade.toLowerCase().replace(/\s/g, '_');
-            const {
-                nome,
-                crencas_objetivos,
-                devotos_permitidos,
-                simbolo_sagrado,
-                canalizar_energia,
-                arma_preferida,
-                obrigacoes_restricoes,
-                poderes_concedidos
-            } = req.body;
 
             if (!data[key]) {
                 return res.status(404).json({ message: "Divindade não encontrada" });
             }
 
-            const divindadeExistente = data[key];
-
-            data[key] = {
-                id: divindadeExistente.id,
-                nome: nome || divindadeExistente.nome,
-                crencas_objetivos: crencas_objetivos || divindadeExistente.crencas_objetivos,
-                devotos_permitidos: devotos_permitidos || divindadeExistente.devotos_permitidos,
-                simbolo_sagrado: simbolo_sagrado || divindadeExistente.simbolo_sagrado,
-                canalizar_energia: canalizar_energia || divindadeExistente.canalizar_energia,
-                arma_preferida: arma_preferida || divindadeExistente.arma_preferida,
-                obrigacoes_restricoes: obrigacoes_restricoes || divindadeExistente.obrigacoes_restricoes,
-                poderes_concedidos: poderes_concedidos || divindadeExistente.poderes_concedidos
-            };
+            Object.assign(data[key], req.body);
 
             writeJsonFile(filePath, data);
             res.status(200).json({ message: 'Divindade editada com sucesso!', data: data[key] });
@@ -107,6 +88,7 @@ module.exports = {
             res.status(500).json({ message: 'Erro ao editar divindade', error: error.message });
         }
     },
+
     deleteDivindade(req, res) {
         try {
             const data = readJsonFile(filePath);
