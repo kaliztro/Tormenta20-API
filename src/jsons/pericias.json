@@ -3,7 +3,7 @@
     "id": 1,
     "nome": "Acrobacia (Des)",
     "treinada": "Não",
-    "atributo": "des",
+    "atributo": "Destreza",
     "penalidade_armadura": "Sim",
     "descricao": "Você consegue se equilibrar em superfícies estreitas, cair de lugares altos sem se machucar e fazer outras proezas acrobáticas. Os usos amortecer queda, levantar-se rapidamente e passar por espaço apertado só podem ser tentados se você é treinado em Acrobacia.",
     "caracteristicas": {
@@ -19,7 +19,7 @@
     "id": 2,
     "nome": "Adestramento (Car)",
     "treinada": "Sim",
-    "atributo": "car",
+    "atributo": "Carisma",
     "penalidade_armadura": "Não",
     "descricao": "Você sabe lidar com animais.",
     "caracteristicas": {
@@ -32,7 +32,7 @@
     "id": 3,
     "nome": "Atletismo (For)",
     "treinada": "Não",
-    "atributo": "for",
+    "atributo": "Força",
     "penalidade_armadura": "Não",
     "descricao": "Esta perícia é utilizada para realizar façanhas atléticas, como escalar montanhas, cruzar rios e saltar sobre desfiladeiros.",
     "caracteristicas": {
@@ -46,7 +46,7 @@
     "id": 4,
     "nome": "Atuação (Car)",
     "treinada": "Não",
-    "atributo": "car",
+    "atributo": "Carisma",
     "penalidade_armadura": "Não",
     "descricao": "Você sabe fazer apresentações artísticas, incluindo música, dança e dramaturgia.",
     "caracteristicas": {
@@ -58,7 +58,7 @@
     "id": 5,
     "nome": "Cavalgar (Des)",
     "treinada": "Não",
-    "atributo": "des",
+    "atributo": "Destreza",
     "penalidade_armadura": "Não",
     "descricao": "Você sabe conduzir animais de montaria, como cavalos, trobos e grifos. Ações simples não exigem testes — você pode encilhar, montar, cavalgar em terreno plano e desmontar automaticamente. Ações perigosas, entretanto, exigem testes da perícia. Animais não adequados como montaria impõem uma penalidade de –5 em testes de Cavalgar.",
     "caracteristicas": {
@@ -71,7 +71,7 @@
     "id": 6,
     "nome": "Conhecimento (Int)",
     "treinada": "Sim",
-    "atributo": "int",
+    "atributo": "Inteligência",
     "penalidade_armadura": "Não",
     "descricao": "Você é um estudioso de assuntos gerais.",
     "caracteristicas": {
@@ -83,7 +83,7 @@
     "id": 7,
     "nome": "Cura (Sab)",
     "treinada": "Não",
-    "atributo": "sab",
+    "atributo": "Sabedoria",
     "penalidade_armadura": "Não",
     "descricao": "Você pode tratar de ferimentos, doenças e venenos. Usar esta perícia exige um kit de medicamentos. Sem ele, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste.",
     "caracteristicas": {
@@ -98,7 +98,7 @@
     "id": 8,
     "nome": "Diplomacia (Car)",
     "treinada": "Não",
-    "atributo": "car",
+    "atributo": "Carisma",
     "penalidade_armadura": "Não",
     "descricao": "Você sabe usar lábia e argumentação para convencer outras pessoas.",
     "caracteristicas": {
@@ -111,7 +111,7 @@
     "id": 9,
     "nome": "Enganação (Car)",
     "treinada": "Não",
-    "atributo": "car",
+    "atributo": "Carisma",
     "penalidade_armadura": "Não",
     "descricao": "Você engana pessoas com mentiras, falsificações e disfarces.",
     "caracteristicas": {
@@ -127,7 +127,7 @@
     "id": 10,
     "nome": "Fortitude (Con)",
     "treinada": "Não",
-    "atributo": "con",
+    "atributo": "Constituição",
     "penalidade_armadura": "Não",
     "descricao": "Esta perícia mede seu vigor e sistema imunológico.",
     "caracteristicas": {
@@ -139,7 +139,7 @@
     "id": 11,
     "nome": "Furtividade (Des)",
     "treinada": "Não",
-    "atributo": "des",
+    "atributo": "Destreza",
     "penalidade_armadura": "Sim",
     "descricao": "Você pode se esconder nas sombras, andar sem fazer barulho, seguir alguém sem ser notado, etc.",
     "caracteristicas": {
@@ -151,7 +151,7 @@
     "id": 12,
     "nome": "Guerra (Int)",
     "treinada": "Não",
-    "atributo": "int",
+    "atributo": "Inteligência",
     "penalidade_armadura": "Não",
     "descricao": "Você foi educado nas ciências militares da tática, estratégia e logística. A perícia Guerra é usada nas regras de combate em massa, que serão apresentadas em um suplemento futuro.",
     "caracteristicas": {
@@ -163,7 +163,7 @@
     "id": 13,
     "nome": "Iniciativa (Des)",
     "treinada": "Não",
-    "atributo": "des",
+    "atributo": "Destreza",
     "penalidade_armadura": "Não",
     "descricao": "Esta perícia determina sua velocidade de reação em situações de perigo.",
     "caracteristicas": {
@@ -174,7 +174,7 @@
     "id": 14,
     "nome": "Intimidação (Car)",
     "treinada": "Não",
-    "atributo": "car",
+    "atributo": "Carisma",
     "penalidade_armadura": "Não",
     "descricao": "Você pode assustir ou coagir outras pessoas. De acordo com o mestre, você pode usar seu modificador de Força no lugar do modificador de Carisma em testes de Intimidação. Bônus ou imunidade a medo se aplicam contra Intimidação.",
     "caracteristicas": {
@@ -186,7 +186,7 @@
     "id": 15,
     "nome": "Intuição (Sab)",
     "treinada": "Não",
-    "atributo": "sab",
+    "atributo": "Sabedoria",
     "penalidade_armadura": "Não",
     "descricao": "Este perícia mede seu “sexto sentido”.",
     "caracteristicas": {
@@ -198,7 +198,7 @@
     "id": 16,
     "nome": "Investigação (Int)",
     "treinada": "Não",
-    "atributo": "int",
+    "atributo": "Inteligência",
     "penalidade_armadura": "Não",
     "descricao": "Você sabe onde e como descobrir pistas e informações.",
     "caracteristicas": {
@@ -210,7 +210,7 @@
     "id": 17,
     "nome": "Jogatina (Car)",
     "treinada": "Não",
-    "atributo": "car",
+    "atributo": "Carisma",
     "penalidade_armadura": "Não",
     "descricao": "Você sabe ganhar dinheiro com jogos de azar.",
     "caracteristicas": {
@@ -221,7 +221,7 @@
     "id": 18,
     "nome": "Ladinagem (Des)",
     "treinada": "Sim",
-    "atributo": "des",
+    "atributo": "Destreza",
     "penalidade_armadura": "Sim",
     "descricao": "Com mãos leves e mente suja, você sabe exercer as tarefas de um ladrão.",
     "caracteristicas": {
@@ -236,7 +236,7 @@
     "id": 19,
     "nome": "Luta (For)",
     "treinada": "Não",
-    "atributo": "for",
+    "atributo": "Força",
     "penalidade_armadura": "Não",
     "descricao": "Esta perícia mede sua capacidade de luta corpo a corpo, seja com armas brancas, seja desarmado.",
     "caracteristicas": {
@@ -247,7 +247,7 @@
     "id": 20,
     "nome": "Misticismo (Int)",
     "treinada": "Sim",
-    "atributo": "int",
+    "atributo": "Inteligência",
     "penalidade_armadura": "Não",
     "descricao": "Esta perícia envolve o conhecimento de magias, itens mágicos e fenômenos sobrenaturais.",
     "caracteristicas": {
@@ -264,7 +264,7 @@
     "id": 21,
     "nome": "Navegação (Sab)",
     "treinada": "Sim",
-    "atributo": "sab",
+    "atributo": "Sabedoria",
     "penalidade_armadura": "Não",
     "descricao": "Você sabe operar embarcações. Normalmente, você não precisa fazer testes, a menos que esteja rea- lizando uma manobra perigosa, precise evitar uma colisão ou que o clima esteja ruim.",
     "caracteristicas": {
@@ -275,7 +275,7 @@
     "id": 22,
     "nome": "Nobreza (Int)",
     "treinada": "Sim",
-    "atributo": "int",
+    "atributo": "Inteligência",
     "penalidade_armadura": "Não",
     "descricao": "Você recebeu a educação de um nobre. Sabe tanto supervisionar uma colheita quanto se portar em um torneio de justas. A perícia Nobreza também é usada nas regras de domínios, que serão apresentadas em um suplemento futuro.",
     "caracteristicas": {
@@ -286,7 +286,7 @@
     "id": 23,
     "nome": "Ofício (Int)",
     "treinada": "Não",
-    "atributo": "int",
+    "atributo": "Inteligência",
     "penalidade_armadura": "Não",
     "descricao": "Ofício na verdade são várias perícias diferentes. Cada uma permite fabricar itens de uma categoria espe- cífica. A seguir estão as principais perícias de Ofício, e as categorias de item que cada uma abrange: Armeiro - Armas, armaduras e escudos; Artesanato - Itens gerais; Alquimia - Itens da categoria Alquimia; Alfaiate - Itens da categoria Vestuário; Culinária - Itens da categoria Alimentação. Além das opções, fique à vontade para inventar outros tipos de Ofício. Alvenaria, carpintaria, joalheria ou metalurgia são opções válidas — mas, nes-ses casos, você precisará conversar com o mestre para determinar que tipos de item você poderá fabricar. Ofício também pode incluir profissões, como fazendeiro, pescador ou estalajadeiro, e artes, como escrita, escultura ou pintura. Novamente, converse com o mestre para determinar quais usos sua perícia terá. Esta perícia exige um kit de ofício. Sem ele, você sofre uma penalidade de –5 no teste.",
     "caracteristicas": {
@@ -300,7 +300,7 @@
     "id": 24,
     "nome": "Percepção (Sab)",
     "treinada": "Não",
-    "atributo": "sab",
+    "atributo": "Sabedoria",
     "penalidade_armadura": "Não",
     "descricao": "Esta perícia é utilizada para perceber coisas através dos sentidos.",
     "caracteristicas": {
@@ -312,7 +312,7 @@
     "id": 25,
     "nome": "Pontaria (Des)",
     "treinada": "Não",
-    "atributo": "des",
+    "atributo": "Destreza",
     "penalidade_armadura": "Não",
     "descricao": "Esta perícia mede sua capacidade de mira, seja com armas de arremesso, seja com armas de disparo.",
     "caracteristicas": {
@@ -323,7 +323,7 @@
     "id": 26,
     "nome": "Reflexos (Des)",
     "treinada": "Não",
-    "atributo": "des",
+    "atributo": "Destreza",
     "penalidade_armadura": "Não",
     "descricao": "Esta perícia mede sua capacidade de evitar armadilhas, explosões e outras ameaças que exigem capacidade de reação rápida.",
     "caracteristicas": {
@@ -335,7 +335,7 @@
     "id": 27,
     "nome": "Religião (Sab)",
     "treinada": "Sim",
-    "atributo": "sab",
+    "atributo": "Sabedoria",
     "penalidade_armadura": "Não",
     "descricao": "Você possui conhecimento sobre os deuses e as religiões de Arton.",
     "caracteristicas": {
@@ -349,7 +349,7 @@
     "id": 28,
     "nome": "Sobrevivência (Sab)",
     "treinada": "Não",
-    "atributo": "sab",
+    "atributo": "Sabedoria",
     "penalidade_armadura": "Não",
     "descricao": "Você pode se localizar nos ermos, encontrar comida em áreas selvagens ou reconhecer e evitar perigos da natureza.",
     "caracteristicas": {
@@ -363,7 +363,7 @@
     "id": 29,
     "nome": "Vontade (Sab)",
     "treinada": "Não",
-    "atributo": "sab",
+    "atributo": "Sabedoria",
     "penalidade_armadura": "Não",
     "descricao": "Este perícia envolve sua concentração e força de vontade.",
     "caracteristicas": {
