@@ -2,6 +2,7 @@
   "humano": {
     "id": 1,
     "nome": "Humano",
+    "descricao": "Humanos são como uma praga: espalham-se por todo o mundo de Arton. Não interessa onde você olhe ou por onde passe. Nas Montanhas Sanguinárias, nas ilhas do Mar do Dragão Rei, em alguma masmorra debaixo da terra, sempre haverá algum humano se metendo onde não deve, procurando alguma coisa. Não é à toa que são maioria. Aos quinze anos já se consideram adultos, andando por aí, sacudindo espadas e lançando feitiços malucos. Dizem que a culpa é de Valkaria. A deusa, que passou gerações presa em forma de estátua, hoje lidera todas as divindades e alimenta a ambição daqueles que chama de filhos. Faz com que queiram cada vez mais, não importa o que já tenham conseguido. Com exemplos como o arquimago Vectorius, que arrancou um pedaço enorme do chão para transformar em ilha voadora só por causa de uma aposta, ou Mestre Arsenal, que enfrentou o próprio Deus da Guerra para tomar seu lugar, é difícil convencê-los de que isso pode ser errado. Talvez nem seja. Humanos podem ter qualquer porte físico, cor de pele ou tipo de cabelo. São tão variados quanto suas ambições, tão diversos quanto as ideias que têm a cada instante. Suas tradições e modas vêm e vão rápido demais e eles fazem o que bem entendem. E embora a deusa criadora seja sua principal padroeira, humanos podem ser devotos de quais e quantos deuses desejarem. Ser humano é ter a liberdade e a conveniência de se tornar o que quiser, mesmo sem nem sempre compreender as responsabilidades que isso carrega. É ter o instinto aventureiro correndo no sangue. — Broktar llpipes, anão bardo O povo mais numeroso em Arton, humanos são considerados os escolhidos dos deuses, aqueles que governam o mundo. Em sua variedade e adaptabilidade, são encontrados em quase todos os pontos do continente — dos vales férteis do Reinado às vastidões áridas do Deserto da Perdição. São exploradores e desbravadores ambiciosos, sempre buscando algo além.", 
     "bonus": {
       "for": 0,
       "des": 0,
@@ -12,7 +13,7 @@
     },
     "habilidades_de_raca": [
       {
-        "nome": "+2 em Três Atributos Diferentes",
+        "nome": "+1 em Três Atributos Diferentes",
         "descricao": "Filhos de Valkaria, Deusa da Ambição, humanos podem se destacar em qualquer caminho que escolherem."
       },
       {
@@ -24,12 +25,13 @@
   "anao": {
     "id": 2,
     "nome": "Anão",
+    "descricao": "Não existe nada mais confiável em Arton que um anão. Cachorros também são confiáveis, mas eu não compararia os dois em frente a um anão se fosse você. São troncudos, maciços, resistentes como os pedaços de minério pelos quais são apaixonados. Seus dedos curtos e grossos parecem pouco habilidosos, mas das mãos dos anões saem as armas e armaduras mais fabulosas de Arton. Quando uma criança anã nasce, cada choro é acompanhado de uma martelada do melhor ferreiro da família em uma bigorna cerimonial. Eles acreditam que cada golpe fortalece o corpo e o espírito do recém-nascido pelo resto da vida. Não há nada que indique que a crença não é verdadeira. Um ditado humano diz que há apenas uma diferença entre anões e metal: o metal é duro, mas você pode martelar e depois derreter, e martelar de novo até que ele vire uma espada ou qualquer outra coisa. Já um anão não muda nem arreda pé, não importa o quanto você bata. A justiça é muito importante para os anões — tão importante quanto suas longas e vastas barbas. Por isso o patrono deles é Heredrimm, o deus que os humanos chamam de Khalmyr. Dizem que Tenebra tem um dedo ou dois na criação deles também, mas dependendo de quem estiver por perto, também não é bom falar isso em voz alta. A pátria dos anões, Doherimm — um complexo de cavernas em escala continental — é guardada a sete chaves. Só eles sabem o caminho para o reino e mesmo nobres importantes e amigos da raça só são levados até lá vendados, desacordados ou qualquer coisa do tipo. O subterrâneo é ameaçado pelos finntroll, inimigos jurados dos anões. Mesmo assim, muitos deles abandonam Doherimm e partem para a aventura na superfície. Não viajam só em busca de riquezas, mas também para dar uma amostra de sua honra e tradição ao resto do mundo. — Dynx, goblin paladino de Allihanna Anões são o mais resiliente dos povos. Em suas cidadelas subterrâneas, trabalham duro escavando minas e forjando metal em belas armas, armaduras e joias. São honestos e determinados, honrando a família e a tradição. Apesar de sua profunda paixão por forja e cerveja, pouca coisa é mais preciosa para um anão que cultivar uma barba longa e orgulhosa.",
     "bonus": {
       "for": 0,
-      "des": -2,
-      "con": 4,
+      "des": -1,
+      "con": 2,
       "int": 0,
-      "sab": 2,
+      "sab": 1,
       "car": 0
     },
     "habilidades_de_raca": [
@@ -54,12 +56,13 @@
   "dahllan": {
     "id": 3,
     "nome": "Dahllan",
+    "descricao": "Houve época em que meias-dríades eram muito, muito raras. Nascidas da união improvável entre uma dríade — uma fada das florestas — e um humano, eram consideradas meras lendas. Mesmo assim, bastou uma delas para tornar a raça conhecida em todos os reinos: Lisandra de Galrasia. Após uma campanha dramática para tentar ressuscitar o Paladino de Arton, não apenas se tornaria a maior druida guerreira no mundo, mas também a sumo-sacerdotisa de Allihanna, e uma das mortais mais poderosas a existir. Por algum motivo, algo mudou. Recentemente, jovens meias-dríades começaram a surgir no Reinado. A maior parte emergiu de matas profundas, tendo sido criadas por animais ou fadas. Outras, misteriosamente, nasceram de famílias humanas. Todas femininas; há rumores sobre meios-dríades masculinos, nunca confirmados. De qualquer forma, por não serem necessariamente filhas de dríades, receberam outro nome. Dahllan. Até hoje ninguém tem resposta para o mistério de sua origem. A própria Allihanna deve ser responsável, mas com que propósito? Uma tentativa de ajudar meu povo a proteger as florestas, dizem alguns. Uma resposta da Mãe Natureza contra a Tormenta, teorizam outros — um contra-ataque das forças primordiais de Arton contra a tempestade rubra. Embora tenham forte ligação com a Deusa da Natureza, nem todas as dahllan se tornam druidas. Têm sido vistas abraçando as mais variadas carreiras, desde arcanistas e bucaneiras até inventoras e cavaleiras. Dahllan são ágeis e sábias, mas também um tanto rústicas. Assim como as árvores antigas onde as almas das dríades habitam, as dahllan têm tipos físicos variados. Algumas são musculosas, outras esguias, outras ainda têm curvas acentuadas. O cabelo, como as folhas, pode ser verde, vermelho ou dourado — em algumas, a cor muda conforme as estações —, mas os olhos são invariavelmente verdes e brilhantes. Não raro, trazem a cabeça ornamentada com caules ou filamentos delicados, como antenas feéricas. Também é normal ver flores brotando em seu cabelo, além de uma ocasional borboleta ou joaninha vinda sabe-se lá de onde. Por serem recém-chegadas a Arton, o tempo de vida dahllan é desconhecido. Talvez sejam tão longevas quanto os mais antigos carvalhos, ou mais. Talvez nunca envelheçam de fato, enquanto houver vida natural no mundo. — Arasthoriel, elfo mago Parte humanas, parte fadas, as dahllan são uma raça de mulheres com a seiva de árvores correndo nas veias. Falam com os animais, controlam as plantas — mas também são ferozes em batalha, retorcendo madeira para formar armaduras.",
     "bonus": {
       "for": 0,
-      "des": 2,
+      "des": 1,
       "con": 0,
-      "int": -2,
-      "sab": 4,
+      "int": -1,
+      "sab": 2,
       "car": 0
     },
     "habilidades_de_raca": [
@@ -73,18 +76,19 @@
       },
       {
         "nome": "Empatia Selvagem",
-        "descricao": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento para mudar atitude e pedir favores de animais (veja Diplomacia, na página 117). Caso receba esta habilidade novamente, recebe +2 em Adestramento."
+        "descricao": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento para mudar atitude e persuasão com animais (veja Diplomacia, na página 118). Caso receba esta habilidade novamente, recebe +2 em Adestramento."
       }
     ]
   },
   "elfo": {
     "id": 4,
     "nome": "Elfo",
+    "descricao": "Os elfos vieram de longe há muito tempo, em embarcações trazidas — dizem — por ventos divinos. São belos e esguios, de cabelos e olhos de cores tão variadas quanto o arco-íris. Suas vestes costumam ser intrincadas e fluidas como seus movimentos. Nada neles parece comum, rasteiro. É difícil não se sentir impressionado ou inspirado ao lado de uma presença élfica. Há sempre algo de mágico nos elfos. Um dia eles tiveram sua própria pátria, Lenórienn, no continente sul. Uma cidade majestosa, de torres espiraladas surgidas em meio à floresta, onde a magia e as artes eram ensinadas desde cedo. Onde tomos ancestrais ocupavam longas estantes e a poesia tomava os ares com suas rimas e melodias. Mas o conhecimento trouxe a arrogância, e a arrogância, a derrota. Lenórienn caiu, vítima da Aliança Negra dos goblinoides, um exército implacável. Depois, por conta de um estratagema de Glórienn, antiga Deusa dos Elfos, os membros da raça que não ficaram espalhados pelo Reinado foram escravizados pelos minotauros. O que sobrou foi um povo mergulhado em amargor, apoiado nas glórias de um passado destruído. Agora, porém, eles encaram uma chance de redenção. Com a morte de Tauron e livres dos desígnios de uma divindade mesquinha, os elfos do Reinado têm pela primeira vez um futuro em branco à frente. E ainda estão tentando descobrir o que fazer com ele. Enquanto uns buscam recuperar os conhecimentos perdidos de seu antigo reino, outros se misturam a ordens de cavalaria ou guildas de ladrões, usando seus talentos naturais para traçar seu próprio caminho, abraçando os deuses que melhor lhes convêm. “Das maiores tragédias nascem os maiores aventureiros”, diz um ditado que circula nas tavernas de Malpetrim. Parece algo feito sob medida para os elfos de Arton. — Garibaldo Cachimbo Caído, hynne bardo Elfos são seres feitos para a beleza e para a guerra, tão habilidosos com magia quanto com espadas e arcos. Elegantes, astutos, de vidas quase eternas, parecem superiores aos humanos em tudo. Poderiam ter governado toda Arton, não fosse a arrogância herdada de sua deusa. Com a queda de Glórienn, os elfos se tornaram um povo sem uma deusa. Um povo independente. Enquanto alguns veem a falta de uma divindade como uma tragédia, outros acreditam que, pela primeira vez na história, são livres.", 
     "bonus": {
       "for": 0,
-      "des": 2,
-      "con": -2,
-      "int": 4,
+      "des": 1,
+      "con": -1,
+      "int": 2,
       "sab": 0,
       "car": 0
     },
@@ -106,18 +110,19 @@
   "goblin": {
     "id": 5,
     "nome": "Goblin",
+    "descricao": "Não importa se você gosta ou não de goblins. Se você se importa com eles ou se os odeia. Se os tem como amigos ou se acredita que são meras pestes. Goblins sempre existirão. Sabemos que eles se reproduzem em grande quantidade e de forma vertiginosa, mas sua origem divina é complicada, com explicações que dão voltas e se contradizem, assim como a tradição oral da raça. A mais popular é que Graolak, o Deus dos Goblins, foi o responsável direto, aproveitando para criar a raça à sua imagem e semelhança, usando os restos de um banquete do Panteão, enquanto os vinte deuses maiores dormiam. Mas academicamente existem dúvidas até se Graolak realmente existiu. O que se pode dizer de verdade é que poucos goblins se importam com o que os acadêmicos pensam. A menos que os acadêmicos queiram aprender sobre suas engenhocas insanas. Pequenos, de pele rugosa verde, marrom ou amarela, orelhas longas e nariz pontudo, os goblins vivem nas frestas do mundo civilizado. No Reinado, habitam zonas de grande pobreza. Nos ermos, ficam entocados em cavernas. Erroneamente são vistos como inferiores — ou, na pior das hipóteses, como monstros. Mas essa é uma visão simplista. O que define os goblins é perseverança e inventividade. Eles criam engenhocas que desafiam a lógica — máquinas cheias de peças, sempre expelindo fumaça e ameaçando explodir. Também são aeronautas pioneiros: um piloto ou baloeiro goblin pode levá-lo a qualquer lugar de Arton por um preço  módico, desde que você não se importe com uma eventual queda desastrosa. O instinto de sobrevivência e a agilidade tornam os goblins aventureiros furtivos e malandros. A necessidade de se virar com o que têm faz com que possam improvisar melhor do que o mais criativo humano. Para quem nasceu sem nada, qualquer coisa é uma ferramenta, uma arma, um tesouro. Além disso, aos que sabem reconhecer seu valor, um goblin pode ser um parceiro para a vida toda. Se você não se importar com servir de cobaia para alguns inventos... — Leona Steelblade, humana cavaleira arcana Estes pequenos seres feiosos conseguiram um lugar entre os povos do Reinado. Podem ser encontrados em todas as grandes cidades, muitos vivendo na imundície, outros prosperando em carreiras que quase ninguém tentaria: espiões, aeronautas, engenhoqueiros. Onde o anão teimoso e o elfo empolado falham, o goblin pode dar um jeito. Porque ele não tem vergonha. Nem orgulho. Nem bom senso.",
     "bonus": {
       "for": 0,
-      "des": 4,
+      "des": 2,
       "con": 0,
-      "int": 2,
+      "int": 1,
       "sab": 0,
-      "car": -2
+      "car": -1
     },
     "habilidades_de_raca": [
       {
         "nome": "Engenhoso",
-        "descricao": "Você não sofre penalidades em testes de perícia por não usar kits. Se usar o kit, recebe +2 no teste de perícia."
+        "descricao": "Você não sofre penalidades em testes de perícia por não usar ferramentas. Se usar a ferramenta necessária, recebe +2 no teste de perícia."
       },
       {
         "nome": "Espelunqueiro",
@@ -136,17 +141,18 @@
   "lefou": {
     "id": 6,
     "nome": "Lefou",
+    "descricao": "Em minhas andanças, encontrei membros das mais variadas raças. De todas, a mais misteriosa é a dos lefou. De forma bem pouco lisonjeira, parcelas da sociedade os definem como pouco mais que filhos rejeitados da Tormenta. São considerados meios-demônios, como se a tempestade aberrante pudesse atacar um corpo e deixar suas marcas como faz com a própria Arton. Corrompendo de forma irreversível o que antes era puro. Pensando assim, até faz sentido. Um lefou pode surgir simplesmente porque os pais são aventureiros que tiveram contato com a Tormenta. Ou enfrentaram a tempestade rubra. Como uma doença, uma insidiosa vingança contra aqueles que a tentaram destruir, talvez? Em suas características, entretanto, um lefou não é distante de seus pais. Um filho de pais humanos parecerá humano. O mesmo é verdade para os lefou filhos de outras raças. Mas a cria carregará consigo sempre uma mácula. Algo diferente, uma deformidade ou característica que pode causar incômodo, embora lhe possa trazer alguma vantagem. Um par de antenas. Uma crosta sobre a pele. Garras. A marca indelével de que a Tormenta esteve ali e sempre estará. Claro, esta é uma versão preconceituosa. É verdade que, com a ascensão de Aharadak, os cultos se espalharam, e lefou têm sido procurados para assumir altas posições nas ordens de adoradores, mas muitos deles fazem exatamente o contrário. Aproveitam sua familiaridade com a maior ameaça de Arton para lutar contra ela. Estudam, treinam, dominam seus poderes para usá-los quando a tempestade rubra atacar. E o que é melhor do que ter ao seu lado alguém que conhece tão intimamente o inimigo? — Sir Porti, moreau do cão paladino de Thyatis Com a influência macabra da Tormenta permeando cada vez mais o mundo, surgiram os lefou. Estes meios-demônios de aparência grotesca passaram a nascer em famílias de outras raças, sendo logo sacrificados ou expulsos. Entre os que escapam, por sua facilidade em manifestar poderes aberrantes, muitos escolhem abraçar o mal, enquanto outros decidem combatê-lo.", 
     "bonus": {
       "for": 0,
       "des": 0,
       "con": 0,
       "int": 0,
       "sab": 0,
-      "car": -2
+      "car": -1
     },
     "habilidades_de_raca": [
       {
-        "nome": "+2 em Três Atributos Diferentes (exceto Carisma)",
+        "nome": "+1 em Três Atributos Diferentes (exceto Carisma)",
         "descricao": ""
       },
       {
@@ -155,25 +161,26 @@
       },
       {
         "nome": "Deformidade",
-        "descricao": "Todo lefou possui defeitos físicos que, embora desagradáveis, conferem certas vantagens. Você recebe +2 em duas perícias a sua escolha. Cada um desses bônus conta como um poder da Tormenta. Você pode trocar um desses bônus por um poder da Tormenta a sua escolha. Esta habilidade não causa perda de Carisma."
+        "descricao": "Todo lefou possui defeitos físicos que, embora desagradáveis, conferem certas vantagens. Você recebe +2 em duas perícias a sua escolha. Cada um desses bônus conta como um poder da Tormenta (exceto para perda de Crisma). Você pode trocar um desses bônus por um poder da Tormenta a sua escolha. (ele também não conta para perda de Carisma)."
       }
     ]
   },
   "minotauro": {
     "id": 7,
     "nome": "Minotauro",
+    "descricao": "Ah, os minotauros. Talvez o maior paradoxo de Arton atualmente. E talvez o maior retrato de como as coisas são mutáveis e, no fim, a roda gira. Com suas legiões de soldados e disciplina pétrea, tomaram o que puderam com a justificativa de que o forte deve sempre proteger o mais fraco, preceito de Tauron, Deus da Força. Provaram-se vencedores, conquistadores. A seus próprios olhos, protetores. E acima de tudo, fortes. Mas nada permanece como é por muito tempo em Arton, e a derrocada veio. Numa tentativa de proteger seu povo do Lorde da Tormenta Aharadak, Tauron desceu dos céus e o enfrentou. Mas perdeu. Tauron morreu na luta contra a Tormenta. Seu gigantesco cadáver está estirado sobre Tiberus, a capital do Império de Tauron, domínio dos minotauros. Tiberus se encontra numa luta incessante contra as forças da Tormenta, e o corpo do deus é a lembrança e que mesmo o mais forte um dia pode ser derrotado. As legiões dos minotauros lutam dia e noite contra a tempestade rubra, mantendo aceso o espírito guerreiro da raça e tentando preservar o império fragmentado. Os orgulhosos minotauros já conhecem a derrota, o medo e a fraqueza. Por conta disso, minotauros hoje se espalham por Arton para provar que seus princípios ainda são verdadeiros, mesmo que sua divindade não exista mais. São disciplinados, normalmente sisudos e determinados. Sua pelagem tem cores variadas, seus chifres são seu orgulho. Sua força é seu maior trunfo. Ter um minotauro como companheiro é contar com proteção constante e garantida. — Masaru Yudai, lefou monge feiticeiro Povo guerreiro, orgulhoso e poderoso, riadores de uma civilização avançada, com a missão sagrada de proteger e governar os fracos — ou assim se enxergavam. Em seus tempos áureos, tomaram grande parte de Arton. Hoje, após a morte de sua divindade e a decadência de seu Império, os minotauros lutam para recuperar a glória perdida ou encontrar um novo papel no mundo.", 
     "bonus": {
-      "for": 4,
+      "for": 2,
       "des": 0,
-      "con": 2,
+      "con": 1,
       "int": 0,
-      "sab": -2,
+      "sab": -1,
       "car": 0
     },
     "habilidades_de_raca": [
       {
         "nome": "Chifres",
-        "descricao": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres."
+        "descricao": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres."
       },
       {
         "nome": "Couro Rígido",
@@ -181,7 +188,7 @@
       },
       {
         "nome": "Faro",
-        "descricao": "Você tem olfato apurado. Você não fica desprevenido e sofre apenas camuflagem (em vez de camuflagem total) contra inimigos em alcance curto que não possa ver."
+        "descricao": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
       },
       {
         "nome": "Medo de Altura",
@@ -192,13 +199,14 @@
   "qareen": {
     "id": 8,
     "nome": "Qareen",
+    "descricao": "Embora lembrem humanos de aparência magnífica, qareen são seres mágicos. Não só no sentido de sua curiosidade e modo alegre de ver a vida, mas por serem uma mistura de mortais com gênios. Cada um deles carrega no corpo elaboradas tatuagens que são o símbolo de seu poder. Uma “marca de Wynna”, como eles mesmos chamam, que brilha sempre que uma de suas habilidades mágicas é utilizada. Os qareen são filhos de Wynna, a Deusa da Magia. Para eles, fazer mágica é tão natural quanto respirar e atender a desejos é um instinto primordial. Assim como sua deusa mãe, este povo é generoso, curioso e encantador. Os qareen têm o espírito desbravador inerente aos aventureiros, seja para satisfazer as próprias vontades, seja para auxiliar grupos de heróis mundanos. Carismáticos, atraem para si novos amigos assim como o calor de uma fogueira atrai um viajante perdido e enregelado. Concedem pequenos desejos, mágicos ou não, àqueles que abrem o coração e fazem um pedido. E, se você não acredita em receber um desejo sem dar algo em troca, é porque ainda não teve a felicidade de conhecer um qareen. Descendentes de poderosos gênios, os qareen são otimistas, generosos e prestativos, sempre ansiosos por ajudar. Consideram-se abençoados pela Deusa da Magia, exibindo como evidência a marca de Wynna em seus corpos. Sua magia é mais poderosa quando usada para realizar desejos de outros.", 
     "bonus": {
       "for": 0,
       "des": 0,
       "con": 0,
-      "int": 2,
-      "sab": -2,
-      "car": 4
+      "int": 1,
+      "sab": -1,
+      "car": 2
     },
     "habilidades_de_raca": [
       {
@@ -218,47 +226,45 @@
   "golem": {
     "id": 9,
     "nome": "Golem",
+    "descricao": "Diz-se que estes seres são apenas construtos sem vida, criados não pelos deuses, mas por mortais. No entanto, são movidos por forças vivas — espíritos elementais selvagens, capturados e lacrados por meios mágicos em corpos de pedra e metal. Muitos conformam-se com seus papéis como trabalhadores e soldados, enquanto outros demonstram alta inteligência, personalidade e iniciativa. Podem fazer tudo que outras raças fazem, até mesmo conjurar magias. Será que têm alma? Será que encontrarão os deuses quando chegar sua hora?",
     "bonus": {
-      "for": 4,
+      "for": 2,
       "des": 0,
-      "con": 2,
+      "con": 1,
       "int": 0,
       "sab": 0,
-      "car": -2
+      "car": -1
     },
     "habilidades_de_raca": [
       {
-        "nome": "Canalizar Reparos",
-        "descricao": "Como uma ação completa, você pode gastar pontos de mana para recuperar pontos de vida, à taxa de 5 PV por PM."
-      },
-      {
         "nome": "Chassi",
-        "descricao": "Seu corpo artificial é resistente, mas rígido. Você recebe +2 na Defesa, mas possui penalidade de armadura –2 e seu deslocamento é 6m. Você leva um dia para vestir ou remover uma armadura (pois precisa acoplar as peças dela a seu chassi)."
+        "descricao": "Seu corpo artificial é resistente, mas rígido. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe +2 na Defesa, mas possui penalidade de armadura –2. Você leva um dia para vestir ou remover uma armadura (pois precisa acoplar as peças dela a seu chassi). Por ser acoplada, sua armadura não conta no limite de itens que você pode usar (mas você continua só podendo usar uma armadura)."
       },
       {
         "nome": "Criatura Artificial",
-        "descricao": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a doenças, fadiga, sangramento, sono e venenos. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, não recupera pontos de vida por descanso e não se beneficia de habilidades de cura e itens ingeríveis (comidas, poções etc.). Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso)."
+        "descricao": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
       },
       {
-        "nome": "Espírito Elemental",
-        "descricao": "Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano causado por essa energia. Se fosse sofrer dano mágico dessa energia, em vez disso cura PV em quantida-de igual à metade do dano. Por exemplo, se um golem com espírito elemental do fogo é atingido por uma Bola de Fogo que causa 30 pontos de dano, em vez de sofrer esse dano, ele recupera 15 PV."
+        "nome": "Propósito de Criação",
+        "descricao": "Você foi construído 'pronto' para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
       },
       {
-        "nome": "Sem Origem",
-        "descricao": "Como uma criatura artificial, você já foi construído “pronto”. Não teve uma infância — portanto, não tem direito a escolher uma origem e receber benefícios por ela."
+        "nome": "Fonte Elemental",
+        "descricao": "Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico desse tipo, em vez disso cura PV em quantidade igual à metade do dano. Por exemplo, se um golem com espírito elemental do fogo é atingido por uma Bola de Fogo que causa 30 pontos de dano, em vez de sofrer esse dano, ele recupera 15 PV."
       }
     ]
   },
   "hynne": {
     "id": 10,
     "nome": "Hynne",
+    "descricao": "Também conhecidos como halflings ou “pequeninos”, os hynne são apreciadores de boa comida e casas aconchegantes, raras vezes escolhendo sair pelo mundo em aventuras perigosas. Quando decidem fazê-lo, contudo, recorrem à agilidade e encanto naturais para ludibriar os inimigos — mais de um taverneiro ou miliciano deixou-se enganar por suas mãos ligeiras e sorrisos inocentes. Foram recentemente forçados a fugir de seu antigo reino natal, sendo então acolhidos pelas Repúblicas Livres de Sambúrdia, onde cultivam ervas e especiarias valiosas. Para espanto de todos, também se tornaram astutos mercadores, muitos ascendendo a príncipes mercantes.",
     "bonus": {
-      "for": -2,
-      "des": 4,
+      "for": -1,
+      "des": 2,
       "con": 0,
       "int": 0,
       "sab": 0,
-      "car": 2
+      "car": 1
     },
     "habilidades_de_raca": [
       {
@@ -267,7 +273,7 @@
       },
       {
         "nome": "Pequeno e Rechonchudo",
-        "descricao": "Seu tamanho é Pequeno (veja a página 106) e seu deslocamento é 6m. Você recebe +2 em Enganação e usa o modifi-cador de Destreza para Atletismo (em vez de Força)."
+        "descricao": "Seu tamanho é Pequeno (veja a página 106) e seu deslocamento é 6m. Você recebe +2 em Enganação e pode usar Destreza como atributo-chave de Atletismo (em vez de Força)."
       },
       {
         "nome": "Sorte Salvadora",
@@ -278,13 +284,14 @@
   "kliren": {
     "id": 11,
     "nome": "Kliren",
+    "descricao": "Estes visitantes de outro mundo seriam uma combinação entre humanos e gnomos — mas, afinal, o que são gnomos? São uma raça que talvez existisse em Arton, não fosse o envolvimento criminoso de seu deus Tilliann na criação da própria Tormenta. Seja como for, os kliren somam a alta inteligência gnômica e a curiosidade humana, resultando em seres de extrema engenhosidade, criatividade e talento com aparatos mecânicos. Seriam capazes de grandes feitos, talvez até dominar Arton, não fossem a impulsividade e imprudência que por vezes abreviam suas vidas...", 
     "bonus": {
-      "for": -2,
+      "for": -1,
       "des": 0,
       "con": 0,
-      "int": 4,
+      "int": 2,
       "sab": 0,
-      "car": 2
+      "car": 1
     },
     "habilidades_de_raca": [
       {
@@ -292,8 +299,8 @@
         "descricao": "Sua natureza multifacetada fez com que você aprendesse conhecimentos variados. Você se torna treinado em uma perícia a sua escolha (não precisa ser da sua classe)."
       },
       {
-        "nome": "Lógica Gnômica",
-        "descricao": "Quando faz um teste de atributo ou perícia, você pode gastar 2 PM para subs-tituir o modificador de atributo utilizado por Inteli-gência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 2 PM para usar seu modificador de Inteligência em vez do modificador de Força."
+        "nome": "Engenhosidade.",
+        "descricao": "Quando faz um teste de perícia, você pode gastar 2 PM para somar sua Inteligência no teste. Você não pode usar esta habilidade em testes de ataque. Caso receba esta habilidade novamente, seu custo é reduzido em –1 PM."
       },
       {
         "nome": "Ossos Frágeis",
@@ -308,13 +315,14 @@
   "medusa": {
     "id": 12,
     "nome": "Medusa",
+    "descricao": "Ainda que estas criaturas reclusas sejam famosas por transformar suas vítimas em pedra com um simples olhar, apenas as mais antigas e poderosas o fazem. Jovens medusas por vezes rejeitam a solidão e crueldade racial, aventurandose no Reinado, até mesmo fazendo amigos ou integrando equipes de heróis. Conseguem se fazer passar por mulheres humanas, quando escondem o cabelo feito de serpentes. O único povo que não teme medusas são os anões, que as consideram belas musas.", 
     "bonus": {
       "for": 0,
-      "des": 4,
+      "des": 2,
       "con": 0,
       "int": 0,
       "sab": 0,
-      "car": 2
+      "car": 1
     },
     "habilidades_de_raca": [
       {
@@ -323,51 +331,53 @@
       },
       {
         "nome": "Natureza Venenosa",
-        "descricao": "Você recebe resistência a veneno 5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja empunhando. A arma causa +1d12 pontos de dano de veneno. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro)."
+        "descricao": "Você recebe resistência a veneno +5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja usando. A arma causa perda de 1d12 pontos de vida. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro). Veneno."
       },
       {
         "nome": "Olhar Atordoante",
-        "descricao": "Você pode gastar uma ação de movimento e 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica atordoada por 1 rodada. Se passar, fica imune a esta habilidade por um dia."
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica atordoada por uma rodada (apenas uma vez por cena)." 
       }
     ]
   },
   "osteon": {
     "id": 13,
     "nome": "Osteon",
+    "descricao": "Esqueletos sempre foram temidos como monstros profanos, movidos por puro rancor pelos vivos. Isso mudou; conhecidos como osteon, estes esqueletos demonstram a inteligência e a consciência das raças vivas, sendo capazes de adotar quaisquer de suas profissões e devoções. Alguns atribuem seu surgimento à queda de Ragnar, antigo Deus da Morte; outros dizem ser consequência da ascensão de Ferren Asloth como um poderoso lich, transformando a nação de Aslothia em um reino necromante.",
     "bonus": {
       "for": 0,
       "des": 0,
-      "con": -2,
+      "con": -1,
       "int": 0,
       "sab": 0,
       "car": 0
     },
     "habilidades_de_raca": [
       {
-        "nome": "+2 em Três Atributos Diferentes (exceto Constituição)",
+        "nome": "+1 em Três Atributos Diferentes (exceto Constituição)",
         "descricao": ""
       },
       {
         "nome": "Armadura Óssea",
-        "descricao": "Você recebe resistência a corte, frio e perfuração 5."
+        "descricao": "Você recebe redução de corte, frio e perfuração 5."
       },
       {
         "nome": "Memória Póstuma",
-        "descricao": "Você se torna treinado em uma perícia (não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um osteon de outra raça humanoide que não humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho."
+        "descricao": "Você se torna treinado em uma perícia (não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um osteon de outra raça humanoide que não humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho." 
       },
       {
         "nome": "Natureza Esquelética",
-        "descricao": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a doenças, fadiga, sangramento, sono e venenos. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, habilidades mágicas de cura causam dano a você e você não se beneficia de itens ingeríveis (comidas, poções etc.), mas dano de trevas recupera seus PV."
+        "descricao": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos, de trevas e de veneno. Além disso, não precisa respirar, alimentar- -se ou dormir. Por fim, efeitos mágicos de cura de luz causam dano a você e você não se beneficia de itens da categoria alimentação, mas dano de trevas recupera seus PV."
       },
       {
         "nome": "Preço da Não-Vida",
-        "descricao": "Você precisa passar oito horas sob a luz de estrelas ou no subterrâneo. Se fizer isso, recupera PV e PM por descanso em condi-ções normais (osteon não são afetados por condições boas ou ruins de descanso). Caso contrário, sofre os efeitos de fome."
+        "descricao": "Você precisa passar oito horas sob a luz de estrelas ou no subterrâneo. Se fizer isso, recupera PV e PM por descanso em condições normais (osteon não são afetados por condições boas ou ruins de descanso). Caso contrário, sofre os efeitos de fome." 
       }
     ]
   },
   "sereia_tritao": {
     "id": 14,
     "nome": "Sereia/Tritão",
+    "descricao": "Sendo chamadas sereias quando femininas e tritões quando masculinos, os membros desta raça de torso humanoide e corpo de peixe podem adotar forma bípede para caminhar em terras emersas algo que têm feito com cada vez mais frequência. Enquanto algumas sereias temem ou desprezam os humanos, outras enxergam Arton como um mundo misterioso, exótico, cheio de oportunidades e aventuras.",
     "bonus": {
       "for": 0,
       "des": 0,
@@ -378,7 +388,7 @@
     },
     "habilidades_de_raca": [
       {
-        "nome": "+2 em Três Atributos Diferentes.",
+        "nome": "+1 em Três Atributos Diferentes.",
         "descricao": ""
       },
       {
@@ -398,18 +408,19 @@
   "silfide": {
     "id": 15,
     "nome": "Sílfide",
+    "descricao": "As mais numerosas fadas em Arton são estas criaturinhas (alguns diriam “pestes”) esvoaçantes, com suas delicadas asas de inseto e grandes olhos escuros. Curiosas e brincalhonas, parecem sempre à procura de alguma diversão, levando todos a subestimá-las quando o assunto exige seriedade. É verdade que seu entusiasmo e inocência podem causar problemas. Também é verdade que gostam de usar magias e ilusões para pregar peças. Pensando bem, ninguém até hoje encontrou um bom motivo para aceitar uma sílfide em um grupo de aventureiros...",
     "bonus": {
-      "for": -4,
-      "des": 2,
+      "for": -2,
+      "des": 1,
       "con": 0,
       "int": 0,
       "sab": 0,
-      "car": 4
+      "car": 2
     },
     "habilidades_de_raca": [
       {
         "nome": "Asas de Borboleta",
-        "descricao": "Seu tamanho é Minúsculo. Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento de 12m."
+        "descricao": "Seu tamanho é Minúsculo. Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento de 12m"
       },
       {
         "nome": "Espírito da Natureza",
@@ -417,20 +428,21 @@
       },
       {
         "nome": "Magia das Fadas",
-        "descricao": "Você pode lançar duas das magias a seguir (todas atributo-chave Carisma): Criar Ilusão, Enfeitiçar, Luz (como uma magia arcana) e Sono. Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM."
+        "descricao": "Você pode lançar duas das magias a seguir (atributo-chave Carisma): Criar Ilusão, Enfeitiçar, Luz (como uma magia arcana) e Sono. Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM." 
       }
     ]
   },
-  "suraggel_aggelus": {
+  "suraggel": {
     "id": 16,
-    "nome": "Suraggel (Aggelus)",
+    "nome": "Suraggel",
+    "descricao": "Descendentes de extraplanares divinos, esta raça é formada por seres com traços angelicais ou demoníacos — ou ambos. Por serem ligados às forças opostas da luz e trevas, suraggel têm traços diferentes quando orientados para seu lado celestial, sendo então conhecidos como aggelus; ou para o lado abissal, assim sendo chamados sulfure. Sua natureza em geral combina com a ascendência, lembrando habitantes dos Mundos dos Deuses, mas eles também podem ser surpreendentes e contraditórios: não se espante muito ao conhecer um aggelus ladino ou um sulfure paladino.", 
     "bonus": {
-      "for": 0,
-      "des": 2,
-      "con": 0,
-      "int": 0,
-      "sab": 4,
-      "car": 2
+      "for": "0",
+      "des": "2",
+      "con": "0",
+      "int": "1 (Sulfure)",
+      "sab": "2",
+      "car": "1 (Aggelus)"
     },
     "habilidades_de_raca": [
       {
@@ -438,41 +450,24 @@
         "descricao": "Você é uma criatura do tipo espírito e recebe visão no escuro."
       },
       {
-        "nome": "Luz Sagrada",
+        "nome": "Luz Sagrada (Aggelus)",
         "descricao": "Você recebe +2 em Diplomacia e Intuição. Além disso, pode lançar Luz(como uma magia divina; atributo-chave Carisma). Caso aprenda novamente essa magia, o custo para lançá-la diminui em –1 PM."
-      }
-    ]
-  },
-  "suraggel_sulfure": {
-    "id": 17,
-    "nome": "Suraggel (Sulfure)",
-    "bonus": {
-      "for": 0,
-      "des": 4,
-      "con": 0,
-      "int": 2,
-      "sab": 0,
-      "car": 0
-    },
-    "habilidades_de_raca": [
-      {
-        "nome": "Herança Divina",
-        "descricao": "Você é uma criatura do tipo espírito e recebe visão no escuro."
       },
       {
-        "nome": "Sombras Profanas",
-        "descricao": "Você recebe +2 em Enganação e Furtividade. Além disso, pode lançar Escuridão (como uma magia divina; atributo-chave Inteligência). Caso aprenda novamente essa magia, o custo para lançá-la diminui em –1 PM."
+        "nome ": "Sombras Profanas (Sulfure).",
+        "descricao": "Você recebe +2 em Enganação e Furtividade. Além disso, pode lançar Escuridão (como uma magia divina; atributo-chave Inteligência). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
       }
     ]
   },
   "trog": {
     "id": 18,
     "nome": "Trog",
+    "descricao": "Trogloditas (ou “trogs”) são homens-lagarto primitivos e subterrâneos que odeiam todos os outros seres — especialmente os que sabem forjar aço, aquilo que mais cobiçam. Suas tribos tramam incursões contra povoados humanos, fazem emboscadas em estradas, atacam exploradores em masmorras. Uns poucos, no entanto, divergem da crueldade e selvageria inerentes à raça. Abandonam a tribo ou são expulsos. Escolhem caminhos surpreendentes, inesperados; tornam-se druidas, ou clérigos, ou bucaneiros, ou sabe-se lá o que mais. Enfim, acabam aceitos como colegas por aventureiros tão estranhos e deslocados quanto eles próprios.",
     "bonus": {
-      "for": 2,
+      "for": 1,
       "des": 0,
-      "con": 4,
-      "int": -2,
+      "con": 2,
+      "int": -1,
       "sab": 0,
       "car": 0
     },
@@ -483,11 +478,11 @@
       },
       {
         "nome": "Mordida",
-        "descricao": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+        "descricao": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida." 
       },
       {
         "nome": "Reptiliano",
-        "descricao": "Você é uma criatura do tipo monstro e recebe visão no escuro, +1 na Defesa e, se estiver sem armadura ou roupas pesadas, +5 em Furtividade."
+        "descricao": "Você é uma criatura do tipo monstro e recebe visão no escuro, +1 na Defesa e, se estiver sem armadura ou roupas pesadas, +5 em Furtividade." 
       },
       {
         "nome": "Sangue Frio",
