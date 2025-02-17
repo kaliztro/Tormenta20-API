@@ -19,63 +19,68 @@ const writeJsonFile = (filePath, data) => {
 module.exports = {
     getPoderes(req, res) {
         const poderes = readJsonFile(filePath);
-        const mensagem = "Informações obtidas com sucesso!";
-        const resposta = {
-            "message": mensagem,
-            "data": poderes
-        };
-        return res.json(resposta);
+    
+        if (!poderes || Object.keys(poderes).length === 0) {
+            return res.status(404).json({ message: "Nenhum poder encontrado!" });
+        }
+    
+        return res.json({
+            message: "Informações obtidas com sucesso!",
+            data: poderes
+        });
     },
-
+    
     getPoderesByName(req, res) {
         const poderes = readJsonFile(filePath);
         const poderNome = util.getDataByKey(poderes, req, 'poder');
-        const mensagem = poderNome.length > 0 ? "Informações obtidas com sucesso!" : "Nenhum poder encontrado com este nome!";
-        const resposta = {
-            "message": mensagem,
-            "data": poderes[poderNome] ? poderes[poderNome] : []
-        };
-        return res.json(resposta);
+    
+        if (!poderNome || !poderes[poderNome]) {
+            return res.status(404).json({ message: "Nenhum poder encontrado com este nome!" });
+        }
+    
+        return res.json({
+            message: "Informações obtidas com sucesso!",
+            data: poderes[poderNome]
+        });
     },
-
+    
     getPoderesByGrupo(req, res) {
         const poderes = readJsonFile(filePath);
         const grupo = req.params.grupo
-            .normalize('NFD')
-            .replace(/[\u0300-\u036f]/g, "")
-            .toLowerCase()
-            .replace(/\s+/g, '_');
-
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase().replace(/\s+/g, '_');
+    
         const poderesDoGrupo = Object.values(poderes).filter(poder =>
-            poder.grupo.normalize('NFD')
-                .replace(/[\u0300-\u036f]/g, "")
-                .toLowerCase()
-                .replace(/\s+/g, '_') === grupo
+            poder.grupo.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+                .toLowerCase().replace(/\s+/g, '_') === grupo
         );
-
-        const mensagem = poderesDoGrupo.length > 0 ? "Poderes do grupo encontrados com sucesso!" : "Nenhum poder encontrado para este grupo!";
-        const resposta = {
-            "message": mensagem,
-            "count": poderesDoGrupo.length,
-            "data": poderesDoGrupo // Já mapeado para retornar os valores
-        };
-        return res.json(resposta);
+    
+        if (poderesDoGrupo.length === 0) {
+            return res.status(404).json({ message: "Nenhum poder encontrado para este grupo!" });
+        }
+    
+        return res.json({
+            message: "Poderes do grupo encontrados com sucesso!",
+            count: poderesDoGrupo.length,
+            data: poderesDoGrupo
+        });
     },
     
     getPoderesByGrupoOnly(req, res) {
         const poderes = readJsonFile(filePath);
         const grupos = [...new Set(Object.values(poderes).map(poder => poder.grupo))];
-
-        const mensagem = grupos.length > 0 ? "Grupos de poderes obtidos com sucesso!" : "Nenhum grupo encontrado!";
-        const resposta = {
-            "message": mensagem,
-            "count": grupos.length,
-            "data": grupos
-        };
-
-        return res.json(resposta);
+    
+        if (grupos.length === 0) {
+            return res.status(404).json({ message: "Nenhum grupo encontrado!" });
+        }
+    
+        return res.json({
+            message: "Grupos de poderes obtidos com sucesso!",
+            count: grupos.length,
+            data: grupos
+        });
     },
-
+    
     createPoder(req, res) {
         try {
             const data = readJsonFile(filePath);
@@ -86,8 +91,10 @@ module.exports = {
                 return res.status(400).json({ message: "Todos os campos são obrigatórios" });
             }
 
-            // Criando a chave no formato correto (minúscula e com _ ao invés de espaços)
-            const chavePoder = nome.toLowerCase().replace(/\s/g, '_');
+            const chavePoder = nome
+            .toLowerCase()
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Remove acentos
+            .replace(/\s+/g, '_'); // Substitui espaços por _
 
             // Verifica se o poder já existe
             if (data[chavePoder]) {
