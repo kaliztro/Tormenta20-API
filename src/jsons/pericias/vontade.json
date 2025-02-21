@@ -1,0 +1,10 @@
+{
+    "vontade": {
+        "id": 29,
+        "nome": "Vontade",
+        "treinada": "Não",
+        "atributo": "Sabedoria",
+        "penalidade_armadura": "Não",
+        "descricao": "Você usa esta perícia para resistir a efeitos que exigem determinação, como intimidação e encantamentos. A CD é determinada pelo efeito. Testes de Vontade são testes de resistência."
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "artista": {
+        "id": 6,
+        "nome": "Artista",
+        "descricao": "Você possui talento, nasceu com um “dom” — pelo menos é o que outras pessoas gostam de pensar. Será verdade? Ou será que você apenas sentiu atração por certa forma de arte e treinou muito, muito mesmo? Enquanto o artesão fabrica itens “mundanos”, o artista produz entretenimento, alimento para o coração e a alma. Talvez você apenas saiba entoar belas canções, aprendidas na infância com pais amorosos, ou ouvindo fadas na floresta. Ou talvez seja um ator ou dançarino formado em alguma escola de artes prestigiada.",
+        "itens": "Estojo de disfarces ou um instrumento musical a sua escolha.",
+        "beneficios": {
+            "0": "Perícia: Atuação.",
+            "1": "Perícia: Enganação",
+            "2": "Poder: Atraente.",
+            "3": "Poder: Dom artístico",
+            "4": "Poder: Sortudo.",
+            "5": "Poder: Torcida.",
+            "6": "Dom artístico: Você recebe +2 em testes de Atuação, e recebe o dobro de tibares em apresentações."
+        }
+    }
+}

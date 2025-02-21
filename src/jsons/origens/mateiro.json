@@ -1,0 +1,17 @@
+{
+    "mateiro": {
+        "id": 24,
+        "nome": "Mateiro",
+        "descricao": "Nem todos em Arton vivem em cidades confortavelmente abastecidas por fazendeiros, mineiros ou pescadores — muitas comunidades ainda obtêm sustento através da caça. Você aprendeu cedo a abater animais selvagens para colocar comida na mesa, ou como esporte de gosto duvidoso. Se você caça com reverência a Allihanna ou apenas coleciona troféus com orgulho, a escolha é sua. De qualquer forma, para alguém habituado a flechar cervos e colocar armadilhas para coelhos, combater ogros, demônios e dragões seria apenas o passo seguinte.",
+        "itens": "Arco curto, barraca, equipamento de viagem, 20 flechas.",
+        "beneficios": {
+            "0": "Perícia: Atletismo",
+            "1": "Perícia: Furtividade.",
+            "2": "Perícia: Sobrevivência.",
+            "3": "Poder: Lobo Solitário.",
+            "4": "Poder: Sentidos Aguçados.",
+            "5": "Vendedor de Carcaças.",
+            "6": "Você pode extrair recursos de criaturas em um minuto, em vez de uma hora, e recebe +5 no teste."
+        }
+    }
+}

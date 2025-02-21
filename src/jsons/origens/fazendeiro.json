@@ -1,0 +1,16 @@
+{
+    "fazendeiro": {
+        "id": 17,
+        "nome": "Fazendeiro",
+        "descricao": "Boa parte da população de Arton jamais conheceu outro modo de viver. Em algum lugar na perigosa transição entre os ermos e as cidades, você trabalhou duro em campos e fazendas. Cultivando a terra ou criando animais, viveu longos anos em contato com a natureza, orando e trabalhando por boas colheitas ou gado saudável, só ocasionalmente visitando povoados para negociar sua produção. Por que essa vida tranquila acabou? Sua família foi assassinada por goblins? Sua fazenda foi devastada por um dragão? Ou você apenas foi atraído pelo chamado da aventura?",
+        "itens": "Carroça, uma ferramenta agrícola (masmas estatísticas de uma lança), 10 rações de viagem, um animal não combativo (como uma galinha, porco ou ovelha).",
+        "beneficios": {
+            "0": "Perícia: Adestramento.",
+            "1": "Perícia: Cavalgar",
+            "2": "Perícia: Ofício (sobrevivência).",
+            "3": "Poder: Água no Feijão.",
+            "4": "Poder: Ginete.",
+            "5": "Água no Feijão: Você não sofre a penalidade de –5 e não gasta matéria prima adicional para fabricar pratos para cinco pessoas."
+        }
+    }
+}

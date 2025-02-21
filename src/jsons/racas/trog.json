@@ -1,0 +1,33 @@
+{
+    "trog": {
+        "id": 18,
+        "nome": "Trog",
+        "descricao": "Trogloditas (ou “trogs”) são homens-lagarto primitivos e subterrâneos que odeiam todos os outros seres — especialmente os que sabem forjar aço, aquilo que mais cobiçam. Suas tribos tramam incursões contra povoados humanos, fazem emboscadas em estradas, atacam exploradores em masmorras. Uns poucos, no entanto, divergem da crueldade e selvageria inerentes à raça. Abandonam a tribo ou são expulsos. Escolhem caminhos surpreendentes, inesperados; tornam-se druidas, ou clérigos, ou bucaneiros, ou sabe-se lá o que mais. Enfim, acabam aceitos como colegas por aventureiros tão estranhos e deslocados quanto eles próprios.",
+        "bonus": {
+            "for": 1,
+            "des": 0,
+            "con": 2,
+            "int": -1,
+            "sab": 0,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            {
+                "nome": "Mau Cheiro",
+                "descricao": "Você pode gastar uma ação padrão e 2 PM para expelir um gás fétido. Todas as criaturas (exceto trogs) em alcance curto devem passar em um teste de Fortitude contra veneno (CD Con) ou ficarão enjoadas durante 1d6 rodadas. Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia."
+            },
+            {
+                "nome": "Mordida",
+                "descricao": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+            },
+            {
+                "nome": "Reptiliano",
+                "descricao": "Você é uma criatura do tipo monstro e recebe visão no escuro, +1 na Defesa e, se estiver sem armadura ou roupas pesadas, +5 em Furtividade."
+            },
+            {
+                "nome": "Sangue Frio",
+                "descricao": " Você sofre 1 ponto de dano adicional por dado de dano de frio."
+            }
+        ]
+    }
+}

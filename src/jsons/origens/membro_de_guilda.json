@@ -1,0 +1,17 @@
+{
+    "membro_de_guilda": {
+        "id": 25,
+        "nome": "Membro de Guilda",
+        "descricao": "Você foi, ou ainda é, membro atuante em uma grande guilda — uma associação de artesãos, mercadores, magos, criminosos ou mesmo aventureiros. A guilda forneceu o treinamento e equipamento necessários para suas atividades, esperando que você seja útil em troca. Você se manteve fiel a seus patronos, cumprindo missões e colhendo os benefícios de pertencer a uma vasta organização? Ou deixou essa vida para trás, sendo agora desprezado ou até caçado por seus antigos mestres?",
+        "itens": "Gazua ou instrumentos de ofício.",
+        "beneficios": {
+            "0": "Perícia: Diplomacia.",
+            "1": "Perícia: Enganação.",
+            "2": "Perícia: Misticismo.",
+            "3": "Perícia: Ofício.",
+            "4": "Poder: Foco em Perícia.",
+            "5": "Rede de Contatos.",
+            "6": "Graças à influência de sua guilda, você pode usar Diplomacia para interrogar sem custo e em uma hora (veja Investigação)."
+        }
+    }
+}

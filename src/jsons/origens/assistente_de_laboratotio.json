@@ -1,0 +1,16 @@
+{
+    "assistente_de_laboratorio": {
+        "id": 7,
+        "nome": "Assistente de Laboratório",
+        "descricao": "Você atuou como ajudante para um alquimista, inventor ou mago. Costumava tomar notas, limpar o laboratório, arrumar as ferramentas, vasculhar mercados em busca de ingredientes exóticos, recapturar a aberração antinatural que fugiu da jaula... enfim, não era o trabalho mais fácil, limpo ou seguro do mundo. Exposição prolongada a substâncias e experimentos perigosos talvez tenham prejudicado sua saúde (ou despertado suas habilidades de classe...).",
+        "itens": "Instrumento de Ofício (alquimia).",
+        "beneficios": {
+            "0": "Perícia: Ofício (alquimia).",
+            "1": "Perícia: Misticismo.",
+            "2": "Poder: Esse Cheiro",
+            "3": "Poder: Venefício.",
+            "4": "Poder: Um Poder da Tormenta a sua escolha.",
+            "5": "Você recebe +2 em Fortitude e detecta automaticamente a presença (mas não a localização ou natureza) de itens alquímicos em alcance curto."
+        }
+    }
+}

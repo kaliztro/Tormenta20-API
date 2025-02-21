@@ -1,0 +1,16 @@
+{
+    "charlatao": {
+        "id": 10,
+        "nome": "Charlatão",
+        "descricao": "Você sempre teve talento para resolver problemas com conversa, sincera ou nem tanto. Talvez tenha aprendido andando com más companhias. Por ser pequeno e fraco em meio a guerreiros truculentos, talvez fosse pura questão de sobrevivência. Ou foi tocado por Hyninn, Sszzaas ou outra entidade traiçoeira. Seja como for, após um pouco de diálogo, você percebe o que as pessoas mais querem ou temem, usando palavras para vencer obstáculos tão facilmente quanto espadas e magias. Ou melhor.",
+        "itens": "Estojo de disfarces, joia falsificada (valor aparente de T$ 100, sem valor real).",
+        "beneficios": {
+            "0": "Perícia: Enganação.",
+            "1": "Perícia: Jogatina.",
+            "2": "Poder: Alpinista social",
+            "3": "Poder: Aparência Inofensiva",
+            "4": "Poder: Sortudo",
+            "5": "Alpinista Social: Você pode substituir testes de Diplomacia por testes de Enganação."
+        }
+    }
+}

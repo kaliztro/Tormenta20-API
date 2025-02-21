@@ -1,0 +1,33 @@
+{
+    "sereia_tritao": {
+        "id": 14,
+        "nome": "Sereia/Tritão",
+        "descricao": "Sendo chamadas sereias quando femininas e tritões quando masculinos, os membros desta raça de torso humanoide e corpo de peixe podem adotar forma bípede para caminhar em terras emersas algo que têm feito com cada vez mais frequência. Enquanto algumas sereias temem ou desprezam os humanos, outras enxergam Arton como um mundo misterioso, exótico, cheio de oportunidades e aventuras.",
+        "bonus": {
+            "for": 0,
+            "des": 0,
+            "con": 0,
+            "int": 0,
+            "sab": 0,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            {
+                "nome": "+1 em Três Atributos Diferentes.",
+                "descricao": ""
+            },
+            {
+                "nome": "Canção dos Mares",
+                "descricao": "Você pode lançar duas das magias a seguir: Amedrontar, Comando, Despedaçar, Enfeitiçar, Hipnotismo ou Sono (atributo-chave Carisma). Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM."
+            },
+            {
+                "nome": "Mestre do Tridente",
+                "descricao": "Para você, o tridente é uma arma simples. Além disso, você recebe +2 em rolagens de dano com azagaias, lanças e tridentes."
+            },
+            {
+                "nome": "Transformação Anfíbia",
+                "descricao": "Você pode respirar debaixo d’água e possui uma cauda que fornece deslocamento de natação 12m. Quando fora d’água, sua cauda desaparece e dá lugar a pernas (deslocamento 9m). Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho!)."
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "luta": {
+        "id": 19,
+        "nome": "Luta",
+        "treinada": "Não",
+        "atributo": "Força",
+        "penalidade_armadura": "Não",
+        "descricao": "Você usa Luta para fazer ataques corpo a corpo. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada. Veja o Capítulo 5: Jogando para as regras completas de combate."
+    }
+}

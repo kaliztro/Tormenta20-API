@@ -1,0 +1,16 @@
+{
+    "estudioso": {
+        "id": 16,
+        "nome": "Estudioso",
+        "descricao": "Não importa se você já nasceu apaixonado por certo assunto, testemunhou um evento incrível que atiçou sua curiosidade ou se viu forçado a estudar por imposição familiar. Longos anos de sua vida foram gastos em meio a livros e pergaminhos. Da engenharia dos anões à geopolítica do Reinado, das táticas militares puristas aos sistemas de conjuração da Academia Arcana, da anatomia dos dragões aos enigmas cósmicos da Tormenta... em Arton não faltam campos a conquistar, segredos a desvendar. Agora, como aventureiro, você tem a chance de vivenciar aquilo que aprendeu e também auxiliar o grupo com o fruto de seus estudos.",
+        "itens": "Coleção de livros (+1 em Conhecimento, Guerra, Misticismo ou Nobreza, a sua escolha).",
+        "beneficios": {
+            "0": "Perícia: Conhecimento.",
+            "1": "Perícia: Guerra.",
+            "2": "Perícia: Misticismo.",
+            "3": "Poder: Aparência Inofensiva.",
+            "4": "Poder: Palpite Fundamentado. ",
+            "5": "Palpite Fundamentado: Você pode pagar PM para substituir um teste de qualquer perícia baseada em Inteligência ou Sabedoria por um teste de Conhecimento."
+        }
+    }
+}

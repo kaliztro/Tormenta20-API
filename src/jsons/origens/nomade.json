@@ -1,0 +1,17 @@
+{
+    "nomade": {
+        "id": 28,
+        "nome": "Nômade",
+        "descricao": "Até onde se lembra, você nunca pertenceu a um só lugar. Sua família viajava constantemente, como parte de alguma grande caravana comercial, peregrinação religiosa ou algum povo primitivo que nunca praticou agricultura. Ou talvez suas razões para viajar sejam bastante diferentes e pessoais — após a quase extinção de seu povo, muitos elfos temem criar raízes, enquanto a deusa Valkaria exige que seus devotos se mantenham sempre em viagem. Para você, habituado às estradas e sem laços com nenhuma terra, bastou um pequeno passo para se tornar aventureiro.",
+        "itens": "Bordão, equipamento de viagem.",
+        "beneficios": {
+            "0": "Perícia: Cavalgar.",
+            "1": "Perícia: Pilotagem.",
+            "2": "Perícia: Sobrevivência.",
+            "3": "Poder: Lobo Solitário.",
+            "4": "Poder: Mochileiro.",
+            "5": "Poder: Sentidos Aguçados.",
+            "6": "Seu limite de carga aumenta em 5 espaços."
+        }
+    }
+}

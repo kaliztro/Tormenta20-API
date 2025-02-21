@@ -1,0 +1,15 @@
+{
+    "capanga": {
+        "id": 9,
+        "nome": "Capanga",
+        "descricao": "Agilidade e esperteza são importantes no mundo do crime, mas não são tudo; às vezes é preciso esmurrar alguém. Por ser grande, forte ou mal-encarado, você acabou trabalhando como músculos para algum bandido, ou integrando um bando, quadrilha ou guilda de ladrões. Talvez você não fosse muito bom em bater carteiras nas ruas de Ahlen, mas sabia erguer alguém pelo tornozelo e sacudir até as moedas caírem. Hoje, como aventureiro, você provavelmente deixou essa época para trás — pelo menos até que alguém precise ser “convencido” a colaborar.",
+        "itens": "Tatuagem ou outro adereço de sua gangue (+1 em Intimidação), uma arma simples corpo a corpo.",
+        "beneficios": {
+            "0": "Perícia: Luta.",
+            "1": "Perícia: Intimidação.",
+            "2": "Poder: Confissão",
+            "3": "Poder: Um Poder de combate a sua escolha.",
+            "4": "Confissão: Você pode usar Intimidação para interrogar sem custo e em uma hora (veja Investigação)."
+        }
+    }
+}

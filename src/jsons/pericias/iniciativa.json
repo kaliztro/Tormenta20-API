@@ -1,0 +1,10 @@
+{
+    "iniciativa": {
+        "id": 13,
+        "nome": "Iniciativa",
+        "treinada": "Não",
+        "atributo": "Destreza",
+        "penalidade_armadura": "Não",
+        "descricao": "Esta perícia determina sua velocidade de reação em situações de perigo. Quando uma cena de ação começa, cada personagem envolvido faz um teste de Iniciativa. Eles então agem em ordem decrescente dos resultados."
+    }
+}

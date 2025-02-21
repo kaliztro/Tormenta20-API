@@ -1,0 +1,14 @@
+{
+    "intuicao": {
+        "id": 15,
+        "nome": "Intuição",
+        "treinada": "Não",
+        "atributo": "Sabedoria",
+        "penalidade_armadura": "Não",
+        "descricao": "Esta perícia mede sua empatia e “sexto sentido”",
+        "caracteristicas": {
+            "0": "Perceber Mentira - Você descobre se alguém está mentindo (veja a perícia Enganação).",
+            "1": "Pressentimento (CD 20, Apenas Treinado) - Você analisa uma pessoa, para ter uma noção de sua índole ou caráter, ou uma situação, para saber se há algo anormal (por exemplo, se os habitantes de uma vila estão agindo de forma estranha). Este uso apenas indica se há algo anormal, mas não revela a causa."
+        }
+    }
+}

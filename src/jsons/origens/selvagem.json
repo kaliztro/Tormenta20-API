@@ -1,0 +1,17 @@
+{
+    "selvagem": {
+        "id": 32,
+        "nome": "Selvagem",
+        "descricao": "Você nasceu em uma tribo de bárbaros incultos ou tem uma origem bem mais exótica. Perdeu-se dos pais verdadeiros em alguma região remota, sobrevivendo graças aos cuidados de um eremita, ou criado por animais, ou por pura bondade dos deuses. Você pode nem mesmo ter nascido de pais humanoides — talvez seja cria de dragões, demônios ou deuses, com poderes a serem revelados no momento certo. Será que você ainda teme a civilização, assustando-se com uma simples fogueira? Ou já aprendeu algumas coisas, graças a seus novos companheiros?",
+        "itens": "Uma arma simples, um pequeno animal de estimação como um pássaro ou esquilo.",
+        "beneficios": {
+            "0": "Perícia: Percepção.",
+            "1": "Perícia: Reflexos.",
+            "2": "Perícia: Sobrevivência.",
+            "3": "Poder: Lobo Solitário.",
+            "4": "Poder: Vida Rústica.",
+            "5": "Poder: Vitalidade.",
+            "6": "Vida Rústica: Você come coisas que fariam um avestruz vomitar (sendo imune a efeitos prejudiciais de itens ingeríveis) e também consegue descansar nos lugares mais desconfortáveis (mesmo dormindo ao relento, sua recuperação de PV e PM nunca é inferior a seu próprio nível)."
+        }
+    }
+}

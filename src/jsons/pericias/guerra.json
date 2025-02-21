@@ -1,0 +1,14 @@
+{
+    "guerra": {
+        "id": 12,
+        "nome": "Guerra",
+        "treinada": "Sim",
+        "atributo": "Inteligência",
+        "penalidade_armadura": "Não",
+        "descricao": "Você foi educado em tática, estratégia e logística.",
+        "caracteristicas": {
+            "0": "Analisar Terreno (Analisar Terreno (CD 20) - Como uma ação de movimento, você pode observar o campo de batalha. Se passar, descobre uma vantagem, como cobertura, camuflagem ou terreno elevado, se houver.) - Como uma ação de movimento, você pode observar o campo de batalha. Se for bem-sucedido, descobre uma vantagem, como cobertura, camuflagem ou terreno elevado, se houver.",
+            "1": "Tática (Plano de Ação (CD 20) - Como uma ação padrão, você orienta um aliado em alcance médio. Se passar, fornece +5 na Iniciativa dele. Se ele ficar com uma Iniciativa maior do que a sua e ainda não tiver agido nesta rodada, age imediatamente após seu turno. Nas próximas rodadas, ele age de acordo com a nova ordem.) - Como uma ação padrão, você pode fazer um teste de Guerra para direcionar as ações de um aliado. Se for bem-sucedido, você fornece +5 na iniciativa de um aliado em alcance médio. Se isso fizer com que um aliado que ainda não tenha agido fique com uma iniciativa maior do que a sua, ele age imediatamente após seu turno. Nas próximas rodadas, ele age de acordo com a ordem."
+        }
+    }
+}

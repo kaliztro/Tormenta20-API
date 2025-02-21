@@ -1,0 +1,16 @@
+{
+    "aristocrata": {
+        "id": 4,
+        "nome": "Aristocrata",
+        "descricao": "Você nasceu na nobreza. Recebeu educação sofisticada em assuntos acadêmicos, política mercantil, torneios de cavalaria ou mesmo conjuração arcana, dependendo das tradições em sua linhagem e desejos de seus pais. Você ainda procura cumprir seus compromissos como nobre? Luta para conciliar as expectativas da família com a vida de aventuras? Ou cortou totalmente seus laços com o passado, mantendo apenas alguns pertences valiosos e contatos úteis?",
+        "itens": "Joia de família no valor de T$ 300, traje da corte.",
+        "beneficios": {
+            "0": "Perícia: Diplomacia.",
+            "1": "Perícia: Enganação.",
+            "2": "Perícia: Nobreza.",
+            "3": "Poder: Comandar.",
+            "4": "Sangue azul.",
+            "5": "Sangue azul: Você tem alguma influência política, suficiente para ser tratado com mais leniência pela guarda, conseguir uma audiência com o nobre local, etc."
+        }
+    }
+}

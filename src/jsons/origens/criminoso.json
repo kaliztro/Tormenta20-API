@@ -1,0 +1,16 @@
+{
+    "criminoso": {
+        "id": 12,
+        "nome": "Criminoso",
+        "descricao": "Fazer o bem é bonito, mas não enche barriga pelo menos, assim você foi ensinado. Por necessidade, ambição ou apenas sem conhecer outra vida, você foi um bandido durante boa parte da juventude. Furtava bolsas, trapaceava em jogos de taverna, emboscava viajantes nas estradas ou até aceitava contratos para matar. Agia sozinho, com seu próprio bando, pertencia a uma guilda de ladrões. Tornar-se aventureiro talvez seja uma forma de expiar por seus crimes, ou apenas o passo seguinte; em vez de mercadores, roubar tesouros de dragões!",
+        "itens": "Estojo de disfarces ou gazua.",
+        "beneficios": {
+            "0": "Perícia: Enganação.",
+            "1": "Perícia: Furtividade.",
+            "2": "Perícia: Ladinagem.",
+            "3": "Poder: Punguista",
+            "4": "Poder: Venefício",
+            "5": "Punguista: Você pode fazer um teste de Ladinagem para Sustento (como a perícia Ofício), mas em apenas um dia. Se passar, recebe o dobro do dinheiro, mas, se falhar, pode ter problemas com a lei (a critério do mestre)."
+        }
+    }
+}

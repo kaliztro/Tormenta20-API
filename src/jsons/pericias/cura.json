@@ -1,0 +1,16 @@
+{
+    "cura": {
+        "id": 7,
+        "nome": "Cura",
+        "treinada": "Não",
+        "atributo": "Sabedoria",
+        "penalidade_armadura": "Não",
+        "descricao": "Você sabe tratar ferimentos, doenças e venenos.",
+        "caracteristicas": {
+            "0": "Cuidados Prolongados (CD 15, Apenas Treinado) - Você trata uma pessoa para que ela se recupere mais rapidamente. Se passar, ela aumenta sua recuperação de PV em +1 por nível nesse dia. Este uso leva uma hora e o número máximo de pessoas que você pode cuidar é igual ao seu nível.",
+            "1": "Necropsia (CD 20, Apenas Treinado) - Você examina um cadáver para determinar a causa e o momento aproximado da morte. Causas raras ou extraordinárias, como um veneno ou maldição, possuem CD 30. Este uso leva dez minutos.",
+            "2": "Primeiros Socorros (CD 15) - Você estabiliza um personagem adjacente que esteja sangrando. Este uso gasta uma ação padrão.",
+            "3": "Tratamento (Apenas Treinado) - Você ajuda a vítima de uma doença ou veneno com efeito contínuo. Gaste uma ação completa e faça um teste de Cura contra a CD da doença ou veneno. Se você passar, o paciente recebe +5 em seu próximo teste de Fortitude contra esse efeito. Esta perícia exige uma maleta de medicamentos. Sem ela, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste."
+        }
+    }
+}

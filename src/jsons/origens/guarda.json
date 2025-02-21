@@ -1,0 +1,17 @@
+{
+    "guarda": {
+        "id": 20,
+        "nome": "Guarda",
+        "descricao": "Você atuou como agente da lei em uma vila ou cidade. Nem de longe uma profissão tão glamorosa ou emocionante quanto parece; boa parte de seu trabalho resumia-se a guardar um portão, fazer rondas tediosas ou recolher bêbados em tavernas. Pelo menos você recebeu algum treino em investigação e combate. Também tem consigo alguma boa arma, que “esqueceu” de devolver quando abandonou a milícia para se tornar aventureiro.",
+        "itens": "Apito, insígnia da milícia, uma arma marcial.",
+        "beneficios": {
+            "0": "Perícia: Investigação.",
+            "1": "Perícia: Luta.",
+            "2": "Perícia: Percepção.",
+            "3": "Poder: Detetive.",
+            "4": "Poder: Investigador",
+            "5": "Poder: Um Poder de combate a sua escolha",
+            "6": "Detetive: Você pode gastar 1 PM para substituir testes de Percepção e Intuição por testes de Investigação até o fim da cena."
+        }
+    }
+}

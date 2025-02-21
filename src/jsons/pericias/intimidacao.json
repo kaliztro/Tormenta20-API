@@ -1,0 +1,14 @@
+{
+    "intimidacao": {
+        "id": 14,
+        "nome": "Intimidação",
+        "treinada": "Não",
+        "atributo": "Carisma",
+        "penalidade_armadura": "Não",
+        "descricao": "Você pode assustar ou coagir outras pessoas. Usos de Intimidação são efeitos de medo.",
+        "caracteristicas": {
+            "0": "Assustar - Gaste uma ação padrão e faça um teste de Intimidação oposto pelo teste de Vontade de uma criatura em alcance curto. Se você passar, ela fica abalada pelo resto da cena. Se você passar por 10 ou mais, ela fica apavorada por uma rodada e então abalada pelo resto da cena.",
+            "1": "Coagir - Faça um teste de Intimidação oposto pelo teste de Vontade de uma criatura inteligente (Int –3 ou maior) adjacente. Se você passar, ela obedece uma ordem sua (como fazer uma pequena tarefa, deixar que você passe por um lugar que ela estava protegendo...). Se você mandá-la fazer algo perigoso ou que vá contra a natureza dela, ela recebe +5 no teste ou passa automaticamente. Este uso gasta um minuto ou mais, de acordo com o mestre, e deixa o alvo hostil contra você."
+        }
+    }
+}

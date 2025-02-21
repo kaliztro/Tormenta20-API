@@ -1,0 +1,14 @@
+{
+    "adestramento": {
+        "id": 2,
+        "nome": "Adestramento",
+        "treinada": "Sim",
+        "atributo": "Carisma",
+        "penalidade_armadura": "Não",
+        "descricao": "Você sabe lidar com animais.",
+        "caracteristicas": {
+            "0": "Acalmar Animal (CD 25) - Você acalma um animal nervoso ou agressivo. Isso permite a você controlar um cavalo assustado ou convencer um lobo a não devorá-lo. Este uso gasta uma ação completa.",
+            "1": "Manejar Animal (CD 15) - Você faz um animal realizar uma tarefa para a qual foi treinado (como “atacar”, “sentar”, “vigiar”...). Isso permite usar Adestramento como Pilotagem para veículos de tração animal. Este uso gasta uma ação de movimento."
+        }
+    }
+}

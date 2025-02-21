@@ -1,0 +1,37 @@
+{
+    "osteon": {
+        "id": 13,
+        "nome": "Osteon",
+        "descricao": "Esqueletos sempre foram temidos como monstros profanos, movidos por puro rancor pelos vivos. Isso mudou; conhecidos como osteon, estes esqueletos demonstram a inteligência e a consciência das raças vivas, sendo capazes de adotar quaisquer de suas profissões e devoções. Alguns atribuem seu surgimento à queda de Ragnar, antigo Deus da Morte; outros dizem ser consequência da ascensão de Ferren Asloth como um poderoso lich, transformando a nação de Aslothia em um reino necromante.",
+        "bonus": {
+            "for": 0,
+            "des": 0,
+            "con": -1,
+            "int": 0,
+            "sab": 0,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            {
+                "nome": "+1 em Três Atributos Diferentes (exceto Constituição)",
+                "descricao": ""
+            },
+            {
+                "nome": "Armadura Óssea",
+                "descricao": "Você recebe redução de corte, frio e perfuração 5."
+            },
+            {
+                "nome": "Memória Póstuma",
+                "descricao": "Você se torna treinado em uma perícia (não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um osteon de outra raça humanoide que não humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho."
+            },
+            {
+                "nome": "Natureza Esquelética",
+                "descricao": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos, de trevas e de veneno. Além disso, não precisa respirar, alimentar- -se ou dormir. Por fim, efeitos mágicos de cura de luz causam dano a você e você não se beneficia de itens da categoria alimentação, mas dano de trevas recupera seus PV."
+            },
+            {
+                "nome": "Preço da Não-Vida",
+                "descricao": "Você precisa passar oito horas sob a luz de estrelas ou no subterrâneo. Se fizer isso, recupera PV e PM por descanso em condições normais (osteon não são afetados por condições boas ou ruins de descanso). Caso contrário, sofre os efeitos de fome."
+            }
+        ]
+    }
+}

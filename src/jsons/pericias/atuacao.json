@@ -1,0 +1,14 @@
+{
+    "atuacao": {
+        "id": 4,
+        "nome": "Atuação",
+        "treinada": "Sim",
+        "atributo": "Carisma",
+        "penalidade_armadura": "Não",
+        "descricao": "Você sabe fazer apresentações artísticas, incluindo música, dança e dramaturgia.",
+        "caracteristicas": {
+            "0": "Apresentação (CD 20) - Você pode se apresentar para ganhar dinheiro. Faça um teste. Se passar, você recebe T$ 1d6, mais T$ 1d6 para cada 5 pontos pelos quais o resultado do teste exceder a CD. Este uso leva um dia (ou noite...). Os valores recebidos pressupõem que você está se apresentando em um lugar propício, como o palco de uma taverna. De acordo com o mestre, você pode receber metade do valor, se estiver em um lugar inadequado (as ruas de uma cidade, um acampamento militar), ou o dobro, se estiver em um lugar especialmente propício (um festival, os salões de um palácio).",
+            "1": "Impressionar - Faça um teste de Atuação oposto pelo teste de Vontade de quem você quer impressionar. Se você passar, recebe +2 em testes de perícias baseadas em Carisma contra essa pessoa no mesmo dia. Se falhar, sofre –2 nesses testes e não pode tentar de novo no mesmo dia. Se estiver tentando impressionar mais de uma pessoa, o mestre faz apenas um teste pela plateia, usando o melhor bônus. Este uso leva de alguns minutos (canto ou dança) até algumas horas (apresentação teatral)."
+        }
+    }
+}

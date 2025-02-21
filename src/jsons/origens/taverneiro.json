@@ -1,0 +1,17 @@
+{
+    "taverneiro": {
+        "id": 34,
+        "nome": "Taverneiro",
+        "descricao": "Não é incomum que heróis aposentados se tornem donos de tavernas ou estalagens, mas o contrário também pode ocorrer. Você foi dono, filho do dono ou empregado em algum lugar frequentado por aventureiros — esses tipos sempre cheios de ouro e bravatas, atiçando sua ambição. Claro, eles nem sempre mencionam os horrores, amputações e mortes! Ainda assim, parece bem melhor que a vida atrás do balcão, limpando canecas sujas. Você ouviu todas as grandes histórias, trocou socos em algumas brigas e até ganhou uma lembrança ou outra de algum herói bêbado.",
+        "itens": "Rolo de macarrão ou martelo de carne (mesmas estatísticas de uma clava), uma panela, um avental, uma caneca e um pano sujo.",
+        "beneficios": {
+            "0": "Perícia: Diplomacia.",
+            "1": "Perícia: Jogatina.",
+            "2": "Perícia: Ofício (cozinheiro).",
+            "4": "Poder: Gororoba.",
+            "5": "Poder: Proficiência.",
+            "6": "Poder: Vitalidade.",
+            "7": "Gororoba: Você não sofre a penalidade de –5 para fabricar um prato especial adiconal."
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "conhecimento": {
+        "id": 6,
+        "nome": "Conhecimento",
+        "treinada": "Sim",
+        "atributo": "Inteligência",
+        "penalidade_armadura": "Não",
+        "descricao": "Você estudou diversos campos do saber, como aritmética, astronomia, dialética, geografia, história...",
+        "caracteristicas": {
+            "0": "Idiomas (CD 20) - Você pode entender idiomas desconhecidos. Se falhar por 5 ou mais, você tira uma conclusão falsa. Idiomas exóticos ou muito antigos têm CD 30.",
+            "1": "Informação - Você responde dúvidas gerais. Questões simples, como o ano de fundação de um reino, não exigem testes. Questões complexas, como saber o antídoto de um veneno, tem CD 20. Por fim, mistérios e enigmas, como a origem de uma antiga maldição, tem CD 30."
+        }
+    }
+}

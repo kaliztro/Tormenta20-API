@@ -1,0 +1,16 @@
+{
+    "religiao": {
+        "id": 27,
+        "nome": "Religião",
+        "treinada": "Sim",
+        "atributo": "Sabedoria",
+        "penalidade_armadura": "Não",
+        "descricao": "Você possui conhecimento sobre os deuses e as religiões de Arton.",
+        "caracteristicas": {
+            "0": "Identificar Criatura (CD 15 +ND da Criatura) - Com uma ação completa, você pode identificar uma criatura divina (anjos, demônios, mortos-vivos, etc.), assim como seus poderes e fraquezas. Veja a perícia Misticismo para detalhes.",
+            "1": "Identificar Item Mágico - Você pode identificar um item mágico de origem divina. Veja aperícia Misticismo.",
+            "2": "Informação - Você responde dúvidas relativasa deuses, profecias, planos de existência etc. Questões simples não exigem teste. Questões complexas tem CD 20. Por fim, mistérios e enigmas tem CD 30.",
+            "3": "Rito (CD 20) - Você realiza uma cerimônia religiosa, como um batizado, casamento ou funeral. Isso inclui a cerimônia de penitência para redimir um devoto que tenha descumprido as Obrigações & Restrições de sua divindade. Uma cerimônia de penitência exige um sacrifício de T$ 100 por nível de personagem do devoto ou a realização de uma missão sagrada, de acordo com o mestre."
+        }
+    }
+}

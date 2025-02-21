@@ -1,0 +1,14 @@
+{
+    "nobreza": {
+        "id": 22,
+        "nome": "Nobreza",
+        "treinada": "Sim",
+        "atributo": "Inteligência",
+        "penalidade_armadura": "Não",
+        "descricao": "Você recebeu a educação de um nobre.",
+        "caracteristicas": {
+            "0": "Etiqueta (CD 15) - Você sabe se portar em ambientes aristocráticos, como bailes e audiências.",
+            "1": "Informação - Você responde dúvidas relativas a leis, tradições, linhagens e heráldica. Questões simples não exigem teste. Questões complexas tem CD 20. Por fim, mistérios e enigmas tem CD 30."
+        }
+    }
+}

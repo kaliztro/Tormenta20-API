@@ -1,0 +1,15 @@
+{
+    "batedor": {
+        "id": 8,
+        "nome": "Batedor",
+        "descricao": "Seja conduzindo caravanas através dos reinos, rastreando inimigos nos campos de batalha ou guiando exploradores nas vastidões selvagens, você aprendeu a achar caminhos e dirigir outros com segurança. Batedores podem surgir nas tribos mais primitivas, acompanhando grupos de caça, como profissionais sofisticados nas grandes cidades e forças militares ou ainda na perigosa atividade de caça-recompensas. Pouco importando a carreira que adotou mais tarde, como aventureiro, seu antigo treino acaba se revelando útil em numerosas ocasiões.",
+        "itens": "Barraca, equipamento de viagem, uma arma simples ou marcial de ataque á distância.",
+        "beneficios": {
+            "0": "Perícia: Percepção.",
+            "1": "Perícia: Sobrevivência.",
+            "2": "Poder: Companheiro Animal.",
+            "3": "Poder: Sentidos Aguçados.",
+            "4": "À Prova de Tudo: Você não sofre penalidade em testes de Sobrevivência por clima ruim."
+        }
+    }
+}

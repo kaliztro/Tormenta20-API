@@ -1,0 +1,17 @@
+{
+    "circense": {
+        "id": 11,
+        "nome": "Circense",
+        "descricao": "Você treinou acrobacia, malabarismo, mágica ou outra forma de arte circense. Talvez tenha aprendido sozinho, durante as brincadeiras de infância. Talvez tenha sido ensinado por um ente querido, tornando essa arte uma forte ligação com seu passado. Ou ainda, é possível que tenha sido forçado a aprender seus truques para sobreviver nas ruas. De qualquer forma, são aptidões que podem ser úteis em suas aventuras.",
+        "itens": "Três bolas coloridas para malabarismo (+1 em atuação).",
+        "beneficios": {
+            "0": "Perícia: Acrobacia.",
+            "1": "Perícia: Atuação.",
+            "2": "Perícia: Reflexos.",
+            "3": "Poder: Acrobático",
+            "4": "Poder: Torcida",
+            "5": "Poder: Truque de Mágica",
+            "6": "Truque de Mágica: Você pode lançar Explosão de Chamas, Hipnotismo e Queda Suave, mas apenas com o aprimoramento Truque. Esta não é uma habilidade mágica os efeitos provêm de prestidigitação."
+        }
+    }
+}
