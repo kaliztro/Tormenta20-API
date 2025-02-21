@@ -1,0 +1,33 @@
+{
+    "valkaria": {
+        "id": 19,
+        "nome": "Valkaria",
+        "crencas_objetivos": "Praticar o otimismo, a evolução, a rebeldia. Desafiar limites, almejar o impossível. Combater o mal, a opressão e a tirania. Proteger a liberdade. Aceitar o novo e diferente e adaptar-se a ele. Demonstrar ambição, paixão e coragem. Desfrutar e amar a vida.",
+        "devotos_permitidos": "Aventureiros; membros de todas as classes podem ser devotos de Valkaria.",
+        "simbolo_sagrado": "A Estátua de Valkaria, ou seis faixas entrelaçadas.",
+        "canalizar_energia": "Positiva",
+        "arma_preferida": "Mangual.",
+        "obrigacoes_restricoes": {
+            "0": "Valkaria odeia o conformismo. Seus devotos são proibidos de fixar moradia em um mesmo lugar, não podendo permanecer mais de 2d10+10 dias na mesma cidade (ou vila, aldeia, povoado...) ou 1d4+2 meses no mesmo reino.",
+            "1": "Devotos de Valkaria também são proibidos de casar-se ou formar qualquer união estável."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Almejar o Impossível",
+                "descricao": "Quando faz um teste de perícia, um resultado de 19 ou mais no dado sempre é um sucesso, não importando o valor a ser alcançado."
+            },
+            {
+                "nome": "Armas da Ambição",
+                "descricao": "Você recebe +1 em testes de ataque e na margem de ameaça com armas nas quais é proficiente."
+            },
+            {
+                "nome": "Coragem Total",
+                "descricao": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros)."
+            },
+            {
+                "nome": "Liberdade Divina",
+                "descricao": "Você pode gastar 2 PM para receber imunidade a efeitos de movimento por uma rodada."
+            }
+        ]
+    }
+}

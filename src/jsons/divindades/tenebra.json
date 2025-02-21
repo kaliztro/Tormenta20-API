@@ -1,0 +1,32 @@
+{
+    "tenebra": {
+        "id": 16,
+        "nome": "Tenebra",
+        "crencas_objetivos": "Reverenciar a noite, a escuridão, a lua e as estrelas. Proteger segredos e mistérios, proteger tudo que é oculto e invisível. Reverenciar a não vida e os mortos-vivos, propagar a prática da necromancia. Rejeitar o sol e a luz.",
+        "devotos_permitidos": "Anões, medusas, qareen, osteon, sulfure, trogs, arcanistas, bardos, ladinos.",
+        "simbolo_sagrado": "Estrela negra de cinco pontas.",
+        "canalizar_energia": "Negativa",
+        "arma_preferida": "Adaga",
+        "obrigacoes_restricoes": {
+            "0": "Tenebra proíbe que seus devotos sejam tocados por Azgher, o odiado rival. O devoto deve se cobrir inteiramente durante o dia, sem expor ao sol nenhum pedaço de pele."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Carícia Sombria",
+                "descricao": "Você pode gastar 1 PM e uma ação padrão para cobrir sua mão com energia negativa e tocar uma criatura em alcance corpo a corpo. A criatura sofre 2d6 pontos de dano de trevas (Fortitude CD Sab reduz à metade) e você recupera PV iguais à metade do dano causado. Você pode aprender Toque Vampírico como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM."
+            },
+            {
+                "nome": "Manto da Penumbra",
+                "descricao": "Você aprende e pode lançar Escuridão."
+            },
+            {
+                "nome": "Visão nas Trevas",
+                "descricao": "Você enxerga perfeitamente no escuro, incluindo magias de escuridão."
+            },
+            {
+                "nome": "Zumbificar",
+                "descricao": ""
+            }
+        ]
+    }
+}

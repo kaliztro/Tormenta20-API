@@ -1,0 +1,32 @@
+{
+    "thyatis": {
+        "id": 18,
+        "nome": "Thyatis",
+        "crencas_objetivos": "Proteger a vida e aqueles necessitados de novas chances. Renegar a morte e a mentira. Ajudar os perdidos a encontrar seus caminhos e alcançar seus destinos. Oferecer clemência, perdão e redenção.",
+        "devotos_permitidos": "Aggelus, cavaleiros, guerreiros, inventores, lutadores, paladinos.",
+        "simbolo_sagrado": "Uma ave fênix.",
+        "canalizar_energia": "Positiva",
+        "arma_preferida": "Espada longa",
+        "obrigacoes_restricoes": {
+            "0": "Devotos de Thyatis são proibidos de matar criaturas inteligentes (Int –3 ou maior). Podem atacar e causar dano, mas jamais levar à morte. Por esse motivo, devotos de Thyatis preferem armas e ataques que apenas incapacitam seus oponentes ou causam dano não letal."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Ataque Piedoso",
+                "descricao": "Você pode usar armas de corpo a corpo para causar dano não letal sem sofrer a penalidade de –5 no teste de ataque."
+            },
+            {
+                "nome": "Dom da Imortalidade",
+                "descricao": "Você é imortal. Sempre que morre, não importando o motivo, volta à vida após 3d6 dias. Você não perde níveis de experiência. Apenas paladinos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos."
+            },
+            {
+                "nome": "Dom da Profecia",
+                "descricao": "Você pode lançar Augúrio. Você também pode gastar 2 PM para receber +2 em um teste."
+            },
+            {
+                "nome": "Dom da Ressurreição",
+                "descricao": "Você pode gastar uma ação completa e todos os PM que possui (mínimo 1 PM) para tocar o corpo de uma criatura morta há menos de um ano e ressuscitá-la. A criatura volta à vida com 1 PV e 0 PM, e perde 2 pontos de Constituição permanentemente. Este poder só pode ser usado uma vez em cada criatura. Apenas clérigos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos."
+            }
+        ]
+    }
+}

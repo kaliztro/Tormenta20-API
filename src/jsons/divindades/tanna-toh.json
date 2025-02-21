@@ -1,0 +1,33 @@
+{
+    "tanna-toh": {
+        "id": 15,
+        "nome": "Tanna-Toh",
+        "crencas_objetivos": "Reverenciar a mente racional, o conhecimento, a civilização, a verdade. Proteger o progresso, o avanço dos povos civilizados. Promover o ensino e a prática das artes e das ciências. Solucionar todos os mistérios, revelar todas as mentiras. Buscar novo conhecimento. Não tolerar a ignorância.",
+        "devotos_permitidos": "Golens, kliren, arcanistas, bardos, inventores, nobres, paladinos.",
+        "simbolo_sagrado": "Pergaminho e pena.",
+        "canalizar_energia": "Qualquer",
+        "arma_preferida": "Bordão.",
+        "obrigacoes_restricoes": {
+            "0": "Devotos de Tanna-Toh jamais podem recusar uma missão que envolva a busca por um novo conhecimento ou informação; investigar rumores sobre um livro perdido, procurar uma aldeia lendária, pesquisar os hábitos de uma criatura desconhecida...",
+            "1": "Além disso, o devoto sempre deve dizer a verdade e nunca pode se recusar a responder uma pergunta direta, pouco importando as consequências. É proibido para ele esconder qualquer conhecimento."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Conhecimento Enciclopédico",
+                "descricao": "Você se torna treinado em duas perícias baseadas em Inteligência a sua escolha."
+            },
+            {
+                "nome": "Mente Analítica",
+                "descricao": "Você recebe +2 em Intuição, Investigação e Vontade."
+            },
+            {
+                "nome": "Pesquisa Abençoada",
+                "descricao": "Se passar uma hora pesquisando seus livros e anotações, você pode rolar novamente um teste de perícia baseada em Inteligência ou Sabedoria que tenha feito desde a última cena. Se tiver acesso a mais livros, você recebe um bônus no teste: +2 para uma coleção particular ou biblioteca pequena e +5 para a biblioteca de um templo ou universidade."
+            },
+            {
+                "nome": "Voz da Civilização",
+                "descricao": "Você está sempre sob efeito de Compreensão."
+            }
+        ]
+    }
+}

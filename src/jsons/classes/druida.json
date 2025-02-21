@@ -1,0 +1,255 @@
+{
+    "druida": {
+        "id": 8,
+        "nome": "Druida",
+        "pv": {
+            "base": "16 + Const",
+            "bonus": "+4 + Const lvl"
+        },
+        "pm": "+4 lvl",
+        "pericias": {
+            "qnt": 4,
+            "opcoes": {
+                "0": "*Sobrevivência (Sab)",
+                "1": "*Vontade (Sab)",
+                "2": "Adestramento (Car)",
+                "3": "Atletismo (For)",
+                "4": "Cavalgar (Des)",
+                "5": "Conhecimento (Int)",
+                "6": "Cura (Sab)",
+                "7": "Fortitude (Con)",
+                "8": "Iniciativa (Des)",
+                "9": "Intuição (Sab)",
+                "10": "Luta (For)",
+                "11": "Misticismo (Int)",
+                "12": "Ofício (Int)",
+                "13": "Percepção (Sab)",
+                "14": "Religião (Sab)"
+            }
+        },
+        "proeficiencias": "Escudos.",
+        "habilidades": {
+            "0": {
+                "nome": "Devoto Fiel",
+                "descricao": {
+                    "0": "Você se torna devoto de um deus disponível para druidas (Allihanna, Megalokk ou Oceano). Veja as regras de devotos na página 96. Ao contrário de devotos normais, você recebe dois poderes concedidos por se tornar devoto, em vez de apenas um."
+                }
+            },
+            "1": {
+                "nome": "Empatia Selvagem",
+                "descricao": {
+                    "0": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com animais para mudar atitude e persuasão (veja a página 118)."
+                }
+            },
+            "2": {
+                "nome": "Magias",
+                "descricao": {
+                    "0": "Escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada. Você pode lançar magias divinas de 1º círculo que pertençam a essas escolas. À medida que sobe de nível, pode lançar magias de círculos maiores (2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível).",
+                    "1": "Você começa com duas magias de 1º círculo. A cada nível par (2º, 4º etc.), aprende uma magia de qualquer círculo e escola que possa lançar",
+                    "2": "Seu atributo-chave para lançar magias é Sabedoria e você soma sua Sabedoria no seu total de PM. Veja o Capítulo 4 para as regras de magia."
+                }
+            },
+            "3": {
+                "nome": "Poder de Druida",
+                "descricao": {
+                    "0": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes a seguir.",
+                    "1": {
+                        "nome": "•Aspecto do Inverno",
+                        "descricao": "Você aprende e pode lançar uma magia de convocação ou evocação, arcana ou divina, de qualquer círculo que possa lançar. Além disso, recebe redução de frio 5 e suas magias que causam dano de frio causam +1 ponto de dano por dado."
+                    },
+                    "2": {
+                        "nome": "•Aspecto do Outono",
+                        "descricao": "Você aprende e pode lançar uma magia de necromancia, arcana ou divina, de qualquer círculo que possa lançar. Além disso, pode gastar 1 PM para impor uma penalidade de –2 nos testes de resistência de todos os inimigos em alcance curto até o início do seu próximo turno."
+                    },
+                    "3": {
+                        "nome": "•Aspecto da Primavera",
+                        "descricao": "Você aprende e pode lançar uma magia de encantamento ou ilusão, arcana ou divina, de qualquer círculo que possa lançar. Além disso, escolha uma quantidade de magias igual ao seu Carisma (mínimo 1). O custo dessas magias é reduzido em −1 PM."
+                    },
+                    "4": {
+                        "nome": "•Aspecto do Verão",
+                        "descricao": "Você aprende e pode lançar uma magia de transmutação, arcana ou divina, de qualquer círculo que possa lançar. Além disso, pode gastar 1 PM para cobrir uma de suas armas com chamas até o fim da cena. A arma causa +1d6 pontos de dano de fogo. Sempre que você acertar um ataque com ela, recebe 1 PM temporário. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível e eles desaparecem no final da cena."
+                    },
+                    "5": {
+                        "nome": "•Aumento de Atributo",
+                        "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+                    },
+                    "6": {
+                        "nome": "•Companheiro Animal",
+                        "descricao": "Você recebe um companheiro animal. Veja o quadro para detalhes. Você pode escolher este poder quantas vezes quiser, mas deve escolher companheiros diferentes e ainda está sujeito ao limite de parceiros que pode ter (veja a página 260). Pré-requisitos: Car 1, treinado em Adestramento."
+                    },
+                    "7": {
+                        "nome": "•Companheiro Animal Aprimorado",
+                        "descricao": "Escolha um de seus companheiros animais. Ele recebe um segundo tipo, ganhando os bônus de seu nível. Por exemplo, se você tiver um companheiro guardião veterano, pode adicionar o tipo fortão a ele, tornando-o um guardião fortão veterano que concede +3 na Defesa e +1d12 em uma rolagem de dano corpo a corpo. Pré-requisitos: Companheiro Animal, 6º nível de druida."
+                    },
+                    "8": {
+                        "nome": "•Companheiro Animal Lendário",
+                        "descricao": "Escolha um de seus companheiros animais. Esse animal passa a dobrar os bônus concedidos de seu tipo original. Pré-requisitos: Companheiro Animal, 18º nível de druida."
+                    },
+                    "9": {
+                        "nome": "•Companheiro Animal Mágico",
+                        "descricao": "Escolha um de seus companheiros animais. Ele recebe um segundo tipo diferente, entre adepto, destruidor, magivocador ou médico, ganhando os bônus de seu nível. Pré-requisitos: Companheiro Animal, 8º nível de druida."
+                    },
+                    "10": {
+                        "nome": "•Coração da Selva",
+                        "descricao": "A CD para resistir a seus efeitos de veneno aumenta em +2 e estes efeitos causam +1 de perda de vida por dado."
+                    },
+                    "11": {
+                        "nome": "•Espírito dos Equinócios",
+                        "descricao": "Você pode gastar 4 PM para ficar em equilíbrio com o mundo. Até o final da cena, quando rola um dado, pode rolar novamente qualquer resultado 1. Pré-requisitos: Aspecto da Primavera, Aspecto do Outono, 10º nível de druida."
+                    },
+                    "12": {
+                        "nome": "•Espírito dos Solstícios",
+                        "descricao": "Você transita entre os extremos do mundo natural. Quando lança uma magia, pode gastar +4 PM para maximizar os efeitos numéricos variáveis dela. Por exemplo, uma magia Curar Ferimentos aprimorada para curar 5d8+5 PV irá curar automaticamente 45 PV, sem a necessidade de rolar dados. Uma magia sem efeitos variáveis não pode ser afetada por este poder. Pré-requisitos: Aspecto do Inverno, Aspecto do Verão, 10º nível de druida."
+                    },
+                    "13": {
+                        "nome": "•Força dos Penhascos",
+                        "descricao": "Você recebe +2 em Fortitude. Quando sofre dano enquanto em contato com o solo ou uma superfície de pedra, pode gastar uma quantidade de PM limitada por sua Sabedoria. Para cada PM gasto, reduz esse dano em 10. Pré-requisito: 4º nível de druida."
+                    },
+                    "14": {
+                        "nome": "•Forma Primal",
+                        "descricao": "Quando usa Forma Selvagem, você pode se transformar em uma fera primal. Você recebe os benefícios de dois tipos de animais (bônus iguais não se acumulam; use o que você quiser de cada tipo). Pré-requisito: 18º nível de druida."
+                    },
+                    "15": {
+                        "nome": "•Forma Selvagem",
+                        "descricao": "Você pode se transformar em animais (veja a seguir)."
+                    },
+                    "16": {
+                        "nome": "•Forma Selvagem Aprimorada",
+                        "descricao": "Quando usa Forma Selvagem, você pode gastar 6 PM ao todo para assumir uma forma aprimorada. Pré-requisitos: Forma Selvagem, 6º nível de druida."
+                    },
+                    "17": {
+                        "nome": "•Forma Selvagem Superior",
+                        "descricao": "Quando usa Forma Selvagem, você pode gastar 10 PM ao todo para assumir uma forma superior. Pré-requisitos: Forma Selvagem Aprimorada, 12º nível de druida."
+                    },
+                    "18": {
+                        "nome": "•Liberdade da Pradaria",
+                        "descricao": "Você recebe +2 em Reflexos. Se estiver ao ar livre, sempre que lança uma magia, pode gastar 1 PM para aumentar o alcance dela em um passo (de toque para curto, de curto para médio ou de médio para longo)."
+                    },
+                    "19": {
+                        "nome": "•Magia Natural",
+                        "descricao": "Em forma selvagem, você pode lançar magias e empunhar catalisadores e esotéricos. Pré-requisito: Forma Selvagem."
+                    },
+                    "20": {
+                        "nome": "•Presas Afiadas",
+                        "descricao": "A margem de ameaça de suas armas naturais aumenta em +2."
+                    },
+                    "21": {
+                        "nome": "•Segredos da Natureza",
+                        "descricao": "Você aprende duas magias de qualquer círculo que possa lançar. Elas devem pertencer às escolas que você sabe usar, mas podem ser arcanas ou divinas. Você pode escolher este poder quantas vezes quiser."
+                    },
+                    "22": {
+                        "nome": "•Tranquilidade dos Lagos",
+                        "descricao": "Você recebe +2 em Vontade. Se estiver portando um recipiente com água (não precisa estar empunhando), uma vez por rodada, quando faz um teste de resistência, pode pagar 1 PM para refazer a rolagem."
+                    },
+                    "23": {
+                        "nome": "•Caminho dos Ermos",
+                        "descricao": "No 2º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos naturais."
+                    },
+                    "24": {
+                        "nome": "•Força da Natureza",
+                        "descricao": "No 20º nível, você diminui o custo de todas as suas magias em –2 PM e aumenta a CD delas em +2. Os bônus dobram (–4 PM e +4 na CD) se você estiver em terrenos naturais."
+                    }
+                }
+            },
+            "4": {
+                "nome": "Forma Selvagem",
+                "descricao": {
+                    "0": "Você pode gastar uma ação completa e 3 PM para adquirir a forma de uma criatura selvagem. Em termos de jogo, quando usa esta habilidade você adquire os modificadores de uma das formas abaixo. Características não mencionadas não mudam.",
+                    "1": "Na forma selvagem você não pode falar, empunhar itens ou lançar magias. Seu equipamento desaparece (mas você mantém os benefícios de quaisquer itens vestidos), ressurgindo quando você volta ao normal. Outras criaturas podem fazer um teste de Percepção oposto pelo seu teste de Enganação para perceber que você não é um animal comum (você recebe +10 neste teste). Cada transformação dura pelo tempo que você quiser, mas você reverte à forma normal se ficar inconsciente ou morrer."
+                }
+            },
+            "5": {
+                "nome": "Forma Ágil",
+                "descricao": {
+                    "0": "Você recebe Destreza +2 e duas armas naturais que causam 1d6 pontos de dano e possuem margem de ameaça 19. Se atacar com ambas, sofre –2 em todos os testes de ataque até o seu próximo turno.",
+                    "1": {
+                        "nome": "•Aprimorada",
+                        "descricao": "Você recebe Destreza +4, deslocamento +3m e duas armas naturais (como acima, mas com dano de 1d8). Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra)."
+                    },
+                    "2": {
+                        "nome": "•Superior",
+                        "descricao": "Você recebe Destreza +6, deslocamento +6m e duas armas naturais (como acima, mas com dano de 1d10). Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra)."
+                    }
+                }
+            },
+            "6": {
+                "nome": "Forma Feroz",
+                "descricao": {
+                    "0": "Você recebe Força +3, +2 na Defesa e uma arma natural que causa 1d8 pontos de dano.",
+                    "1": {
+                        "nome": "•Aprimorada",
+                        "descricao": "Você recebe Força +5, +4 na Defesa e uma arma natural que causa 2d6 pontos de dano. Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra)."
+                    },
+                    "2": {
+                        "nome": "•Superior",
+                        "descricao": "Você recebe Força +10, +6 na Defesa e uma arma natural que causa 4d6 pontos de dano. Seu tamanho muda para Enorme (–5 em Furtividade, +5 em testes de manobra)."
+                    }
+                }
+            },
+            "7": {
+                "nome": "Forma Resistente",
+                "descricao": {
+                    "0": "Você recebe +5 na Defesa, redução de dano 5 e uma arma natural que causa 1d6 pontos de dano.",
+                    "1": {
+                        "nome": "•Aprimorada",
+                        "descricao": "Você recebe Força +3, +8 na Defesa, redução de dano 8 e uma arma natural que causa 1d8 pontos de dano. Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra)."
+                    },
+                    "2": {
+                        "nome": "•Superior",
+                        "descricao": "Você recebe Força +5, +10 na Defesa, redução de dano 10 e uma arma natural que causa 2d6 pontos de dano. Seu tamanho muda para Enorme (–5 em Furtividade, +5 em testes de manobra)."
+                    }
+                }
+            },
+            "8": {
+                "nome": "Forma Sorrateira",
+                "descricao": {
+                    "0": "Você recebe Destreza +2 e uma arma natural que causa 1d4 pontos de dano. Seu tamanho muda para Pequeno (+2 em Furtividade, –2 em testes de manobra).",
+                    "1": {
+                        "nome": "•Aprimorada",
+                        "descricao": "Você recebe Destreza +4. Seu tamanho muda para Minúsculo (+5 em Furtividade, –5 em testes de manobra)."
+                    },
+                    "2": {
+                        "nome": "•Superior",
+                        "descricao": "Você recebe Destreza +6 e deslocamento de voo 18m. Seu tamanho muda para Minúsculo (+5 em Furtividade, –5 em testes de manobra)."
+                    }
+                }
+            },
+            "9": {
+                "nome": "Forma Veloz",
+                "descricao": {
+                    "0": "Você recebe Destreza +2, uma arma natural que causa 1d6 pontos de dano e um dos benefícios a seguir: deslocamento 15m, deslocamento de escalada 9m ou deslocamento de natação 9m.",
+                    "1": {
+                        "nome": "•Aprimorada",
+                        "descricao": "Você recebe Destreza +4, uma arma natural que causa 1d6 pontos de dano e um dos benefícios a seguir: deslocamento 18m, deslocamento de escalada 12m ou deslocamento de natação 12m."
+                    },
+                    "2": {
+                        "nome": "•Superior",
+                        "descricao": "Você recebe Destreza +6, uma arma natural que causa 1d6 pontos de dano e um dos benefícios a seguir: deslocamento de natação 18m ou deslocamento de voo 24m."
+                    }
+                }
+            }
+        },
+        "tabela": {
+            "0": "Devoto, empatia selvagem, magias (1º círculo)",
+            "1": "Caminho dos ermos, poder de druida",
+            "2": "Poder de druida",
+            "3": "Poder de druida",
+            "4": "Poder de druida",
+            "5": "Magias (2º círculo), poder de druida",
+            "6": "Poder de druida",
+            "7": "Poder de druida",
+            "8": "Poder de druida",
+            "9": "Magias (3º círculo), poder de druida",
+            "10": "Poder de druida",
+            "11": "Poder de druida",
+            "12": "Poder de druida",
+            "13": "Magias (4º círculo), poder de druida",
+            "14": "Poder de druida",
+            "15": "Poder de druida",
+            "16": "Poder de druida",
+            "17": "Poder de druida",
+            "18": "Poder de druida",
+            "19": "Força da natureza, poder de druida"
+        }
+    }
+}

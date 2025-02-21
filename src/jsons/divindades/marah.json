@@ -1,0 +1,32 @@
+{
+    "marah": {
+        "id": 10,
+        "nome": "Marah",
+        "crencas_objetivos": "Praticar o amor e a gratidão pela vida e pela bondade. Promover a paz, harmonia e felicidade. Aliviar a dor e o sofrimento, trazer conforto aos aflitos. Praticar a caridade e o altruísmo. Oferecer clemência, perdão e redenção.",
+        "devotos_permitidos": "Aggelus, elfos, hynne, qareen, bardos, nobres, paladinos.",
+        "simbolo_sagrado": "Um coração vermelho.",
+        "canalizar_energia": "Positiva",
+        "arma_preferida": "Não há. Devotos desta deusa não podem lançar a magia Arma Espiritual e similares.",
+        "obrigacoes_restricoes": {
+            "0": "Devotos de Marah não podem causar dano, perda de PV e condições a criaturas, exceto enfeitiçado, fascinado e pasmo (fornecer bônus em dano também é proibido). Em combate, só podem recorrer a ações como proteger ou curar — ou fugir, render-se ou aceitar a morte. Um devoto de Marah jamais vai causar violência, nem mesmo para se salvar."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Aura de Paz",
+                "descricao": " Você pode gastar 2 PM para gerar uma aura de paz com alcance curto e duração de uma cena. Qualquer inimigo dentro da aura que tente fazer uma ação hostil contra você deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Se passar, fica imune a esta habilidade por um dia."
+            },
+            {
+                "nome": "Dom da Esperança",
+                "descricao": "Você soma sua Sabedoria em seus PV em vez de Constituição, e se torna imune às condições alquebrado, esmorecido e frustrado."
+            },
+            {
+                "nome": "Palavras de Bondade",
+                "descricao": "Você aprende e pode lançar Enfeitiçar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+            },
+            {
+                "nome": "Talento Artístico",
+                "descricao": "Você recebe +2 em Acrobacia, Atuação e Diplomacia."
+            }
+        ]
+    }
+}

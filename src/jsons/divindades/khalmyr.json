@@ -1,0 +1,32 @@
+{
+    "khalmyr": {
+        "id": 7,
+        "nome": "Khalmyr",
+        "crencas_objetivos": "Praticar a caridade e o altruísmo. Defender a lei, a ordem e os necessitados. Combater a mentira, o crime e o mal. Oferecer clemência, perdão e redenção. Lutar o bom combate.",
+        "devotos_permitidos": "Aggelus, anões, cavaleiros, guerreiros, nobres, paladinos.",
+        "simbolo_sagrado": "Espada sobreposta a uma balança.",
+        "canalizar_energia": "Positiva",
+        "arma_preferida": "Espada Longa",
+        "obrigacoes_restricoes": {
+            "0": "Devotos de Khalmyr não podem recusar pedidos de ajuda de pessoas inocentes. Também devem cumprir as ordens de superiores na hierarquia da igreja (devotos do Deus da Justiça de nível maior) e só podem usar itens mágicos permanentes criados por devotos do mesmo deus."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Coragem Total",
+                "descricao": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros)."
+            },
+            {
+                "nome": "Dom da Verdade",
+                "descricao": "Você pode pagar 2 PM para receber +5 em teste de Intuição, e em testes de Percepção contra Enganação e Furtividade, até o fim da cena."
+            },
+            {
+                "nome": "Espada Justiceira",
+                "descricao": "Você pode gastar 1 PM para encantar sua espada (ou outra arma corpo a corpo de corte que esteja empunhando). Ela tem seu dano aumentado em um passo até o fim da cena."
+            },
+            {
+                "nome": "Reparar Injustiça",
+                "descricao": "Uma vez por rodada, quando um oponente em alcance curto acerta um ataque em você ou em um de seus aliados, você pode gastar 2 PM para fazer este oponente repetir o ataque, escolhendo o pior entre os dois resultados."
+            }
+        ]
+    }
+}

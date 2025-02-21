@@ -1,0 +1,32 @@
+{
+    "lin-wu": {
+        "id": 9,
+        "nome": "Lin-Wu",
+        "crencas_objetivos": "Promover a honra acima de tudo. Proteger Tamu-ra e o Reinado de Arton. Praticar honestidade, coragem, cortesia e compaixão. Demonstrar integridade e dignidade. Ser leal a seus companheiros. Buscar redenção após cometer desonra.",
+        "devotos_permitidos": "Anões, cavaleiros, guerreiros, nobres, paladinos.",
+        "simbolo_sagrado": "Placa de metal com a silhueta de um dragão-serpente celestial.",
+        "canalizar_energia": "Qualquer",
+        "arma_preferida": "Katana.",
+        "obrigacoes_restricoes": {
+            "0": "Antigas proibições quanto a devotos estrangeiros ou do gênero feminino não mais se aplicam. No entanto, devotos de Lin-Wu ainda devem demonstrar comportamento honrado, jamais recorrendo a mentiras e subterfúgios. Em termos de jogo, são proibidos de tentar qualquer ação que exigiria um teste de Enganação, Furtividade ou Ladinagem."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Coragem Total",
+                "descricao": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros)."
+            },
+            {
+                "nome": "Kiai Divino",
+                "descricao": " Uma vez por rodada, quando faz um ataque corpo a corpo, você pode pagar 3 PM. Se acertar o ataque, causa dano máximo, sem necessidade de rolar dados."
+            },
+            {
+                "nome": "Mente Vazia",
+                "descricao": "Você recebe +2 em Iniciativa, Percepção e Vontade."
+            },
+            {
+                "nome": "Tradição de Lin-Wu",
+                "descricao": "Você considera a katana uma arma simples e, se for proficiente em armas marciais, recebe +1 na margem de ameaça com ela."
+            }
+        ]
+    }
+}

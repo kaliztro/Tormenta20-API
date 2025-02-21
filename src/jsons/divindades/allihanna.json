@@ -1,0 +1,33 @@
+{
+    "allihanna": {
+        "id": 2,
+        "nome": "Allihanna",
+        "crencas_objetivos": "Reverenciar os seres da natureza. Proteger a vida selvagem. Promover harmonia entre a natureza e a civilização. Combater monstros, mortos-vivos e outras criaturas que perturbam o equilíbrio natural.",
+        "devotos_permitidos": "Dahllan, elfos, sílfides, bárbaros, caçadores, druidas.",
+        "simbolo_sagrado": "Para bárbaros e outros adoradores de animais, o símbolo corresponde ao respectivo animal. Para outros, uma pequena árvore.",
+        "canalizar_energia": "Positiva",
+        "arma_preferida": "Bordão",
+        "obrigacoes_restricoes": {
+            "0": "Devotos de Allihanna não podem usar armaduras e escudos feitos de metal. Assim, você só pode usar armadura acolchoada, de couro, gibão de peles e escudo leve, ou itens feitos de materiais especiais não metálicos.",
+            "1": "Devotos de Allihanna não podem descansar em nenhuma comunidade maior que uma aldeia (não perdem seus poderes, mas também não recuperam pontos de vida ou mana). Por isso, sempre preferem o relento a um quarto de estalagem."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Compreender os Ermos",
+                "descricao": "Você recebe +2 em Sobrevivência e pode usar Sabedoria para Adestramento (em vez de Carisma)."
+            },
+            {
+                "nome": "Dedo Verde",
+                "descricao": "Você aprende e pode lançar Controlar Plantas."
+            },
+            {
+                "nome": "Descanso Natural",
+                "descricao": "Para você, dormir ao relento conta como condição de descanso confortável."
+            },
+            {
+                "nome": "Voz da Natureza",
+                "descricao": "Você pode falar com animais (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra animais."
+            }
+        ]
+    }
+}

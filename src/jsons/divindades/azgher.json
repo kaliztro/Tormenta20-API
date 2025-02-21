@@ -1,0 +1,33 @@
+{
+    "azgher": {
+        "id": 4,
+        "nome": "Azgher",
+        "crencas_objetivos": "Praticar a gratidão pela proteção e generosidade do sol. Promover a honestidade, expor embustes e mentiras. Praticar a caridade e o altruísmo. Proteger os necessitados. Oferecer clemência, perdão e redenção. Combater o mal.",
+        "devotos_permitidos": "Aggelus, qareen, arcanistas, bárbaros, caçadores, cavaleiros, guerreiros, nobres, paladinos.",
+        "simbolo_sagrado": "Um sol dourado.",
+        "canalizar_energia": "Positiva",
+        "arma_preferida": "Cimitarra",
+        "obrigacoes_restricoes": {
+            "0": "O devoto de Azgher deve manter o rosto sempre coberto (com uma máscara, capuz ou trapos). Sua face pode ser revelada apenas ao sumo-sacerdote ou em seu funeral.",
+            "1": "Devotos do Sol também devem doar para a igreja de Azgher 20% de qualquer tesouro obtido. Essa doação deve ser feita em ouro, seja na forma de moedas ou itens."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Espada Solar",
+                "descricao": "Você pode gastar 1 PM para fazer uma arma corpo a corpo de corte que esteja empunhando causar +1d6 de dano por fogo até o fim da cena."
+            },
+            {
+                "nome": "Fulgor Solar",
+                "descricao": "Você recebe redução de frio e trevas 5. Além disso, quando é alvo de um ataque você pode gastar 1 PM para emitir um clarão solar que deixa o atacante ofuscado por uma rodada."
+            },
+            {
+                "nome": "Habitante do Deserto",
+                "descricao": "Você recebe redução de fogo 10 e pode pagar 1 PM para criar água pura e potável suficiente para um odre (ou outro recipiente pequeno)."
+            },
+            {
+                "nome": "Inimigo de Tenebra",
+                "descricao": "Seus ataques e habilidades causam +1d6 pontos de dano contra mortos-vivos. Quando você usa um efeito que gera luz, o alcance da iluminação dobra."
+            }
+        ]
+    }
+}

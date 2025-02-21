@@ -1,0 +1,32 @@
+{
+    "arsenal": {
+        "id": 3,
+        "nome": "Arsenal",
+        "crencas_objetivos": "Promover a guerra e o conflito. Vencer a qualquer custo, pela força ou estratégia. Jamais oferecer ou aceitar rendição. Eliminar as próprias fraquezas. Conhecer o inimigo como a si mesmo. Sempre encontrar condições de vitória; quando não existirem, criá-las.",
+        "devotos_permitidos": "Anões, minotauros, bárbaros, cavaleiros, guerreiros, lutadores.",
+        "simbolo_sagrado": "Um martelo de guerra e uma espada longa cruzados sobre um escudo.",
+        "canalizar_energia": "Qualquer",
+        "arma_preferida": "Martelo de Guerra",
+        "obrigacoes_restricoes": {
+            "0": "Um devoto de Arsenal é proibido de ser derrotado em qualquer tipo de combate ou disputa (como um teste oposto para ver quem é mais forte). Caso seu grupo seja derrotado, isso também constitui uma violação das obrigações."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Conjurar Arma",
+                "descricao": "Você pode gastar 1 PM para invocar uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma surge em sua mão, fornece +1 em testes de ataque e rolagens de dano, é considerada mágica e dura pela cena. Você não pode criar armas de disparo, mas pode criar 20 munições."
+            },
+            {
+                "nome": "Coragem Total",
+                "descricao": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros)."
+            },
+            {
+                "nome": "Fé Guerreira",
+                "descricao": " Você pode usar Sabedoria para Guerra (em vez de Inteligência). Além disso, em combate, pode gastar 2 PM para substituir um teste de perícia (exceto testes de ataque) por um teste de Guerra."
+            },
+            {
+                "nome": "Sangue de Ferro",
+                "descricao": "Você pode pagar 3 PM para receber +2 em rolagens de dano e redução de dano 5 até o fim da cena."
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "megalokk": {
+        "id": 11,
+        "nome": "Megalokk",
+        "crencas_objetivos": "Praticar a violência, a soberania do mais forte. Jamais reprimir os próprios instintos e desejos. Jamais ser domado, desafiar qualquer forma de controle. Jamais oferecer perdão ou rendição. Eliminar os fracos. Destruir seus inimigos.",
+        "devotos_permitidos": "Goblins, medusas, minotauros, sulfure, trogs, bárbaros, caçadores, druidas, lutadores.",
+        "simbolo_sagrado": "A garra de um monstro.",
+        "canalizar_energia": "Negativa",
+        "arma_preferida": "Maça",
+        "obrigacoes_restricoes": {
+            "0": "Devotos de Megalokk devem rejeitar os modos civilizados e se entregar à ferocidade, descontrole e impaciência.",
+            "1": "Você é proibido de usar perícias baseadas em Inteligência ou Carisma (exceto Adestramento e Intimidação) e não pode preparar uma ação, escolher 10 ou 20 em testes e lançar magias sustentadas (pois são ações que exigem foco e paciência)."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Olhar Amedrontador",
+                "descricao": "Você aprende e pode lançar Amedrontar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+            },
+            {
+                "nome": "Presas Primordiais",
+                "descricao": "Você pode gastar 1 PM para transformar seus dentes em presas afiadas até o fim da cena. Você recebe uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possuir outro ataque natural de mordida, em vez disso, o dano desse ataque aumenta em dois passos."
+            },
+            {
+                "nome": "Urro Divino",
+                "descricao": "Quando faz um ataque ou lança uma magia, você pode pagar 1 PM para somar sua Constituição (mínimo +1) à rolagem de dano desse ataque ou magia."
+            },
+            {
+                "nome": "Voz dos Monstros",
+                "descricao": "Você conhece os idiomas de todos os monstros inteligentes e pode se comunicar livremente com monstros não inteligentes (Int –4 ou menor), como se estivesse sob efeito da magia Voz Divina."
+            }
+        ]
+    }
+}

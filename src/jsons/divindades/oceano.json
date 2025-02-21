@@ -1,0 +1,33 @@
+{
+    "oceano": {
+        "id": 13,
+        "nome": "Oceano",
+        "crencas_objetivos": "Reverenciar os mares, o oceano e os seres que ali habitam. Promover harmonia entre o oceano e o mundo seco. Proteger os seres marinhos, mas também os seres do mundo seco que se aventuram sobre as ondas. Demandar devido respeito ao mar e seu poder.",
+        "devotos_permitidos": "Dahllan, hynne, minotauros, sereias/ tritões, bárbaros, bucaneiros, caçadores, druidas.",
+        "simbolo_sagrado": "Uma concha.",
+        "canalizar_energia": "Qualquer",
+        "arma_preferida": "Tridente",
+        "obrigacoes_restricoes": {
+            "0": "As únicas armas permitidas para devotos do Oceano são a azagaia, a lança, o tridente e a rede. Podem usar apenas armaduras leves.",
+            "1": "O devoto também não pode se manter afastado do oceano por mais de um mês."
+        },
+        "poderes_concedidos": [
+            {
+                "nome": "Anfíbio",
+                "descricao": "Você pode respirar embaixo d`água e adquire deslocamento de natação igual a seu deslocamento terrestre."
+            },
+            {
+                "nome": "Arsenal das Profundezas",
+                "descricao": "Você recebe +2 nas rolagens de dano com azagaias, lanças e tridentes e seu multiplicador de crítico com essas armas aumenta em +1."
+            },
+            {
+                "nome": "Mestre dos Mares",
+                "descricao": "Você pode falar com animais aquáticos (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra criaturas aquáticas. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+            },
+            {
+                "nome": "Sopro do Mar",
+                "descricao": "Você pode gastar uma ação padrão e 1 PM para soprar vento marinho em um cone de 6m. Criaturas na área sofrem 2d6 pontos de dano de frio (Reflexos CD Sab reduz à metade). Você pode aprender Sopro das Uivantes como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM."
+            }
+        ]
+    }
+}
