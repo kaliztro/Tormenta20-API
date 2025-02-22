@@ -1478,79 +1478,79 @@
         "descricao": {
           "0": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes a seguir.",
           "1": {
-            "nome": "Ambidestria",
+            "nome": "•Ambidestria",
             "descricao": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação agredir, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 2."
           },
           "2": {
-            "nome": "Arqueiro",
+            "nome": "•Arqueiro",
             "descricao": "Se estiver usando uma arma de ataque à distância, você soma sua Sabedoria em rolagens de dano (limitado pelo seu nível). Pré-requisito: Sab 1."
           },
           "3": {
-            "nome": "Ataque Reflexo",
+            "nome": "•Ataque Reflexo",
             "descricao": "Se um alvo em alcance de seus ataques corpo a corpo ficar desprevenido ou se mover voluntariamente para fora do seu alcance, você pode gastar 1 PM para fazer um ataque corpo a corpo contra esse alvo (apenas uma vez por alvo a cada rodada). Pré-requisito: Des 1."
           },
           "4": {
-            "nome": "Aumento de Atributo",
+            "nome": "•Aumento de Atributo",
             "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
           },
           "5": {
-            "nome": "Bater e Correr",
+            "nome": "•Bater e Correr",
             "descricao": "Quando faz uma investida, você pode continuar se movendo após o ataque, até o limite de seu deslocamento. Se gastar 2 PM, pode fazer uma investida sobre terreno difícil e sem sofrer a penalidade de Defesa."
           },
           "6": {
-            "nome": "Destruidor",
+            "nome": "•Destruidor",
             "descricao": "Quando causa dano com uma arma corpo a corpo de duas mãos, você pode rolar novamente qualquer resultado 1 ou 2 da rolagem de dano da arma. Pré-requisito: For 1."
           },
           "7": {
-            "nome": "Esgrimista",
+            "nome": "•Esgrimista",
             "descricao": "Quando usa uma arma corpo a corpo leve ou ágil, você soma sua Inteligência em rolagens de dano (limitado pelo seu nível). Pré-requisito: Int 1."
           },
           "8": {
-            "nome": "Especialização em Arma",
+            "nome": "•Especialização em Arma",
             "descricao": "Escolha uma arma. Você recebe +2 em rolagens de dano com essa arma. Você pode escolher este poder outras vezes para armas diferentes."
           },
           "9": {
-            "nome": "Especialização em Armadura",
+            "nome": "•Especialização em Armadura",
             "descricao": "Você recebe redução de dano 5 se estiver usando uma armadura pesada. Pré-requisito: 12º nível de guerreiro."
           },
           "10": {
-            "nome": "Golpe de Raspão",
+            "nome": "•Golpe de Raspão",
             "descricao": "Uma vez por rodada, quando erra um ataque, você pode gastar 2 PM. Se fizer isso, causa metade do dano que causaria (ignorando efeitos que se aplicariam caso o ataque acertasse)."
           },
           "11": {
-            "nome": "Golpe Demolidor",
+            "nome": "•Golpe Demolidor",
             "descricao": "Quando usa a manobra quebrar ou ataca um objeto, você pode gastar 2 PM para ignorar a redução de dano dele."
           },
           "12": {
-            "nome": "Golpe Pessoal",
+            "nome": "•Golpe Pessoal",
             "descricao": "Quando faz um ataque, você pode desferir seu Golpe Pessoal, uma técnica única, com efeitos determinados por você. Você constrói seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo; a soma deles será o custo do Golpe Pessoal (mínimo 1 PM). O Golpe Pessoal só pode ser usado com uma arma específica (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes e não pode gastar mais PM em golpes pessoais em uma mesma rodada do que seu limite de PM. Pré-requisito: 5º nível de guerreiro."
           },
           "13": {
-            "nome": "Ímpeto",
+            "nome": "•Ímpeto",
             "descricao": "Você pode gastar 1 PM para aumentar seu deslocamento em +6m por uma rodada."
           },
           "14": {
-            "nome": "Mestre em Arma",
+            "nome": "•Mestre em Arma",
             "descricao": "Escolha uma arma. Com esta arma, seu dano aumenta em um passo e você pode gastar 2 PM para rolar novamente um teste de ataque recém realizado. Pré-requisitos: Especialização em Arma com a arma escolhida, 12º nível de guerreiro."
           },
           "15": {
-            "nome": "Planejamento Marcial",
+            "nome": "•Planejamento Marcial",
             "descricao": "Uma vez por dia, você pode gastar uma hora e 3 PM para escolher um poder de guerreiro ou de combate cujos pré-requisitos cumpra. Você recebe os benefícios desse poder até o próximo dia. Pré-requisitos: treinado em Guerra, 10º nível de guerreiro."
           },
           "16": {
-            "nome": "Romper Resistências",
+            "nome": "•Romper Resistências",
             "descricao": "Quando faz um Ataque Especial, você pode gastar 1 PM adicional para ignorar 10 pontos de redução de dano."
           },
           "17": {
-            "nome": "Solidez",
+            "nome": "•Solidez",
             "descricao": "Se estiver usando um escudo, você aplica o bônus na Defesa recebido pelo escudo em testes de resistência."
           },
           "18": {
-            "nome": "Tornado de Dor",
+            "nome": "•Tornado de Dor",
             "descricao": "Você pode gastar uma ação padrão e 2 PM para desferir uma série de golpes giratórios. Faça um ataque corpo a corpo e compare-o com a Defesa de cada inimigo em seu alcance natural. Então faça uma rolagem de dano com um bônus cumulativo de +2 para cada acerto e aplicique-a em cada inimigo atingido. Pré-requisito: 6º nível de guerreiro."
           },
           "19": {
-            "nome": "Valentão",
+            "nome": "•Valentão",
             "descricao": "Você recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos."
           }
         }
@@ -1649,123 +1649,123 @@
         "descricao": {
           "0": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes a seguir.",
           "1": {
-            "nome": "Agite Antes de Usar",
+            "nome": "•Agite Antes de Usar",
             "descricao": "Quando usa um preparado alquímico que cause dano, você pode gastar uma quantidade de PM a sua escolha (limitado por sua Inteligência). Para cada PM que gastar, o item causa um dado extra de dano do mesmo tipo. Pré-requisito: treinado em Ofício (alquimista)."
           },
           "2": {
-            "nome": "Ajuste de Mira",
+            "nome": "•Ajuste de Mira",
             "descricao": "Você pode gastar uma ação padrão e uma quantidade de PM a sua escolha (limitado pela sua Inteligência) para aprimorar uma arma de ataque à distância. Para cada PM que gastar, você recebe +1 em rolagens de dano com a arma até o final da cena. Pré-requisito: Balística."
           },
           "3": {
-            "nome": "Alquimista de Batalha",
+            "nome": "•Alquimista de Batalha",
             "descricao": "Quando usa um preparado alquímico ou poção que cause dano, você soma sua Inteligência na rolagem de dano. Pré-requisito: Alquimista Iniciado."
           },
           "4": {
-            "nome": "Alquimista Iniciado",
+            "nome": "•Alquimista Iniciado",
             "descricao": "Você recebe um livro de fórmulas e pode fabricar poções com fórmulas que conheça de 1º e 2º círculos. Veja as páginas 333 e 341 para as regras de poções. Pré-requisitos: Int 1, Sab 1, treinado em Ofício (alquimista)."
           },
           "5": {
-            "nome": "Armeiro",
+            "nome": "•Armeiro",
             "descricao": "Você recebe proficiência com armas marciais corpo a corpo. Quando empunha uma arma corpo a corpo, pode usar sua Inteligência em vez de Força nos testes de ataque e rolagens de dano. Pré-requisitos: treinado em Luta e Ofício (armeiro)."
           },
           "6": {
-            "nome": "Ativação Rápida",
+            "nome": "•Ativação Rápida",
             "descricao": "Ao ativar uma engenhoca com ação padrão, você pode pagar 2 PM para ativá-la com uma ação de movimento, em vez disto. Pré-requisitos: Engenhoqueiro, 7º nível de inventor."
           },
           "7": {
-            "nome": "Aumento de Atributo",
+            "nome": "•Aumento de Atributo",
             "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
           },
           "8": {
-            "nome": "Autômato",
+            "nome": "•Autômato",
             "descricao": "Você fabrica um autômato, um construto que obedece a seus comandos. Ele é um parceiro iniciante de um tipo a sua escolha entre ajudante, assassino, atirador, combatente, guardião, montaria ou vigilante. No 7º nível, ele muda para veterano e, no 15º nível, para mestre. Se o autômato for destruído, você pode fabricar um novo com uma semana de trabalho e T$ 100. Pré-requisito: Engenhoqueiro."
           },
           "9": {
-            "nome": "Autômato Prototipado",
+            "nome": "•Autômato Prototipado",
             "descricao": "Você pode gastar uma ação padrão e 2 PM para ativar uma melhoria experimental em seu autômato. Role 1d6. Em um resultado 2 a 6, você aumenta o nível de parceiro do autômato em um passo (até mestre), ou concede a ele a habilidade iniciante de outro de seus tipos, até o fim da cena. Em um resultado 1, o autômato enguiça como uma engenhoca. Pré-requisito: Autômato."
           },
           "10": {
-            "nome": "Balística",
+            "nome": "•Balística",
             "descricao": "Você recebe proficiência com armas marciais de ataque à distância ou com armas de fogo. Quando usa uma arma de ataque à distância, pode usar sua Inteligência em vez de Destreza nos testes de ataque (e, caso possua o poder Estilo de Disparo, nas rolagens de dano). Pré-requisitos: treinado em Pontaria e Ofício (armeiro)."
           },
           "11": {
-            "nome": "Blindagem",
+            "nome": "•Blindagem",
             "descricao": "Você pode usar sua Inteligência na Defesa quando usa armadura pesada. Se fizer isso, não pode somar sua Destreza, mesmo que outras habilidades ou efeitos permitam isso. Pré-requisitos: Couraceiro, 8º nível de inventor."
           },
           "12": {
-            "nome": "Cano Raiado",
+            "nome": "•Cano Raiado",
             "descricao": "Quando usa uma arma de disparo feita por você mesmo, ela recebe +1 na margem de ameaça. Pré-requisitos: Balística, 5º nível de inventor."
           },
           "13": {
-            "nome": "Catalisador Instável",
+            "nome": "•Catalisador Instável",
             "descricao": "Você pode gastar uma ação completa e 3 PM para fabricar um preparado alquímico ou poção cuja fórmula conheça instantaneamente. O custo do item é reduzido à metade e você não precisa fazer o teste de Ofício (alquimista), mas ele só dura até o fim da cena. Pré-requisito: Alquimista Iniciado."
           },
           "14": {
-            "nome": "Chutes e Palavrões",
+            "nome": "•Chutes e Palavrões",
             "descricao": "Uma vez por rodada, você pode pagar 1 PM para repetir um teste de Ofício (engenhoqueiro) recém realizado para ativar uma engenhoca. Pré-requisito: Engenhoqueiro."
           },
           "15": {
-            "nome": "Conhecimento de Fórmulas",
+            "nome": "•Conhecimento de Fórmulas",
             "descricao": "Você aprende três fórmulas de quaisquer círculos que possa aprender. Você pode escolher este poder quantas vezes quiser. Pré-requisito: Alquimista Iniciado."
           },
           "16": {
-            "nome": "Couraceiro",
+            "nome": "•Couraceiro",
             "descricao": "Você recebe proficiência com armaduras pesadas e escudos. Quando usa armadura, pode usar sua Inteligência em vez de Destreza na Defesa (mas continua não podendo somar um atributo na Defesa quando usa armadura pesada). Pré-requisito: treinado em Ofício (armeiro)."
           },
           "17": {
-            "nome": "Engenhoqueiro",
+            "nome": "•Engenhoqueiro",
             "descricao": "Você pode fabricar engenhocas. Veja as regras para isso na página 70. Pré-requisitos: Int 3, treinado em Ofício (engenhoqueiro)."
           },
           "18": {
-            "nome": "Farmacêutico",
+            "nome": "•Farmacêutico",
             "descricao": "Quando usa um item alquímico que cure pontos de vida, você pode gastar uma quantidade de PM a sua escolha (limitado por sua Inteligência). Para cada PM que gastar, o item cura um dado extra do mesmo tipo. Pré-requisitos: Sab 1, treinado em Ofício (alquimista)."
           },
           "19": {
-            "nome": "Ferreiro",
+            "nome": "•Ferreiro",
             "descricao": "Quando usa uma arma corpo a corpo feita por você mesmo, o dano dela aumenta em um passo. Pré-requisitos: Armeiro, 5º nível de inventor."
           },
           "20": {
-            "nome": "Granadeiro",
+            "nome": "•Granadeiro",
             "descricao": "Você pode arremessar itens alquímicos e poções em alcance médio. Você pode usar sua Inteligência em vez de Destreza para calcular a CD do teste de resistência desses itens. Pré-requisito: Alquimista de Batalha."
           },
           "21": {
-            "nome": "Homúnculo",
+            "nome": "•Homúnculo",
             "descricao": "Você possui um homúnculo, uma criatura Minúscula feita de alquimia. Vocês podem se comunicar telepaticamente em alcance longo e ele obedece a suas ordens, mas ainda está limitado ao que uma criatura de seu tamanho pode fazer. Um homúnculo é um parceiro ajudante iniciante. Você pode perder 1d6 pontos de vida para seu homúnculo assumir uma forma capaz de protegê-lo e se tornar também um parceiro guardião iniciante até o fim da cena. Pré-requisito: Alquimista Iniciado."
           },
           "22": {
-            "nome": "Invenção Potente",
+            "nome": "•Invenção Potente",
             "descricao": "Quando usa um item ou engenhoca fabricado por você mesmo, você pode pagar 1 PM para aumentar em +2 a CD para resistir a ele."
           },
           "23": {
-            "nome": "Maestria em Perícia",
+            "nome": "•Maestria em Perícia",
             "descricao": "Escolha um número de perícias treinadas igual a sua Inteligência, exceto bônus temporários. Com essas perícias, você pode gastar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque."
           },
           "24": {
-            "nome": "Manutenção Eficiente",
+            "nome": "•Manutenção Eficiente",
             "descricao": "A quantidade de engenhocas que você pode manter aumenta em +3. Além disso, cada engenhoca passa a ocupar meio espaço. Pré-requisitos: Engenhoqueiro, 5º nível de inventor."
           },
           "25": {
-            "nome": "Mestre Alquimista",
+            "nome": "•Mestre Alquimista",
             "descricao": "Você pode fabricar poções com fórmulas que conheça de qualquer círculo. Pré-requisitos: Int 3, Sab 3, Alquimista Iniciado, 10º nível de inventor."
           },
           "26": {
-            "nome": "Mestre Cuca",
+            "nome": "•Mestre Cuca",
             "descricao": "Todas as comidas que você cozinha têm seu bônus numérico aumentado em +1. Pré-requisito: treinado em Ofício (cozinheiro)."
           },
           "27": {
-            "nome": "Mistura Fervilhante",
+            "nome": "•Mistura Fervilhante",
             "descricao": "Quando usa um item alquímico ou poção, você pode gastar 2 PM para dobrar a área de efeito dele. Pré-requisitos: Alquimista Iniciado, 5º nível de inventor."
           },
           "28": {
-            "nome": "Oficina de Campo",
+            "nome": "•Oficina de Campo",
             "descricao": "Você pode gastar uma hora e 2 PM para fazer a manutenção do equipamento de seu grupo. Cada membro do grupo escolhe uma arma, armadura ou escudo para manutenção. Armas recebem +1 em testes de ataque, armaduras e escudos aumentam seu bônus na Defesa em +1. Os benefícios duram um dia. Pré-requisito: treinado em Ofício (armeiro)."
           },
           "29": {
-            "nome": "Pedra de Amolar",
+            "nome": "•Pedra de Amolar",
             "descricao": "Você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitado por sua Inteligência) para aprimorar uma arma corpo a corpo que esteja empunhando. Para cada PM que gastar, você recebe +1 em rolagens de dano com a arma até o final da cena. Pré-requisito: Armeiro."
           },
           "30": {
-            "nome": "Síntese Rápida",
+            "nome": "•Síntese Rápida",
             "descricao": "Quando fabrica um item alquímico ou poção, você pode fabricar o dobro de doses no mesmo tempo (pagando o custo de matéria-prima de cada uma). Pré-requisito: Alquimista Iniciado."
           }
         }
@@ -2059,95 +2059,95 @@
         "descricao": {
           "0": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes a seguir.",
           "1": {
-            "nome": "Arma Improvisada",
+            "nome": "•Arma Improvisada",
             "descricao": "Para você, atacar com armas improvisadas conta como fazer um ataque desarmado, mas seu dano aumenta em um passo. Você pode gastar uma ação de movimento para procurar uma pedra, cadeira, garrafa ou qualquer coisa que possa usar como arma. Faça um teste de Percepção (CD 20). Se você passar, encontra uma arma improvisada. Armas improvisadas são frágeis; se você errar um ataque e o resultado do d20 for um número ímpar, a arma quebra."
           },
           "2": {
-            "nome": "Até Acertar",
+            "nome": "•Até Acertar",
             "descricao": "Se você errar um ataque desarmado, recebe um bônus cumulativo de +2 em testes de ataque e rolagens de dano desarmado contra o mesmo oponente. Os bônus terminam quando você acertar um ataque ou no fim da cena, o que acontecer primeiro."
           },
           "3": {
-            "nome": "Aumento de Atributo",
+            "nome": "•Aumento de Atributo",
             "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
           },
           "4": {
-            "nome": "Braços Calejados",
+            "nome": "•Braços Calejados",
             "descricao": "Se você não estiver usando armadura, soma sua Força na Defesa, limitado pelo seu nível."
           },
           "5": {
-            "nome": "Cabeçada",
+            "nome": "•Cabeçada",
             "descricao": "Quando faz um ataque desarmado, você pode gastar 2 PM. Se fizer isso, o oponente fica desprevenido contra este ataque. Você só pode usar este poder uma vez por cena contra um mesmo alvo."
           },
           "6": {
-            "nome": "Chave",
+            "nome": "•Chave",
             "descricao": "Se estiver agarrando uma criatura e fizer um teste de manobra contra ela para causar dano, o dano desarmado aumenta em um passo. Pré-requisitos: Int 1, Lutador de Chão, 4º nível de lutador."
           },
           "7": {
-            "nome": "Confiança dos Ringues",
+            "nome": "•Confiança dos Ringues",
             "descricao": "Quando um inimigo erra um ataque corpo a corpo contra você, você recebe 2 PM temporários (cumulativos). Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no final da cena. Pré-requisito: 8º nível de lutador."
           },
           "8": {
-            "nome": "Convencido",
+            "nome": "•Convencido",
             "descricao": "Acostumado a contar apenas com seus músculos, você adquiriu certo desdém por artes mais sofisticadas. Você recebe resistência a medo e mental +5."
           },
           "9": {
-            "nome": "Golpe Baixo",
+            "nome": "•Golpe Baixo",
             "descricao": "Quando faz um ataque desarmado, você pode gastar 2 PM. Se fizer isso e acertar o ataque, o oponente deve fazer um teste de Fortitude (CD For). Se ele falhar, fica atordoado por uma rodada (apenas uma vez por cena)."
           },
           "10": {
-            "nome": "Golpe Imprudente",
+            "nome": "•Golpe Imprudente",
             "descricao": "Quando usa Golpe Relâmpago, você pode atacar de forma impulsiva. Se fizer isso, seus ataques desarmados recebem um dado de dano extra do mesmo tipo (por exemplo, se o seu dano é 2d6, você causa 3d6), mas você sofre –5 na Defesa até o início de seu próximo turno."
           },
           "11": {
-            "nome": "Imobilização",
+            "nome": "•Imobilização",
             "descricao": "Se estiver agarrando uma criatura, você pode gastar uma ação completa para imobilizá-la. Faça um teste de manobra contra ela. Se você passar, imobiliza a criatura — ela fica indefesa e não pode realizar nenhuma ação, exceto tentar se soltar (o que exige um teste de manobra). Se a criatura se soltar da imobilização, ainda fica agarrada. Enquanto estiver imobilizando uma criatura, você sofre as penalidades de agarrar. Pré-requisitos: Chave, 8º nível de lutador."
           },
           "12": {
-            "nome": "Língua dos Becos",
+            "nome": "•Língua dos Becos",
             "descricao": "Você pode pagar 1 PM para usar sua Força no lugar de Carisma em um teste de perícia baseada em Carisma. Pré-requisitos: For 1, treinado em Intimidação."
           },
           "13": {
-            "nome": "Lutador de Chão",
+            "nome": "•Lutador de Chão",
             "descricao": "Você recebe +2 em testes de ataque para agarrar e derrubar. Quando agarra uma criatura, pode gastar 1 PM para fazer uma manobra derrubar contra ela como uma ação livre."
           },
           "14": {
-            "nome": "Nome na Arena",
+            "nome": "•Nome na Arena",
             "descricao": "Você construiu uma reputação no circuito de lutas de Arton. Uma vez por cena, pode gastar uma ação completa para fazer um teste de Luta (CD 10) e impressionar os presentes. Se passar, você recebe +2 em todos os seus testes de perícias originalmente baseadas em Carisma até o fim da cena e a atitude de qualquer pessoa que seja fã de lutas aumenta em uma categoria em relação a você (veja a página 259). Esse bônus aumenta em +2 para cada 10 pontos pelos quais o resultado do teste exceder a CD (+4 para um resultado 20, +6 para 30 e assim por diante). Pré-requisito: 11º nível de lutador."
           },
           "15": {
-            "nome": "Punhos de Adamante",
+            "nome": "•Punhos de Adamante",
             "descricao": "Seus ataques desarmados ignoram 10 pontos de redução de dano do alvo, se houver. Pré-requisito: 8º nível de lutador."
           },
           "16": {
-            "nome": "Rasteira",
+            "nome": "•Rasteira",
             "descricao": "Quando faz um ataque desarmado contra uma criatura até uma categoria de tamanho maior que a sua, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a criatura fica caída."
           },
           "17": {
-            "nome": "Sarado",
+            "nome": "•Sarado",
             "descricao": "Você soma sua Força no seu total de pontos de vida e em Fortitude. Você pode usar Força em vez de Carisma em testes de Diplomacia com pessoas que se atraiam por físicos bem definidos. Pré-requisito: For 3."
           },
           "18": {
-            "nome": "Sequência Destruidora",
+            "nome": "•Sequência Destruidora",
             "descricao": "No início do seu turno, você pode gastar 2 PM para dizer um número (no mínimo 2). Se fizer e acertar uma quantidade de ataques igual ao número dito, o último recebe um bônus cumulativo de +4 na rolagem de dano por ataque feito. Por exemplo, se você falar “três” e fizer e acertar três ataques, o último ataque (o terceiro) receberá +12 na rolagem de dano. Pré-requisitos: Trocação, 12º nível de lutador."
           },
           "19": {
-            "nome": "Trincado",
+            "nome": "•Trincado",
             "descricao": "Esculpido à exaustão, seu corpo se tornou uma máquina. Você soma sua Constituição nas rolagens de dano desarmado. Pré-requisitos: Con 3, Sarado, 10º nível de lutador."
           },
           "20": {
-            "nome": "Trocação",
+            "nome": "•Trocação",
             "descricao": "Quando você começa a bater, não para mais. Ao acertar um ataque desarmado, pode fazer outro ataque desarmado contra o mesmo alvo, pagando uma quantidade de PM igual à quantidade de ataques já realizados no turno. Ou seja, pode fazer o primeiro ataque extra gastando 1 PM, um segundo ataque extra gastando mais 2 PM e assim por diante, até errar um ataque ou não ter mais pontos de mana. Pré-requisito: 6º nível de lutador."
           },
           "21": {
-            "nome": "Trocação Tumultuosa",
+            "nome": "•Trocação Tumultuosa",
             "descricao": "Quando usa a ação agredir para fazer um ataque desarmado, você pode gastar 2 PM para atingir todas as criaturas adjacentes — incluindo aliados! Você deve usar este poder antes de rolar o ataque e compara o resultado de seu teste contra a Defesa de cada criatura. Pré-requisitos: Trocação, 8º nível de lutador."
           },
           "22": {
-            "nome": "Valentão",
+            "nome": "•Valentão",
             "descricao": "Você recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos."
           },
           "23": {
-            "nome": "Voadora",
+            "nome": "•Voadora",
             "descricao": "Quando faz uma investida desarmada, você pode gastar 2 PM. Se fizer isso, recebe +1d6 no dano para cada 3m que se deslocar até chegar ao oponente, limitado pelo seu nível."
           }
         }
@@ -2257,71 +2257,71 @@
         "descricao": {
           "0": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes a seguir.",
           "1": {
-            "nome": "Armadura Brilhante",
+            "nome": "•Armadura Brilhante",
             "descricao": "Você pode usar seu Carisma na Defesa quando usa armadura pesada. Se fizer isso, não pode somar sua Destreza, mesmo que outras habilidades ou efeitos permitam isso. Pré-requisito: 8º nível de nobre."
           },
           "2": {
-            "nome": "Aumento de Atributo",
+            "nome": "•Aumento de Atributo",
             "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
           },
           "3": {
-            "nome": "Autoridade Feudal",
+            "nome": "•Autoridade Feudal",
             "descricao": "Você pode gastar uma hora e 2 PM para conclamar o povo a ajudá-lo (qualquer pessoa sem um título de nobreza ou uma posição numa igreja reconhecida pelo seu reino). Em termos de jogo, essas pessoas contam como um parceiro iniciante de um tipo a sua escolha (aprovado pelo mestre) que lhe acompanha até o fim da aventura. Esta habilidade só pode ser usada em locais onde sua posição carregue alguma influência (a critério do mestre). Pré-requisito: 6º nível de nobre."
           },
           "4": {
-            "nome": "Educação Privilegiada",
+            "nome": "•Educação Privilegiada",
             "descricao": "Você se torna treinado em duas perícias de nobre a sua escolha."
           },
           "5": {
-            "nome": "Estrategista",
+            "nome": "•Estrategista",
             "descricao": "Você pode direcionar aliados em alcance curto. Gaste uma ação padrão e 1 PM por aliado que quiser direcionar (limitado pelo seu Carisma). No próximo turno do aliado, ele ganha uma ação de movimento. Pré-requisitos: Int 1, treinado em Guerra, 6º nível de nobre."
           },
           "6": {
-            "nome": "Favor",
+            "nome": "•Favor",
             "descricao": "Você pode usar sua influência para pedir favores a pessoas poderosas. Isso gasta 5 PM e uma hora de conversa e bajulação, ou mais, de acordo com o mestre, e funciona como o uso persuasão de Diplomacia (veja a página 118). Porém, você pode pedir favores ainda mais caros, difíceis ou perigosos — um convite para uma festa particular, uma carona de barco até Galrasia ou mesmo acesso aos planos militares do reino. Se você falhar, não pode pedir o mesmo favor por pelo menos uma semana."
           },
           "7": {
-            "nome": "General",
+            "nome": "•General",
             "descricao": "Quando você usa o poder Estrategista, aliados direcionados recebem 1d4 PM temporários. Esses PM duram até o fim do turno do aliado e não podem ser usados em efeitos que concedam PM. Pré-requisitos: Estrategista, 12º nível de nobre."
           },
           "8": {
-            "nome": "Inspirar Confiança",
+            "nome": "•Inspirar Confiança",
             "descricao": "Sua presença faz as pessoas darem o melhor de si. Quando um aliado em alcance curto faz um teste, você pode gastar 2 PM para fazer com que ele possa rolar esse teste novamente."
           },
           "9": {
-            "nome": "Inspirar Glória",
+            "nome": "•Inspirar Glória",
             "descricao": "A presença de um nobre motiva as pessoas a realizarem grandes façanhas. Uma vez por rodada, você pode gastar 5 PM para fazer um aliado em alcance curto ganhar uma ação padrão adicional no próximo turno dele. Você só pode usar esta habilidade uma vez por cena em cada aliado. Pré-requisitos: Inspirar Confiança, 8º nível de nobre."
           },
           "10": {
-            "nome": "Jogo da Corte",
+            "nome": "•Jogo da Corte",
             "descricao": "Você pode gastar 1 PM para rolar novamente um teste recém realizado de Diplomacia, Intuição ou Nobreza."
           },
           "11": {
-            "nome": "Liderar pelo Exemplo",
+            "nome": "•Liderar pelo Exemplo",
             "descricao": "Você pode gastar 2 PM para servir de inspiração. Até o início de seu próximo turno, sempre que você passar em um teste de perícia, aliados em alcance curto que fizerem um teste da mesma perícia podem usar o resultado do seu teste em vez de fazer o seu próprio. Pré-requisito: 6º nível de nobre."
           },
           "12": {
-            "nome": "Língua de Ouro",
+            "nome": "•Língua de Ouro",
             "descricao": "Você pode gastar uma ação padrão e 4 PM para gerar o efeito da magia Enfeitiçar com os aprimoramentos de sugerir ação e afetar todas as criaturas dentro do alcance (CD Car). Esta não é uma habilidade mágica e provém de sua capacidade de influenciar outras pessoas. Pré-requisitos: Língua de Prata, 8º nível de nobre."
           },
           "13": {
-            "nome": "Língua de Prata",
+            "nome": "•Língua de Prata",
             "descricao": "Quando faz um teste de perícia baseada em Carisma, você pode gastar 2 PM para receber um bônus no teste igual a metade do seu nível."
           },
           "14": {
-            "nome": "Língua Rápida",
+            "nome": "•Língua Rápida",
             "descricao": "Quando faz um teste de Diplomacia para mudar atitude como uma ação completa, você sofre uma penalidade de –5, em vez de –10."
           },
           "15": {
-            "nome": "Presença Majestosa",
+            "nome": "•Presença Majestosa",
             "descricao": "Sua Presença Aristocrática passa a funcionar contra qualquer criatura com valor de Inteligência (passa a afetar até mesmo animais, embora continue não funcionando contra criaturas sem Int). Além disso, você pode usá-la mais de uma vez contra uma mesma criatura na mesma cena. Pré-requisitos: 16º nível de nobre."
           },
           "16": {
-            "nome": "Título",
+            "nome": "•Título",
             "descricao": "Você adquire um título de nobreza. Converse com o mestre para definir os benefícios exatos de seu título. Como regra geral, no início de cada aventura você recebe 20 TO por nível de nobre (rendimentos dos impostos) ou a ajuda de um parceiro veterano (um membro de sua corte). Pré-requisito: Autoridade Feudal, 10º nível de nobre, ter conquistado terras ou realizado um serviço para um nobre que possa se tornar seu suserano."
           },
           "17": {
-            "nome": "Voz Poderosa",
+            "nome": "•Voz Poderosa",
             "descricao": "Você recebe +2 em Diplomacia e Intimidação. Suas habilidades de nobre com alcance curto passam para alcance médio."
           }
         }
@@ -2440,95 +2440,95 @@
         "descricao": {
           "0": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes a seguir.",
           "1": {
-            "nome": "Arma Sagrada",
+            "nome": "•Arma Sagrada",
             "descricao": "Quando ataca com a arma preferida de sua divindade, o dado de dano que você rola por Golpe Divino aumenta para d12. Pré-requisito: devoto de uma divindade (exceto Lena e Marah)."
           },
           "2": {
-            "nome": "Aumento de Atributo",
+            "nome": "•Aumento de Atributo",
             "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
           },
           "3": {
-            "nome": "Aura Antimagia",
+            "nome": "•Aura Antimagia",
             "descricao": "Enquanto sua aura estiver ativa, você e os aliados dentro da aura podem rolar novamente qualquer teste de resistência contra magia recém realizado. Pré-requisito: 14° nível de paladino."
           },
           "4": {
-            "nome": "Aura Ardente",
+            "nome": "•Aura Ardente",
             "descricao": "Enquanto sua aura estiver ativa, no início de cada um de seus turnos, espíritos e mortos-vivos a sua escolha dentro dela sofrem dano de luz igual a 5 + seu Carisma. Pré-requisito: 10° nível de paladino."
           },
           "5": {
-            "nome": "Aura de Cura",
+            "nome": "•Aura de Cura",
             "descricao": "Enquanto sua aura estiver ativa, no início de seus turnos, você e os aliados a sua escolha dentro dela curam um número de PV igual a 5 + seu Carisma. Pré-requisito: 6° nível de paladino."
           },
           "6": {
-            "nome": "Aura de Invencibilidade",
+            "nome": "•Aura de Invencibilidade",
             "descricao": "Enquanto sua aura estiver ativa, você ignora o primeiro dano que sofrer na cena. O mesmo se aplica a seus aliados dentro da aura. Pré-requisito: 18° nível de paladino."
           },
           "7": {
-            "nome": "Aura Poderosa",
+            "nome": "•Aura Poderosa",
             "descricao": "O raio da sua aura aumenta para 30m. Pré-requisito: 6° nível de paladino."
           },
           "8": {
-            "nome": "Fulgor Divino",
+            "nome": "•Fulgor Divino",
             "descricao": "Quando usa Golpe Divino, todos os inimigos em alcance curto ficam ofuscados até o início do seu próximo turno."
           },
           "9": {
-            "nome": "Julgamento Divino: Arrependimento",
+            "nome": "•Julgamento Divino: Arrependimento",
             "descricao": "Você pode gastar 2 PM para marcar um inimigo em alcance curto. Na próxima vez que esse inimigo acertar um ataque em você ou em um de seus aliados, deve fazer um teste de Vontade (CD Car). Se falhar, fica atordoado no próximo turno dele (apenas uma vez por cena)."
           },
           "10": {
-            "nome": "Julgamento Divino: Autoridade",
+            "nome": "•Julgamento Divino: Autoridade",
             "descricao": "Você pode gastar 1 PM para comandar uma criatura em alcance curto. Faça um teste de Diplomacia oposto pelo teste de Vontade do alvo. Se você vencer, ele obedece a um comando simples, como “pare” ou “largue a arma” (apenas uma vez por cena). Mental."
           },
           "11": {
-            "nome": "Julgamento Divino: Coragem",
+            "nome": "•Julgamento Divino: Coragem",
             "descricao": "Você pode gastar 2 PM para inspirar coragem em uma criatura em alcance curto, incluindo você mesmo. A criatura fica imune a efeitos de medo e recebe +2 em testes de ataque contra o inimigo com maior ND na cena."
           },
           "12": {
-            "nome": "Julgamento Divino: Iluminação",
+            "nome": "•Julgamento Divino: Iluminação",
             "descricao": "Você pode marcar um inimigo em alcance curto. Quando acerta um ataque corpo a corpo nesse inimigo, você recebe 2 PM temporários. Você só pode proferir este julgamento uma vez por cena."
           },
           "13": {
-            "nome": "Julgamento Divino: Justiça",
+            "nome": "•Julgamento Divino: Justiça",
             "descricao": "Você pode gastar 2 PM para marcar um inimigo em alcance curto. A próxima vez que esse inimigo causar dano em você ou em um de seus aliados, deve fazer um teste de Vontade (CD Car). Se falhar, sofre dano de luz igual à metade do dano que causou."
           },
           "14": {
-            "nome": "Julgamento Divino: Libertação",
+            "nome": "•Julgamento Divino: Libertação",
             "descricao": "Você pode gastar 5 PM para cancelar uma condição negativa qualquer (como abalado, paralisado etc.) que esteja afetando uma criatura em alcance curto."
           },
           "15": {
-            "nome": "Julgamento Divino: Salvação",
+            "nome": "•Julgamento Divino: Salvação",
             "descricao": "Você pode gastar 2 PM para marcar um inimigo em alcance curto. Até o fim da cena, quando você acerta um ataque corpo a corpo nesse inimigo, recupera 5 pontos de vida."
           },
           "16": {
-            "nome": "Julgamento Divino: Vindicação",
+            "nome": "•Julgamento Divino: Vindicação",
             "descricao": "Você pode gastar 2 PM para marcar um inimigo que tenha causado dano a você ou a seus aliados na cena. Você recebe +1 em testes de ataque e +1d8 em rolagens de dano contra o inimigo escolhido, mas sofre –5 em testes de ataque contra quaisquer outros alvos. No 5º nível, e a cada cinco níveis seguintes, você pode pagar +1 PM para aumentar o bônus de ataque em +1 e o bônus de dano em +1d8. O efeito termina caso o alvo fique inconsciente."
           },
           "17": {
-            "nome": "Julgamento Divino: Zelo",
+            "nome": "•Julgamento Divino: Zelo",
             "descricao": "Você pode gastar 1 PM para marcar um alvo em alcance longo. Pelo restante da cena, sempre que se mover na direção desse alvo, você se move com o dobro de seu deslocamento."
           },
           "18": {
-            "nome": "Orar",
+            "nome": "•Orar",
             "descricao": "Você aprende e pode lançar uma magia divina de 1º círculo a sua escolha. Seu atributo-chave para esta magia é Sabedoria. Você pode escolher este poder quantas vezes quiser."
           },
           "19": {
-            "nome": "Virtude Paladinesca: Caridade",
+            "nome": "•Virtude Paladinesca: Caridade",
             "descricao": "O custo de suas habilidades de paladino que tenham um aliado como alvo é reduzido em –1 PM."
           },
           "20": {
-            "nome": "Virtude Paladinesca: Castidade",
+            "nome": "•Virtude Paladinesca: Castidade",
             "descricao": "Você se torna imune a efeitos de encantamento e recebe +5 em testes de Intuição para perceber blefes."
           },
           "21": {
-            "nome": "Virtude Paladinesca: Compaixão",
+            "nome": "•Virtude Paladinesca: Compaixão",
             "descricao": "Você pode usar Cura pelas Mãos em alcance curto e, para cada PM que gastar, cura 2d6+1 (em vez de 1d8+1)."
           },
           "22": {
-            "nome": "Virtude Paladinesca: Humildade",
+            "nome": "•Virtude Paladinesca: Humildade",
             "descricao": "Na primeira rodada de um combate, você pode gastar uma ação completa para rezar e pedir orientação. Você recebe uma quantidade de PM temporários igual ao seu Carisma (duram até o fim da cena)."
           },
           "23": {
-            "nome": "Virtude Paladinesca: Temperança",
+            "nome": "•Virtude Paladinesca: Temperança",
             "descricao": "Quando ingere um alimento, item alquímico ou poção, você consome apenas metade do item. Na prática, cada item desses rende duas “doses” para você."
           }
         }
