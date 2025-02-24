@@ -31,9 +31,18 @@
         "nome": "Caminhos do Arcanista",
         "descricao": {
           "0": "A magia é um poder incrível, capaz de alterar a realidade. Esse poder tem fontes distintas e cada uma opera conforme suas próprias regras. Escolha uma das opções a seguir. Uma vez feita, essa escolha não pode ser mudada.",
-          "1": "•Bruxo - Você lança magias através de um foco — uma varinha, cajado, chapéu... Para lançar uma magia, você precisa empunhar o foco com uma mão (e gesticular com a outra) ou fazer um teste de Misticismo (CD 20 + o custo em PM da magia; se falhar, a magia não funciona, mas você gasta os PM mesmo assim). O foco tem RD 10 e PV iguais à metade dos seus, independentemente de seu material ou forma. Se for danificado, é totalmente restaurado na próxima vez que você recuperar seus PM. Se for destruído (reduzido a 0 PV), você fica atordoado por uma rodada. Você pode recuperar um foco destruído ou perdido com uma semana de trabalho e T$ 100. Seu atributo-chave para magias é Inteligência.",
-          "2": "•Feiticeiro. Você lança magias através de um poder inato que corre em seu sangue. Escolha uma linhagem como origem de seus poderes (veja a página 39). Você recebe a herança básica da linhagem escolhida. Você não depende de nenhum item ou estudo, mas sua capacidade de aprender magias é limitada — você aprende uma magia nova a cada nível ímpar (3º, 5º, 7º etc.), em vez de a cada nível. Seu atributo-chave para magias é Carisma.",
-          "3": "•Mago. Você lança magias através de estudo e memorização de fórmulas arcanas. Você só pode lançar magias memorizadas; suas outras magias não podem ser lançadas, mesmo que você tenha pontos de mana para tal. Para memorizar magias, você precisa estudar seu grimório por uma hora. Quando faz isso, escolhe metade das magias que conhece (por exemplo, se conhece 7 magias, escolhe 3). Essas serão suas magias memorizadas. Você pode memorizar magias uma vez por dia. Caso não possa estudar (por não ter tempo, por ter perdido o grimório...), não poderá trocar suas magias memorizadas. Um grimório tem as mesmas estatísticas de um foco (veja acima) e pode ser recuperado da mesma forma. Você começa com uma magia adicional (para um total de 4) e, sempre que ganha acesso a um novo círculo de magias, aprende uma magia adicional daquele círculo. Seu atributo-chave para magias é Inteligência."
+          "1": {
+            "nome": "•Bruxo",
+            "descricao": "Você lança magias através de um foco — uma varinha, cajado, chapéu... Para lançar uma magia, você precisa empunhar o foco com uma mão (e gesticular com a outra) ou fazer um teste de Misticismo (CD 20 + o custo em PM da magia; se falhar, a magia não funciona, mas você gasta os PM mesmo assim). O foco tem RD 10 e PV iguais à metade dos seus, independentemente de seu material ou forma. Se for danificado, é totalmente restaurado na próxima vez que você recuperar seus PM. Se for destruído (reduzido a 0 PV), você fica atordoado por uma rodada. Você pode recuperar um foco destruído ou perdido com uma semana de trabalho e T$ 100. Seu atributo-chave para magias é Inteligência."
+          },
+          "2": {
+            "nome": "•Feiticeiro",
+            "descricao": "Você lança magias através de um poder inato que corre em seu sangue. Escolha uma linhagem como origem de seus poderes (veja a página 39). Você recebe a herança básica da linhagem escolhida. Você não depende de nenhum item ou estudo, mas sua capacidade de aprender magias é limitada — você aprende uma magia nova a cada nível ímpar (3º, 5º, 7º etc.), em vez de a cada nível. Seu atributo-chave para magias é Carisma."
+          },
+          "3": {
+            "nome": "•Mago",
+            "descricao": "Você lança magias através de estudo e memorização de fórmulas arcanas. Você só pode lançar magias memorizadas; suas outras magias não podem ser lançadas, mesmo que você tenha pontos de mana para tal. Para memorizar magias, você precisa estudar seu grimório por uma hora. Quando faz isso, escolhe metade das magias que conhece (por exemplo, se conhece 7 magias, escolhe 3). Essas serão suas magias memorizadas. Você pode memorizar magias uma vez por dia. Caso não possa estudar (por não ter tempo, por ter perdido o grimório...), não poderá trocar suas magias memorizadas. Um grimório tem as mesmas estatísticas de um foco (veja acima) e pode ser recuperado da mesma forma. Você começa com uma magia adicional (para um total de 4) e, sempre que ganha acesso a um novo círculo de magias, aprende uma magia adicional daquele círculo. Seu atributo-chave para magias é Inteligência."
+          }
         }
       },
       "1": {
@@ -629,25 +638,25 @@
       "4": {
         "nome": "Esquiva Sagaz",
         "descricao": {
-          "0": "No 3º níNo 3º nível, você recebe +1 na Defesa e em Reflexos. Esse bônus aumenta em +1 a cada quatro níveis. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.vel, você recebe +1 na CA. Esse bônus aumenta em +1 a cada quatro níveis. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver imobilizado ou usando armadura pesada."
+          "0": "No 3º nível, você recebe +1 na Defesa e em Reflexos. Esse bônus aumenta em +1 a cada quatro níveis. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
         }
       },
       "5": {
         "nome": "Panache",
         "descricao": {
-          "0": "A partiA partir do 5º nível, sempre que faz um acerto crítico em combate ou reduz um inimigo a 0 PV, você recupera 1 PM.r do 5 º nível, sempre que faz um acerto crítico em combate ou reduz um inimigo a 0 PV, você recupera 1 PM."
+          "0": "A partir do 5º nível, sempre que faz um acerto crítico em combate ou reduz um inimigo a 0 PV, você recupera 1 PM"
         }
       },
       "6": {
         "nome": "Evasão aprimorada",
         "descricao": {
-          "0": "A partir do 1A partir do 10º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.0º nível, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se for bem-sucedido, e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver imobilizado ou usando armadura pesada."
+          "0": "A partir do 10º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
         }
       },
       "7": {
         "nome": "Sorte de Nimb",
         "descricao": {
-          "0": "No 20º níNo 20º nível, você encara os piores desafios e ri na cara deles — pois sabe que tem a sorte ao seu lado. Você pode gastar 5 PM para rolar novamente um teste recém realizado. Qualquer resultado 11 ou mais na segunda rolagem será considerado um 20 natural.vel, o bucaneiro está acostumado a encarar os piores desafios, e rir na cara deles — pois sabe que tem a sorte ao seu lado. Quando usa a habilidade sortudo, você pode gastar 5 PM em vez de 2. Se fizer isso, qualquer resultado par na segunda rolagem será considerado um 20 natural. Por outro lado, qualquer resultado ímpar será considerado um 1 natural."
+          "0": "No 20º nível, você encara os piores desafios e ri na cara deles — pois sabe que tem a sorte ao seu lado. Você pode gastar 5 PM para rolar novamente um teste recém realizado. Qualquer resultado 11 ou mais na segunda rolagem será considerado um 20 natural."
         }
       }
     },
@@ -685,8 +694,8 @@
     "pericias": {
       "qnt": 6,
       "opcoes": {
-        "0": "*Luta (For)",
-        "1": "*Pontaria (Des)",
+        "0": "?Luta (For)",
+        "1": "?Pontaria (Des)",
         "2": "*Sobrevivência (Sab)",
         "3": "Adestramento (Car)",
         "4": "Atletismo (For)",
@@ -696,9 +705,11 @@
         "8": "Furtividade (Des)",
         "9": "Iniciativa (Des)",
         "10": "Investigação (Int)",
-        "11": "Ofício (Int)",
-        "12": "Percepção (Sab)",
-        "14": "Reflexos (Des)"
+        "11": "Luta (For)",
+        "12": "Ofício (Int)",
+        "13": "Percepção (Sab)",
+        "14": "Pontaria (Des)",
+        "15": "Reflexos (Des)"
       }
     },
     "proeficiencias": "Armas marciais e escudos",
@@ -991,8 +1002,14 @@
         "nome": "Caminho do Cavaleiro",
         "descricao": {
           "0": "No 5º nível, escolha entre Bastião ou Montaria.",
-          "1": "•Bastião. Se estiver usando armadura pesada, você recebe redução de dano 5 (cumulativa com a RD fornecida por Especialização em Armadura).",
-          "2": "•Montaria. Você recebe um cavalo de guerra com o qual possui +5 em testes de Adestramento e Cavalgar. Ele fornece os benefícios de um parceiro veterano de seu tipo. No 11º nível, passa a fornecer os benefícios de um parceiro mestre. De acordo com o mestre, você pode receber outro tipo de montaria. Veja a lista de montarias na página 261. Caso a montaria morra, você pode comprar outra pelo preço normal e treiná-la para receber os benefícios desta habilidade com uma semana de trabalho."
+          "1": {
+            "nome": "•Bastião",
+            "descricao": "Se estiver usando armadura pesada, você recebe redução de dano 5 (cumulativa com a RD fornecida por Especialização em Armadura)."
+          },
+          "2": {
+            "nome": "•Montaria",
+            "descricao": "Você recebe um cavalo de guerra com o qual possui +5 em testes de Adestramento e Cavalgar. Ele fornece os benefícios de um parceiro veterano de seu tipo. No 11º nível, passa a fornecer os benefícios de um parceiro mestre. De acordo com o mestre, você pode receber outro tipo de montaria. Veja a lista de montarias na página 261. Caso a montaria morra, você pode comprar outra pelo preço normal e treiná-la para receber os benefícios desta habilidade com uma semana de trabalho."
+          }
         }
       },
       "5": {
@@ -1461,7 +1478,7 @@
         "7": "Iniciativa (Des)",
         "8": "Intimidação (Car)",
         "9": "Ofício (Int)",
-        "1o": "Percepção (Sab)",
+        "10": "Percepção (Sab)",
         "11": "Reflexos (Des)"
       }
     },
@@ -1884,83 +1901,83 @@
         "descricao": {
           "0": "No 2º nível, e a cada nível seguinte, você escolhe um dos poderes a seguir.",
           "1": {
-            "nome": "Assassinar",
+            "nome": "•Assassinar",
             "descricao": "Você pode gastar uma ação de movimento e 3 PM para analisar uma criatura em alcance curto. Até o fim de seu próximo turno, seu primeiro Ataque Furtivo que causar dano a ela tem seus dados de dano extras dessa habilidade dobrados. Pré-requisito: 5º nível de ladino."
           },
           "2": {
-            "nome": "Aumento de Atributo",
+            "nome": "•Aumento de Atributo",
             "descricao": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
           },
           "3": {
-            "nome": "Contatos no Submundo",
+            "nome": "•Contatos no Submundo",
             "descricao": "Quando chega em uma comunidade equivalente a uma vila ou maior, você pode gastar 2 PM para fazer um teste de Carisma (CD 10). Se passar, enquanto estiver nessa comunidade, recebe +5 em testes de Investigação para interrogar, pode comprar itens mundanos, poções e pergaminhos com 20% de desconto (não cumulativo com barganha e outros descontos) e, de acordo com o mestre, tem acesso a itens e serviços proibidos (como armas de pólvora e venenos)."
           },
           "4": {
-            "nome": "Emboscar",
+            "nome": "•Emboscar",
             "descricao": "Na primeira rodada de cada combate, você pode gastar 2 PM para executar uma ação padrão adicional em seu turno. Pré-requisito: treinado em Furtividade."
           },
           "5": {
-            "nome": "Escapista",
+            "nome": "•Escapista",
             "descricao": "Você recebe +5 em testes de Acrobacia para escapar, passar por espaço apertado e passar por inimigo e em testes para resistir a efeitos de movimento."
           },
           "6": {
-            "nome": "Fuga Formidável",
+            "nome": "•Fuga Formidável",
             "descricao": "Você pode gastar uma ação completa e 1 PM para analisar o lugar no qual está (um castelo, um porto, a praça de uma cidade...). Até o fim da cena, recebe +3m em seu deslocamento, +5 em Acrobacia e Atletismo e ignora perde esses benefícios se fizer uma ação que não seja diretamente relacionada a fugir. Por exemplo, você só pode atacar um inimigo se ele estiver bloqueando seu caminho, agarrando-o etc. Você pode fazer ações para ajudar seus aliados, mas apenas se eles estiverem tentando escapar. Pré-requisito: Int 1."
           },
           "7": {
-            "nome": "Gatuno",
+            "nome": "•Gatuno",
             "descricao": "Você recebe +2 em Atletismo. Quando escala, não fica desprevenido e avança seu deslocamento normal, em vez de metade dele."
           },
           "8": {
-            "nome": "Ladrão Arcano",
+            "nome": "•Ladrão Arcano",
             "descricao": "Quando causa dano com um ataque furtivo em uma criatura capaz de lançar magias, você pode “roubar” uma magia que já a tenha visto lançar. Você precisa pagar 1 PM por círculo da magia e pode roubar magias de até 4º círculo. Até o fim da cena, você pode lançar a magia roubada (atributo-chave Inteligência). Pré-requisitos: Roubo de Mana, 13º nível de ladino."
           },
           "9": {
-            "nome": "Mão na Boca",
+            "nome": "•Mão na Boca",
             "descricao": "Você recebe +2 em testes de agarrar. Quando acerta um ataque furtivo contra uma criatura desprevenida, você pode fazer um teste de agarrar como uma ação livre. Se agarrar a criatura, ela não poderá falar enquanto estiver agarrada. Pré-requisito: treinado em Luta."
           },
           "10": {
-            "nome": "Mãos Rápidas",
+            "nome": "•Mãos Rápidas",
             "descricao": "Uma vez por rodada, ao fazer um teste de Ladinagem para abrir fechaduras, ocultar item, punga ou sabotar, você pode pagar 1 PM para fazê-lo como uma ação livre. Pré-requisitos: Des 2, treinado em Ladinagem."
           },
           "11": {
-            "nome": "Mente Criminosa",
+            "nome": "•Mente Criminosa",
             "descricao": "Você soma sua Inteligência em Ladinagem e Furtividade. Pré-requisito: Int 1."
           },
           "12": {
-            "nome": "Oportunismo",
+            "nome": "•Oportunismo",
             "descricao": "Uma vez por rodada, quando um inimigo adjacente sofre dano de um de seus aliados, você pode gastar 2 PM para fazer um ataque corpo a corpo contra este inimigo. Pré-requisito: 6º nível de ladino."
           },
           "13": {
-            "nome": "Rolamento Defensivo",
+            "nome": "•Rolamento Defensivo",
             "descricao": "Sempre que sofre dano, você pode gastar 2 PM para reduzir esse dano à metade. Após usar este poder, você fica caído. Pré-requisito: treinado em Reflexos."
           },
           "14": {
-            "nome": "Roubo de Mana",
+            "nome": "•Roubo de Mana",
             "descricao": "Quando você causa dano com um ataque furtivo, para cada 1d6 de dano de seu ataque furtivo, você recebe 1 PM temporário e a criatura perde 1 ponto de mana (se tiver). Você só pode usar este poder uma vez por cena contra uma mesma criatura. Pré-requisitos: Truque Mágico, 7º nível de ladino."
           },
           "15": {
-            "nome": "Saqueador de Tumbas",
+            "nome": "•Saqueador de Tumbas",
             "descricao": "Você recebe +5 em testes de Investigação para encontrar armadilhas e em testes de resistência contra elas. Além disso, gasta uma ação padrão para desabilitar mecanismos, em vez de 1d4 rodadas (veja a perícia Ladinagem)."
           },
           "16": {
-            "nome": "Sombra",
+            "nome": "•Sombra",
             "descricao": "Você recebe +2 em Furtividade, não sofre penalidade em testes de Furtividade por se mover no seu deslocamento normal e reduz a penalidade por atacar e fazer outras ações chamativas para –10. Pré-requisito: treinado em Furtividade."
           },
           "17": {
-            "nome": "Truque Mágico",
+            "nome": "•Truque Mágico",
             "descricao": "Você aprende e pode lançar uma magia arcana de 1º círculo a sua escolha, pagando seu custo normal em PM. Seu atributo-chave para esta magia é Inteligência. Você pode escolher este poder quantas vezes quiser. Pré-requisito: Int 1."
           },
           "18": {
-            "nome": "Velocidade Ladina",
+            "nome": "•Velocidade Ladina",
             "descricao": "Uma vez por rodada, você pode gastar 2 PM para realizar uma ação de movimento adicional em seu turno. Pré-requisito: Des 2, treinado em Iniciativa."
           },
           "19": {
-            "nome": "Veneno Persistente",
+            "nome": "•Veneno Persistente",
             "descricao": "Quando aplica uma dose de veneno a uma arma, este veneno dura por três ataques (em vez de apenas um). Pré-requisitos: Veneno Potente, 8º nível de ladino."
           },
           "20": {
-            "nome": "Veneno Potente",
+            "nome": "•Veneno Potente",
             "descricao": "A CD para resistir aos venenos que você usa aumenta em +5. Pré-requisito: treinado em Ofício (alquimista)."
           }
         }
