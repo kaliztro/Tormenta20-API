@@ -9,20 +9,22 @@
     "pm": "+6 lvl",
     "pericias": {
       "qnt": 2,
+      "obrigatorio": {
+        "0": "Misticismo (Int)",
+        "1": "Vontade (Sab)"
+      },
       "opcoes": {
-        "0": "*Misticismo (Int)",
-        "1": "*Vontade (Sab)",
-        "2": "Conhecimento (Int)",
-        "3": "Diplomacia (Car)",
-        "4": "Enganação (Car)",
-        "5": "Guerra (Int)",
-        "6": "Iniciativa (Des)",
-        "7": "Intimidação (Car)",
-        "8": "Intuição (Sab)",
-        "9": "Investigação (Int)",
-        "10": "Nobreza (Int)",
-        "11": "Ofício (Int)",
-        "12": "Percepção (Sab)"
+        "0": "Conhecimento (Int)",
+        "1": "Diplomacia (Car)",
+        "2": "Enganação (Car)",
+        "3": "Guerra (Int)",
+        "4": "Iniciativa (Des)",
+        "5": "Intimidação (Car)",
+        "6": "Intuição (Sab)",
+        "7": "Investigação (Int)",
+        "8": "Nobreza (Int)",
+        "9": "Ofício (Int)",
+        "10": "Percepção (Sab)"
       }
     },
     "proeficiencias": "Nenhuma",
@@ -183,19 +185,21 @@
     "pm": "+3 lvl",
     "pericias": {
       "qnt": 4,
+      "obrigatorio": {
+        "0": "Fortitude (Con)",
+        "1": "Luta (For)"
+      },
       "opcoes": {
-        "0": "*Fortitude (Con)",
-        "1": "*Luta (For)",
-        "2": "Adestramento (Car)",
-        "3": "Atletismo (For)",
-        "4": "Cavalgar (Des)",
-        "5": "Iniciativa (Des)",
-        "6": "Intimidação (Car)",
-        "7": "Ofício (Int)",
-        "8": "Percepção (Sab)",
-        "9": "Pontaria (Des)",
-        "10": "Sobrevivência (Sab)",
-        "11": "Vontade (Sab)"
+        "0": "Adestramento (Car)",
+        "1": "Atletismo (For)",
+        "2": "Cavalgar (Des)",
+        "3": "Iniciativa (Des)",
+        "4": "Intimidação (Car)",
+        "5": "Ofício (Int)",
+        "6": "Percepção (Sab)",
+        "7": "Pontaria (Des)",
+        "8": "Sobrevivência (Sab)",
+        "9": "Vontade (Sab)"
       }
     },
     "proeficiencias": "Armas marciais e escudos.",
@@ -345,26 +349,28 @@
     "pm": "+4 lvl",
     "pericias": {
       "qnt": 6,
+      "obrigatorio": {
+        "0": "Atuação (Car)",
+        "1": "Reflexos (Des)"
+      },
       "opcoes": {
-        "0": "*Atuação (Car)",
-        "1": "*Reflexos (Des)",
-        "2": "Acrobacia (Des)",
-        "3": "Cavalgar (Des)",
-        "4": "Conhecimento (Int)",
-        "5": "Diplomacia (Car)",
-        "6": "Enganação (Car)",
-        "7": "Furtividade (Des)",
-        "8": "Iniciativa (Des)",
-        "9": "Intuição (Sab)",
-        "10": "Investigação (int)",
-        "11": "Jogatina (Car)",
-        "12": "Ladinagem (Des)",
-        "13": "Luta (For)",
-        "14": "Misticismo (Int)",
-        "15": "Nobreza (Int)",
-        "16": "Percepção (Sab)",
-        "17": "Pontaria (Des)",
-        "18": "Vontade (Sab)"
+        "0": "Acrobacia (Des)",
+        "1": "Cavalgar (Des)",
+        "2": "Conhecimento (Int)",
+        "3": "Diplomacia (Car)",
+        "4": "Enganação (Car)",
+        "5": "Furtividade (Des)",
+        "6": "Iniciativa (Des)",
+        "7": "Intuição (Sab)",
+        "8": "Investigação (int)",
+        "9": "Jogatina (Car)",
+        "10": "Ladinagem (Des)",
+        "11": "Luta (For)",
+        "12": "Misticismo (Int)",
+        "13": "Nobreza (Int)",
+        "14": "Percepção (Sab)",
+        "15": "Pontaria (Des)",
+        "16": "Vontade (Sab)"
       }
     },
     "proeficiencias": "Armas marciais",
@@ -515,22 +521,26 @@
     "pm": 3,
     "pericias": {
       "qnt": 4,
+      "obrigatorio": {
+        "0": "?Luta (For)",
+        "1": "?Pontaria (Des)",
+        "2": "Reflexos (Des)"
+      },
       "opcoes": {
-        "0": "*Luta (For)",
-        "1": "*Pontaria (Des)",
-        "2": "*Reflexos (Des)",
-        "3": "Acrobacia (Des)",
-        "4": "Atletismo (For)",
-        "5": "Atuação (Car)",
-        "6": "Enganação (Car)",
-        "7": "Fortitude (Con)",
-        "8": "Furtividade (Des)",
-        "9": "Iniciativa (Des)",
-        "10": "Intimidação (Car)",
-        "11": "Jogatina (Car)",
-        "12": "Pilotagem (Des)",
-        "13": "Ofício (Int)",
-        "14": "Percepção (Sab)"
+        "0": "Acrobacia (Des)",
+        "1": "Atletismo (For)",
+        "2": "Atuação (Car)",
+        "3": "Enganação (Car)",
+        "4": "Fortitude (Con)",
+        "5": "Furtividade (Des)",
+        "6": "Iniciativa (Des)",
+        "7": "Intimidação (Car)",
+        "8": "Jogatina (Car)",
+        "9": "Luta (For)",
+        "10": "Pilotagem (Des)",
+        "11": "Ofício (Int)",
+        "12": "Percepção (Sab)",
+        "13": "Pontaria (Des)"
       }
     },
     "proeficiencias": "Armas marciais",
@@ -693,23 +703,25 @@
     "pm": "+4 lvl",
     "pericias": {
       "qnt": 6,
-      "opcoes": {
+      "obrigatorio": {
         "0": "?Luta (For)",
         "1": "?Pontaria (Des)",
-        "2": "*Sobrevivência (Sab)",
-        "3": "Adestramento (Car)",
-        "4": "Atletismo (For)",
-        "5": "Cavalgar (Des)",
-        "6": "Cura (Sab)",
-        "7": "Fortitude (Con)",
-        "8": "Furtividade (Des)",
-        "9": "Iniciativa (Des)",
-        "10": "Investigação (Int)",
-        "11": "Luta (For)",
-        "12": "Ofício (Int)",
-        "13": "Percepção (Sab)",
-        "14": "Pontaria (Des)",
-        "15": "Reflexos (Des)"
+        "2": "Sobrevivência (Sab)"
+      },
+      "opcoes": {
+        "1": "Adestramento (Car)",
+        "2": "Atletismo (For)",
+        "3": "Cavalgar (Des)",
+        "4": "Cura (Sab)",
+        "5": "Fortitude (Con)",
+        "6": "Furtividade (Des)",
+        "7": "Iniciativa (Des)",
+        "8": "Investigação (Int)",
+        "9": "Luta (For)",
+        "10": "Ofício (Int)",
+        "11": "Percepção (Sab)",
+        "12": "Pontaria (Des)",
+        "13": "Reflexos (Des)"
       }
     },
     "proeficiencias": "Armas marciais e escudos",
@@ -876,19 +888,21 @@
     "pm": "+3 lvl",
     "pericias": {
       "qnt": 2,
+      "obrigatorio": {
+        "0": "Fortitude (Con)",
+        "1": "Luta (For)"
+      },
       "opcoes": {
-        "0": "*Fortitude (Con)",
-        "1": "*Luta (For)",
-        "2": "Adestramento (Car)",
-        "3": "Atletismo (For)",
-        "4": "Cavalgar (Des)",
-        "5": "Diplomacia (Car)",
-        "6": "Guerra (Int)",
-        "7": "Iniciativa (Des)",
-        "8": "Intimidação (Car)",
-        "9": "Nobreza (Int)",
-        "10": "Percepção (Sab)",
-        "11": "Vontade (Sab)"
+        "0": "Adestramento (Car)",
+        "1": "Atletismo (For)",
+        "2": "Cavalgar (Des)",
+        "3": "Diplomacia (Car)",
+        "4": "Guerra (Int)",
+        "5": "Iniciativa (Des)",
+        "6": "Intimidação (Car)",
+        "7": "Nobreza (Int)",
+        "8": "Percepção (Sab)",
+        "9": "Vontade (Sab)"
       }
     },
     "proeficiencias": "Armas marciais, armaduras pesadas e escudos.",
@@ -1058,20 +1072,22 @@
     "pm": "+5 lvl",
     "pericias": {
       "qnt": 2,
+      "obrigatorio": {
+        "0": "Religião (Sab)",
+        "1": "Vontade (Sab)"
+      },
       "opcoes": {
-        "0": "*Religião (Sab)",
-        "1": "*Vontade (Sab)",
-        "2": "Conhecimento (Int)",
-        "3": "Cura (Sab)",
-        "4": "Diplomacia (Car)",
-        "5": "Fortitude (Con)",
-        "6": "Iniciativa (Des)",
-        "7": "Intuição (Sab)",
-        "8": "Luta (For)",
-        "9": "Misticismo (Int)",
-        "10": "Nobreza (Int)",
-        "11": "Ofício (Int)",
-        "12": "Percepção (Sab)"
+        "0": "Conhecimento (Int)",
+        "1": "Cura (Sab)",
+        "2": "Diplomacia (Car)",
+        "3": "Fortitude (Con)",
+        "4": "Iniciativa (Des)",
+        "5": "Intuição (Sab)",
+        "6": "Luta (For)",
+        "7": "Misticismo (Int)",
+        "8": "Nobreza (Int)",
+        "9": "Ofício (Int)",
+        "10": "Percepção (Sab)"
       }
     },
     "proeficiencias": "Armaduras pesadas e escudos.",
@@ -1214,22 +1230,24 @@
     "pm": "+4 lvl",
     "pericias": {
       "qnt": 4,
+      "obrigatorio": {
+        "0": "Sobrevivência (Sab)",
+        "1": "Vontade (Sab)"
+      },
       "opcoes": {
-        "0": "*Sobrevivência (Sab)",
-        "1": "*Vontade (Sab)",
-        "2": "Adestramento (Car)",
-        "3": "Atletismo (For)",
-        "4": "Cavalgar (Des)",
-        "5": "Conhecimento (Int)",
-        "6": "Cura (Sab)",
-        "7": "Fortitude (Con)",
-        "8": "Iniciativa (Des)",
-        "9": "Intuição (Sab)",
-        "10": "Luta (For)",
-        "11": "Misticismo (Int)",
-        "12": "Ofício (Int)",
-        "13": "Percepção (Sab)",
-        "14": "Religião (Sab)"
+        "0": "Adestramento (Car)",
+        "1": "Atletismo (For)",
+        "2": "Cavalgar (Des)",
+        "3": "Conhecimento (Int)",
+        "4": "Cura (Sab)",
+        "5": "Fortitude (Con)",
+        "6": "Iniciativa (Des)",
+        "7": "Intuição (Sab)",
+        "8": "Luta (For)",
+        "9": "Misticismo (Int)",
+        "10": "Ofício (Int)",
+        "11": "Percepção (Sab)",
+        "12": "Religião (Sab)"
       }
     },
     "proeficiencias": "Escudos.",
@@ -1467,19 +1485,23 @@
     "pm": "+3 lvl",
     "pericias": {
       "qnt": 2,
+      "obrigatorio": {
+        "0": "?Luta(For)",
+        "1": "?Pontaria (Des)",
+        "2": "Fortitude (Con)"
+      },
       "opcoes": {
-        "0": "*Luta(For)",
-        "1": "*Pontaria (Des)",
-        "2": "*Fortitude (Con)",
-        "3": "Adestramento (Car)",
-        "4": "Atletismo (For)",
-        "5": "Cavalgar (Des)",
-        "6": "Guerra (Int)",
-        "7": "Iniciativa (Des)",
-        "8": "Intimidação (Car)",
-        "9": "Ofício (Int)",
-        "10": "Percepção (Sab)",
-        "11": "Reflexos (Des)"
+        "0": "Adestramento (Car)",
+        "1": "Atletismo (For)",
+        "2": "Cavalgar (Des)",
+        "3": "Guerra (Int)",
+        "4": "Iniciativa (Des)",
+        "5": "Intimidação (Car)",
+        "6": "Luta(For)",
+        "7": "Ofício (Int)",
+        "8": "Percepção (Sab)",
+        "9": "Pontaria (Des)",
+        "10": "Reflexos (Des)"
       }
     },
     "proeficiencias": "Armas marciais, armaduras pesadas e escudos.",
@@ -1624,20 +1646,22 @@
     "pm": "+4 lvl",
     "pericias": {
       "qnt": 4,
+      "obrigatorio": {
+        "0": "Ofício (Int)",
+        "1": "Vontade (Sab)"
+      },
       "opcoes": {
-        "0": "*Ofício (Int)",
-        "1": "*Vontade (Sab)",
-        "2": "Adestramento (Car)",
-        "3": "Conhecimento (Int)",
-        "4": "Cura (Sab)",
-        "5": "Diplomacia (Car)",
-        "6": "Fortitude (Con)",
-        "7": "Iniciativa (Des) ",
-        "8": "Investigação (Int)",
-        "9": "Luta (For) ",
-        "10": "Misticismo (Int)",
-        "11": "Pontaria (Des)",
-        "12": "Percepção (Sab)"
+        "0": "Adestramento (Car)",
+        "1": "Conhecimento (Int)",
+        "2": "Cura (Sab)",
+        "3": "Diplomacia (Car)",
+        "4": "Fortitude (Con)",
+        "5": "Iniciativa (Des) ",
+        "6": "Investigação (Int)",
+        "7": "Luta (For) ",
+        "8": "Misticismo (Int)",
+        "9": "Pontaria (Des)",
+        "10": "Percepção (Sab)"
       }
     },
     "proeficiencias": "Nenhuma",
@@ -1852,28 +1876,30 @@
     "pm": "+4 lvl",
     "pericias": {
       "qnt": 8,
+      "obrigatorio": {
+        "0": "Ladinagem (Des)",
+        "1": "Reflexos (Des)"
+      },
       "opcoes": {
-        "0": "*Ladinagem (Des)",
-        "1": "*Reflexos (Des).",
-        "2": "Acrobacia (Des)",
-        "3": "Atletismo (For)",
-        "4": "Atuação (Car)",
-        "5": "Cavalgar (Des)",
-        "6": "Conhecimento (Int)",
-        "7": "Diplomacia (Car)",
-        "8": "Enganação (Car)",
-        "9": "Furtividade (Des)",
-        "10": "Iniciativa (Des)",
-        "11": "Intimidação (Car)",
-        "12": "Intuição (Sab)",
-        "13": "Investigação (Int)",
-        "14": "Jogatina (Car)",
-        "15": "Luta (For)",
-        "16": "Navegação (Sab)",
-        "17": "Ofício (Int)",
-        "18": "Percepção (Sab)",
-        "19": "Pilotagem (Des)",
-        "20": "Pontaria (Des)"
+        "0": "Acrobacia (Des)",
+        "1": "Atletismo (For)",
+        "2": "Atuação (Car)",
+        "3": "Cavalgar (Des)",
+        "4": "Conhecimento (Int)",
+        "5": "Diplomacia (Car)",
+        "6": "Enganação (Car)",
+        "7": "Furtividade (Des)",
+        "8": "Iniciativa (Des)",
+        "9": "Intimidação (Car)",
+        "10": "Intuição (Sab)",
+        "11": "Investigação (Int)",
+        "12": "Jogatina (Car)",
+        "13": "Luta (For)",
+        "14": "Navegação (Sab)",
+        "15": "Ofício (Int)",
+        "16": "Percepção (Sab)",
+        "17": "Pilotagem (Des)",
+        "18": "Pontaria (Des)"
       }
     },
     "proeficiencias": "Nenhuma",
@@ -2040,20 +2066,22 @@
     "pm": "+3 lvl",
     "pericias": {
       "qnt": 4,
+      "obrigatorio": {
+        "0": "Fortitude (Con)",
+        "1": "Luta (For)"
+      },
       "opcoes": {
-        "0": "*Fortitude (Con)",
-        "1": "*Luta (For)",
-        "2": "Acrobacia (Des)",
-        "3": "Adestramento (Car)",
-        "4": "Atletismo (For)",
-        "5": "Enganação (Car)",
-        "6": "Furtividade (Des)",
-        "7": "Iniciativa (Des)",
-        "8": "Intimidação (Car)",
-        "9": "Ofício (Int)",
-        "10": "Percepção (Sab)",
-        "11": "Pontaria (Des)",
-        "12": "Reflexos (Des)."
+        "0": "Acrobacia (Des)",
+        "1": "Adestramento (Car)",
+        "2": "Atletismo (For)",
+        "3": "Enganação (Car)",
+        "4": "Furtividade (Des)",
+        "5": "Iniciativa (Des)",
+        "6": "Intimidação (Car)",
+        "7": "Ofício (Int)",
+        "8": "Percepção (Sab)",
+        "9": "Pontaria (Des)",
+        "10": "Reflexos (Des)."
       }
     },
     "proeficiencias": "Nenhuma",
@@ -2227,26 +2255,28 @@
     "pm": "+4 lvl",
     "pericias": {
       "qnt": 4,
+      "obrigatorio": {
+        "0": "Diplomacia (Car)",
+        "1": "Intimidação (Car)"
+      },
       "opcoes": {
-        "0": "*Diplomacia (Car)",
-        "1": "*Intimidação (Car)",
-        "2": "*Vontade (Sab).",
-        "3": "Adestramento (Car)",
-        "4": "Atuação (Car)",
-        "5": "Cavalgar (Des)",
-        "6": "Conhecimento (Int)",
-        "7": "Enganação (Car)",
-        "8": "Fortitude (Con)",
-        "9": "Guerra (Int)",
-        "10": "Iniciativa (Des)",
-        "11": "Intuição (Sab)",
-        "12": "Investigação (Int)",
-        "13": "Jogatina (Car)",
-        "14": "Luta (For)",
-        "15": "Nobreza (Int)",
-        "16": "Ofício (Int)",
-        "17": "Percepção (Sab)",
-        "18": "Pontaria (Des)"
+        "0": "*Vontade (Sab).",
+        "1": "Adestramento (Car)",
+        "2": "Atuação (Car)",
+        "3": "Cavalgar (Des)",
+        "4": "Conhecimento (Int)",
+        "5": "Enganação (Car)",
+        "6": "Fortitude (Con)",
+        "7": "Guerra (Int)",
+        "8": "Iniciativa (Des)",
+        "9": "Intuição (Sab)",
+        "10": "Investigação (Int)",
+        "11": "Jogatina (Car)",
+        "12": "Luta (For)",
+        "13": "Nobreza (Int)",
+        "14": "Ofício (Int)",
+        "15": "Percepção (Sab)",
+        "16": "Pontaria (Des)"
       }
     },
     "proeficiencias": "Armas marciais, armaduras pesadas e escudos.",
@@ -2407,21 +2437,23 @@
     "pm": "+3 lvl",
     "pericias": {
       "qnt": 3,
+      "obrigatorio": {
+        "0": "Luta (For)",
+        "1": "Vontade (Sab)"
+      },
       "opcoes": {
-        "0": "*Luta (For)",
-        "1": "*Vontade (Sab).",
-        "2": "Adestramento (Car)",
-        "3": "Atletismo (For)",
-        "4": "Cavalgar (Des)",
-        "5": "Cura (Sab)",
-        "6": "Diplomacia (Car)",
-        "7": "Fortitude (Con)",
-        "8": "Guerra (Int)",
-        "9": "Iniciativa (Des)",
-        "10": "Intuição (Sab)",
-        "11": "Nobreza (Int)",
-        "12": "Percepção (Sab)",
-        "13": "Religião (Sab)"
+        "0": "Adestramento (Car)",
+        "1": "Atletismo (For)",
+        "2": "Cavalgar (Des)",
+        "3": "Cura (Sab)",
+        "4": "Diplomacia (Car)",
+        "5": "Fortitude (Con)",
+        "6": "Guerra (Int)",
+        "7": "Iniciativa (Des)",
+        "8": "Intuição (Sab)",
+        "9": "Nobreza (Int)",
+        "10": "Percepção (Sab)",
+        "11": "Religião (Sab)"
       }
     },
     "proeficiencias": "Armas marciais, armaduras pesadas e escudos.",
