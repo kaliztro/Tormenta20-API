@@ -1484,7 +1484,7 @@
     "pericias": {
       "qnt": 2,
       "obrigatorio": {
-        "0": "Luta(For) Pontaria (Des)",
+        "0": "Luta(For) ou Pontaria (Des)",
         "1": "Fortitude (Con)"
       },
       "opcoes": {
