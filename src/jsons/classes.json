@@ -522,9 +522,8 @@
     "pericias": {
       "qnt": 4,
       "obrigatorio": {
-        "0": "?Luta (For)",
-        "1": "?Pontaria (Des)",
-        "2": "Reflexos (Des)"
+        "0": "Luta (For) ou Pontaria (Des)",
+        "1": "Reflexos (Des)"
       },
       "opcoes": {
         "0": "Acrobacia (Des)",
@@ -704,9 +703,8 @@
     "pericias": {
       "qnt": 6,
       "obrigatorio": {
-        "0": "?Luta (For)",
-        "1": "?Pontaria (Des)",
-        "2": "Sobrevivência (Sab)"
+        "0": "Luta (For) ou Pontaria (Des)",
+        "1": "Sobrevivência (Sab)"
       },
       "opcoes": {
         "1": "Adestramento (Car)",
@@ -1486,9 +1484,8 @@
     "pericias": {
       "qnt": 2,
       "obrigatorio": {
-        "0": "?Luta(For)",
-        "1": "?Pontaria (Des)",
-        "2": "Fortitude (Con)"
+        "0": "Luta(For) Pontaria (Des)",
+        "1": "Fortitude (Con)"
       },
       "opcoes": {
         "0": "Adestramento (Car)",
