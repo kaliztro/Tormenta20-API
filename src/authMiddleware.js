@@ -1,7 +1,4 @@
 const jwt = require('jsonwebtoken');
-const secret = process.env.JWT_SECRET; // Acessa a variável JWT_SECRET do .env
-
-console.log('Segredo do JWT:', secret);
 
 const authMiddleware = (req, res, next) => {
     if (req.method !== 'GET') {
