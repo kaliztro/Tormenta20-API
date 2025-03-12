@@ -7,6 +7,7 @@ const DivindadesController = require('./controllers/DivindadesController');
 const PericiasController = require('./controllers/PericiasController');
 const OrigensController = require('./controllers/OrigensController');
 const PoderesController = require('./controllers/PoderesController');
+const HabilidadesController = require('./controllers/HabilidadesController');
 const routes = express.Router();
 
 //Atributos
@@ -65,5 +66,9 @@ routes.post("/api/poderes", PoderesController.createPoder);
 routes.patch("/api/poderes/:poder", PoderesController.updatePoder); 
 routes.delete("/api/poderes/:poder", PoderesController.deletePoder);
 
+
+//habilidades
+routes.get("/api/habilidades", HabilidadesController.getHabilidades);
+routes.get("/api/habilidades/:habilidade", HabilidadesController.getHabilidadesByName);
 
 module.exports = routes;
